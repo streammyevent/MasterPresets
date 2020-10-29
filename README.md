@@ -28,7 +28,7 @@ Presets... Assemble.
 ### Behringer
 
 ![incomplete](https://img.shields.io/badge/status-no%20docs-orange)
-![version](https://img.shields.io/badge/version-1.0-green)
+![version](https://img.shields.io/badge/version-1.1-green)
 
 ### Q-Lab (JingleMachine)
 
