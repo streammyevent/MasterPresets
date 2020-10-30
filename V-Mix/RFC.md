@@ -89,13 +89,13 @@ Dit werkt met de volgende routing:
 
 #### Call Inputs
 
-**Call in PGM room**: Audio return is Bus C
-**Call in Conference room:** Audio return is Bus B
+**Call in PGM room**: Audio return is Bus C<br />
+**Call in Conference room:** Audio return is Bus B<br />
 
 #### Call Outputs
 
-**Call in PGM room**: Output naar Master
-**Call in Conference room**: Output naar Bus A & Bus B
+**Call in PGM room**: Output naar Master<br />
+**Call in Conference room**: Output naar Bus A & Bus B<br />
 
 #### Operator routing
 
