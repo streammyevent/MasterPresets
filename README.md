@@ -46,7 +46,7 @@ Not yet started.
 
 ### V-Mix
 
-Not yet started.
+[RFC ready](https://github.com/streammyevent/MasterPresets/blob/master/V-Mix/RFC.md)
 
 ## Andere soorten presets
 
