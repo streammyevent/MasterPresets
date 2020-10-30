@@ -110,8 +110,6 @@ Als alternatief is het is ook mogelijk voor de operator om te switchen tussen pr
 - **Bus B**: Conference bus waarop ook de operator talkback mic geroute staat
 - **Bus C**: Mix-minus return feed - alle inputs staan standaard aan op deze bus, behalve de M-1 externe audio feed. Dit is nodig wanneer we V-Mix gebruiken als onderdeel van een complexe productie. Op die manier kan V-Mix een audio input krijgen van de rest van de productie (om naar calls te sturen) en zelf een M-1 outputten.
 
-### Audio routing
-
 ## Pending research
 
 - Blijven V-Mix Call IDs gelijk between saves? Experiment: Caller aanmaken. File opslaan. Caller aanpassen. Eerdere file laden. Is het caller ID terug naar de eerste staat?
