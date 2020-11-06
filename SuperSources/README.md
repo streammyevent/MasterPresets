@@ -15,97 +15,97 @@ Features:
 
 <!-- SrS 01 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2001%20-%2016:9%201x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2001%20-%2016:9%201x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2001%20-%2016:9%201x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 02 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2002%20-%2016:9%2016:9%20big%20%26%20small%20L.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2002%20-%2016:9%2016:9%20big%20%26%20small%20L.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2002%20-%2016:9%2016:9%20big%20%26%20small%20L.png?raw=true" width="400">
 </a>
 
 <!-- SrS 03 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2003%20-%2016:9%2016:9%20big%20%26%20small%20R.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2003%20-%2016:9%2016:9%20big%20%26%20small%20R.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2003%20-%2016:9%2016:9%20big%20%26%20small%20R.png?raw=true" width="400">
 </a>
 
 <!-- SrS 04 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2004%20-%2016:9%202x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2004%20-%2016:9%202x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2004%20-%2016:9%202x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 05 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2005%20-%2016:9%203x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2005%20-%2016:9%203x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2005%20-%2016:9%203x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 06 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2006%20-%2016:9%204x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2006%20-%2016:9%204x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2006%20-%2016:9%204x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 07 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2007%20-%2016:9%205x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2007%20-%2016:9%205x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2007%20-%2016:9%205x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 08 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2008%20-%2016:9%206x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2008%20-%2016:9%206x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2008%20-%2016:9%206x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 09 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2009%20-%2016:9%207x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2009%20-%2016:9%207x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2009%20-%2016:9%207x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 10 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2010%20-%2016:9%208x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2010%20-%2016:9%208x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2010%20-%2016:9%208x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 11 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2011%20-%204:3%20big%20%26%20small%20L.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2011%20-%204:3%20big%20%26%20small%20L.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2011%20-%204:3%20big%20%26%20small%20L.png?raw=true" width="400">
 </a>
 
 <!-- SrS 12 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2012%20-%204:3%20big%20%26%20small%20R.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2012%20-%204:3%20big%20%26%20small%20R.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2012%20-%204:3%20big%20%26%20small%20R.png?raw=true" width="400">
 </a>
 
 <!-- SrS 13 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2013%20-%204:3%202x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2013%20-%204:3%202x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2013%20-%204:3%202x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 14 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2014%20-%204:3%203x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2014%20-%204:3%203x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2014%20-%204:3%203x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 15 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2015%20-%204:3%204x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2015%20-%204:3%204x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2015%20-%204:3%204x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 16 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2016%20-%204:3%205x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2016%20-%204:3%205x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2016%20-%204:3%205x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 17 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2017%20-%204:3%206x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2017%20-%204:3%206x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2017%20-%204:3%206x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 18 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2018%20-%204:3%207x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2018%20-%204:3%207x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2018%20-%204:3%207x.png?raw=true" width="400">
 </a>
 
 <!-- SrS 19 -->
 <a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2019%20-%204:3%208x.png">
-<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2019%20-%204:3%208x.png?raw=true" width="300">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2019%20-%204:3%208x.png?raw=true" width="400">
 </a>
 
 ## Specificaties in pixel maten
