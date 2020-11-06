@@ -1,7 +1,7 @@
 # The Master Presets Initiative
 
 ![incomplete](https://img.shields.io/badge/status-incomplete-red)
-![version](https://img.shields.io/badge/version-0.1-red)
+![version](https://img.shields.io/badge/version-0.2-red)
 
 Master presets zijn uitgebreide standaardconfiguraties (hero setups) voor de hardware en software waar we vaak mee werken. De bedoeling is om complexe functionaliteit zoals SuperSources, Macro's, IFB en Dante klaar te hebben staan om tijd te besparen bij de technische bouw van een productie.
 
