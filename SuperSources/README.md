@@ -13,7 +13,48 @@ Features:
 
 ## Images
 
-![](https://github.com/streammyevent/masterpresets/blob/master/SuperSources/images/SuperSource%2001%20-%2016/9%201x.png?raw=true&s=400)
+<!-- SrS 01 -->
+<a href="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2001%20-%2016:9%201x.png">
+<img src="https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2001%20-%2016:9%201x.png?raw=true" width="300">
+</a>
+
+<!-- SrS 02 -->
+
+<!-- SrS 03 -->
+
+<!-- SrS 04 -->
+
+<!-- SrS 05 -->
+
+<!-- SrS 06 -->
+
+<!-- SrS 07 -->
+
+<!-- SrS 08 -->
+
+<!-- SrS 09 -->
+
+<!-- SrS 10 -->
+
+<!-- SrS 11 -->
+
+<!-- SrS 12 -->
+
+<!-- SrS 13 -->
+
+<!-- SrS 14 -->
+
+<!-- SrS 15 -->
+
+<!-- SrS 16 -->
+
+<!-- SrS 17 -->
+
+<!-- SrS 18 -->
+
+<!-- SrS 19 -->
+
+![](https://github.com/streammyevent/MasterPresets/blob/master/SuperSources/Images/SuperSource%2001%20-%2016:9%201x.png)
 
 ## Specificaties in pixel maten
 
