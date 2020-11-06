@@ -133,6 +133,20 @@ Features:
 | SuperSource 18 - 7x 4:3             | 35    | 80  | 448  | 336 | 502   | 80  | 448 | 336 | 969   | 80  | 448 | 336 | 1436  | 80  | 448 | 336 | 269   | 435 | 448 | 336 | 736   | 435 | 448 | 336 | 1203  | 435 | 448 | 336 |       |     |     |     |
 | SuperSource 19 - 8x 4:3             | 35    | 80  | 448  | 336 | 502   | 80  | 448 | 336 | 969   | 80  | 448 | 336 | 1436  | 80  | 448 | 336 | 35    | 435 | 448 | 336 | 502   | 435 | 448 | 336 | 969   | 435 | 448 | 336 | 1436  | 435 | 448 | 336 |
 
-## Specificaties in Atem tabel
+## Specificaties in Atem tabel (to do)
 
-Komt later nog.
+De Atem heeft maximaal 4 lagen per SuperSource. Om die reden is een subset van de SuperSources beschikbaar op de Atem, namelijk:
+
+- SuperSource 01 - 1x 16:9
+- SuperSource 02 - 16:9 big & small L
+- SuperSource 03 - 16:9 big & small R
+- SuperSource 04 - 2x 16:9
+- SuperSource 05 - 3x 16:9
+- SuperSource 06 - 4x 16:9
+- SuperSource 11 - 4:3 big & small L
+- SuperSource 12 - 4:3 big & small R
+- SuperSource 13 - 2x 4:3
+- SuperSource 14 - 3x 4:3
+- SuperSource 15 - 4x 4:3
+
+De tabel komt later.
