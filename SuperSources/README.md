@@ -1,15 +1,15 @@
 # SuperSources
 
-Doel van het SuperSources template is om een uniforme standaard voor multi-source layouts te creëren. De gedachte is dat deze in verschillende applicaties universeel toegepast kan worden.
+Doel van het SuperSources template is om een uniforme standaard voor multi-source layouts te creëren. De gedachte is dat deze in verschillende applicaties universeel toegepast kan worden en standaard ondersteund zijn in onze V-Mix, Atem en Companion master presets.
 
 Features:
 
-- Er worden geen 'halve' pixels gebruikt.
-- Uniforme afstanden tussen lagen
-- De specificaties zijn op de volgende manieren hier onder beschikbaar:
+- Er worden geen 'halve' pixels gebruikt, de maten zijn zo op elkaar afgestemd dat de afstand tussen layers altijd goed uit komt.
+- De specificaties zijn op de volgende manieren beschikbaar:
   - Images
   - Pixel maten tabel
   - Atem maten tabel (to do)
+  - Sketch file
 
 ## Images
 
