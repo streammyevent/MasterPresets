@@ -6,14 +6,14 @@ Features:
 
 - Er worden geen 'halve' pixels gebruikt.
 - Uniforme afstanden tussen lagen
-- De specificaties zijn op de volgende manieren beschikbaar:
-- - Images
-- - Pixel maten tabel
-- - Atem maten tabel
+- De specificaties zijn op de volgende manieren hier onder beschikbaar:
+  - Images
+  - Pixel maten tabel
+  - Atem maten tabel (to do)
 
 ## Images
 
-![SuperSource 01 - 16/9 1x](https://github.com/streammyevent/masterpresets/blob/master/SuperSources/images/SuperSource 01 - 16/9 1x.png?raw=true&s=400)
+![](https://github.com/streammyevent/masterpresets/blob/master/SuperSources/images/SuperSource%2001%20-%2016/9%201x.png?raw=true&s=400)
 
 ## Specificaties in pixel maten
 
