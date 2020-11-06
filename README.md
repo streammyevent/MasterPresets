@@ -48,6 +48,13 @@ Not yet started.
 
 [RFC ready](https://github.com/streammyevent/MasterPresets/blob/master/V-Mix/RFC.md)
 
+### SuperSources
+
+MultiView / Supersource layouts, volledig gespecificeerd met template images en Sketch file. Deze layouts gaan we toepassen op zowel de V-Mix als de Atem Master Presets. De images kunnen door de klant gebruikt worden.
+
+![ready](https://img.shields.io/badge/status-ready-green)
+![version](https://img.shields.io/badge/version-1.0-green)
+
 ## Andere soorten presets
 
 - **Productie Configs**: Backups van de configuratie aan het eind van de productie om toekomstige producties voor dezelfde klant sneller op te zetten.
