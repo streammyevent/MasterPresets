@@ -140,8 +140,8 @@ Features:
 Omdat het anchor point bij een Atem het midden van de layer is, moet de helft van de width en de helft van de height opgeteld worden bij de X en Y coordinaten.
 
 ```
-X as: ((X * 32) / 1920) - 16
-Y as: ((Y * 18) / 1080) + 9
+X as: ((((X + (width / 2)) * 32) / 1920) - 16
+Y as: (((Y + (height / 2)) * 18) / 1080) + 9
 Width: width / 1920
 Height: height / 1080
 Crop: todo
