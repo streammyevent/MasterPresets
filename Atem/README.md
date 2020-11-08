@@ -7,7 +7,8 @@ XY coordinate
 
 Ancher point is center of object
 
-X: 16.00 = left side of screen
+X: -16.00 = left side of screen
+X: 16.00 = right side of screen
 Y: +9 = up
 Y: -9 = down
 
