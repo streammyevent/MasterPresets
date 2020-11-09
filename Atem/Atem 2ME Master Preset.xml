@@ -158,24 +158,24 @@
                     <Window index="3" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="4" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="5" input="5" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="6" input="6000" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="7" input="0" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="6" input="10" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="7" input="11" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="8" input="15" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="9" input="8001" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="9" input="6000" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
             <MultiView index="1" layout="ProgramTop" LayoutID="12" vuMeterOpacity="1" programPreviewSwapped="False">
                 <Windows>
                     <Window index="0" input="10021" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="1" input="10020" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="2" input="1" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="3" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="4" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="5" input="5" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="6" input="6000" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="7" input="8001" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="8" input="8002" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="9" input="8003" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="2" input="8001" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="3" input="8002" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="4" input="8003" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="5" input="8004" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="6" input="8005" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="7" input="8006" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="8" input="0" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="9" input="0" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
         </MultiViews>
@@ -541,72 +541,358 @@
         <Property device="20" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
-        <Macro index="0" name="SuperS - 50/50" description="">
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="1"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="True"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="1"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0.0399933"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="10"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-8.00002"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
-            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera4"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="8"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
-        </Macro>
-        <Macro index="1" name="R-boven / L-onder" description="">
+        <Macro index="10" name="SrS 01: 1x 16:9" description="">
+            <!-- Setup -->
             <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-6.32001"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="3.5"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.5"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            <!-- <Op id="SuperSourceV2ArtAbove" superSource="0" artAbove="False"/>
+            <Op id="SuperSourceV2BorderEnable" superSource="0" enable="False"/>
+            <Op id="SuperSourceV2BorderInnerWidth" superSource="0" innerWidth="0.00"/>
+            <Op id="SuperSourceV2BorderOuterWidth" superSource="0" outerWidth="0.00"/>
+            <Op id="SuperSourceV2BorderInnerSoftness" superSource="0" innerSoftness="0"/>
+            <Op id="SuperSourceV2BorderOuterSoftness" superSource="0" outerSoftness="0"/> -->
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="0.0299988"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="1.5"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.768997"/>
             <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
             <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
             <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
             <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+        </Macro>
+        <Macro index="11" name="SrS 02: 16:9 big &amp; small L" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
             <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="6.32001"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="-3.50002"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.5"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.753006"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="1.66"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="3.41"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.210007"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-12.06"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="6.52"/>
             <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
             <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
             <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
             <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+        </Macro>
+        <Macro index="12" name="SrS 03: 16:9 big &amp; small R" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
             <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="0"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-3.42001"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="1.64999"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.753006"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="12.1"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.210007"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="6.52"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+        </Macro>
+        <Macro index="13" name="SrS 04: 2x 16:9" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.477997"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-7.78001"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="1.69"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.477997"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="7.83"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="1.69"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+        </Macro>
+        <Macro index="14" name="SrS 05: 3x 16:9" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.34"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="3.12"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.319"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="3.13"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.319"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="0.0200043"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+
+            <!-- Box 3 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="0.320007"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="10.36"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="3.11"/>
             <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="False"/>
             <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
             <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
             <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
+        </Macro>
+        <Macro index="15" name="SrS 06: 4x 16:9" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.369003"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="5.09"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-5.95001"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="5.09"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.369003"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="5.98"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+
+            <!-- Box 3 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="0.369003"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="-1.78001"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-5.95001"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
+
+            <!-- Box 4 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="0.369003"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="-1.76001"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="5.97"/>
             <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="3" enable="False"/>
             <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
             <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
             <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
         </Macro>
-        <Macro index="2" name="PowerPoint" description="">
-            <Op id="CameraControlFixedPoint16Bit" address="1" category="11" parameter="0" action="Set" values="0, 0"/>
-            <Op id="CameraControlFixedPoint16Bit" address="1" category="0" parameter="9" action="Set" values="0"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.373779"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-9.36"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="4.87778"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="6.10963"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.576721"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="-3.38148"/>
+        <Macro index="16" name="SrS 11: 4:3 big &amp; small L" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.753006"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="1.66"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="3.41"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-12.14"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="5.94"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.276001"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="17" name="SrS 12: 4:3 big &amp; small R" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.753006"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="1.66"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-3.42001"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="12.18"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="5.94"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.276001"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="18" name="SrS 13: 2x 4:3" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.643005"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="1.91"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-7.74001"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="7.78"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.643997"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="1.89"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="19" name="SrS 14: 3x 4:3" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.427002"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="2.19"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.36"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.427002"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="2.17"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="0.00999451"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+
+            <!-- Box 3 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="0.427002"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="2.19"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="10.38"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+        </Macro>
+        <Macro index="20" name="SrS 15: 4x 4:3" description="">
+            <!-- Setup -->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True"/>
+            
+            <!-- Box 1 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.369003"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="5.09"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-4.49001"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+
+            <!-- Box 2 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.369995"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="4.53999"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="5.08"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+
+            <!-- Box 3 -->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="0.369995"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="-1.78001"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-4.47"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+
+            <!-- Box 3 -->
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="-1.78001"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="0.369995"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="4.53999"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="3" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="4.07001"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
         </Macro>
     </MacroPool>
     <MacroControl loop="False"/>
