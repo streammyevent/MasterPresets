@@ -1,7 +1,7 @@
 # The Master Presets Initiative
 
 ![incomplete](https://img.shields.io/badge/status-incomplete-red)
-![version](https://img.shields.io/badge/version-0.2-red)
+![version](https://img.shields.io/badge/version-0.3-red)
 
 Master presets zijn uitgebreide standaardconfiguraties (hero setups) voor de hardware en software waar we vaak mee werken. De bedoeling is om complexe functionaliteit zoals SuperSources, Macro's, IFB en Dante klaar te hebben staan om tijd te besparen bij de technische bouw van een productie.
 
@@ -37,8 +37,14 @@ Presets... Assemble.
 
 ### Atem
 
-![incomplete](https://img.shields.io/badge/status-incomplete-red)
-![version](https://img.shields.io/badge/version-0.1-red)
+![ready](https://img.shields.io/badge/status-ready-green)
+![version](https://img.shields.io/badge/version-1.0-green)
+
+✅ Standaard input en output mapping
+<br />✅ SuperSource layouts met artwork
+<br />✅ Macro's voor toewijzing van SuperSource layers
+<br />✅ Macro's voor switchen tussen SuperSource layouts
+<br />✅ 'Go playout' macro met dip to black en tie van DSK1
 
 ### Dante
 
