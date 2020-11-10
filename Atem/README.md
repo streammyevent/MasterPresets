@@ -6,7 +6,15 @@
 ## Contents
 
 - [✨ Features](#-features)
-- [✨🏎️ Getting started](#-getting-started)
+- [🏎️ Getting started](#%EF%B8%8F-getting-started)
+- [👍👎 Do's & Donts](#-dos--donts)
+- [🧑‍🏫 FAQ's](#-faqs)
+- [⚙️ Standaardconfiguratie](#%EF%B8%8F-standaardconfiguratie)
+- [🗺️ Input mapping](#%EF%B8%8F-input-mapping)
+- [📡 Output mapping](#-output-mapping)
+- [📺 MultiView Layouts](#-multiview-layouts)
+- [▶️ Media Files](#%EF%B8%8F-media-files)
+- [🕹️ Macro's](#%EF%B8%8F-macros)
 
 ## ✨ Features
 
