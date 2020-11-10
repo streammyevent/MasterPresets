@@ -30,7 +30,7 @@
 1.  Open Atem Software Control
 2.  Stel de gewenste videomode in (indien anders dan 1080p50)
 3.  Ga naar File > Restore (Cmd + R)
-4.  Selecteer het Master Preset bestand
+4.  Selecteer het [Master Preset bestand](https://github.com/streammyevent/MasterPresets/blob/master/Atem/Atem%202ME%20Master%20Preset.xml)
 5.  Zorg dat alles geselecteerd is (en selecteer desgewenst de videomode in)
 6.  Het kost ongeveer 20 seconden om de volledige preset in te laden en alle mediafiles te uploaden naar de Atem
 
@@ -63,9 +63,9 @@ Je hebt 2 opties:
 
 ### ❓ **Wat als ik de resolutie of framerate moet aanpassen ná de restore**
 
-Het enige dat dan uit je configuratie verdwijnt zijn de MediaFiles, die moet je zelf opnieuw uploaden. Zie hieronder de standaard toewijzing van Media Files.
+Het enige dat dan uit je configuratie verdwijnt zijn de MediaFiles, die moet je zelf opnieuw uploaden. Zie [hieronder](#%EF%B8%8F-media-files) de standaard toewijzing van Media Files.
 
-Je kunt ook een gedeeltelijke restore doen. Volg de zelfde procedure als hierboven, maar selecteer bij Stap 5 alleen 'Media Pool'.
+Je kunt ook een gedeeltelijke restore doen. Volg de zelfde procedure als [hierboven](#%EF%B8%8F-getting-started), maar selecteer bij Stap 5 alleen 'Media Pool'.
 
 ## ⚙️ Standaardconfiguratie
 
