@@ -63,6 +63,15 @@ Not yet started.
 
 ### V-Mix
 
+![incomplete](https://img.shields.io/badge/status-incomplete-orange)
+![version](https://img.shields.io/badge/version-0.3-red)
+
+✅ 8 caller remotes
+<br />✅ SuperSource layouts
+<br />❌ IFB Routing
+<br />❌ Settings
+<br />❌ Docs
+
 [RFC ready](https://github.com/streammyevent/MasterPresets/blob/master/V-Mix/RFC.md)
 
 ### SuperSources / Artwork
