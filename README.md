@@ -41,6 +41,13 @@ Presets... Assemble.
 ![incomplete](https://img.shields.io/badge/status-no%20docs-orange)
 ![version](https://img.shields.io/badge/version-1.1-green)
 
+✅ Standaard input en output mapping
+<br />✅ Dante inputs voor Playout, PPT, Jingles etc
+<br />✅ 5-kanaals IFB routing met prefade listens
+<br />❌ Automix
+<br />❌ Gelamineerde tabel
+<br />❌ Docs
+
 ### Q-Lab (JingleMachine)
 
 ![incomplete](https://img.shields.io/badge/status-no%20docs-orange)
@@ -56,6 +63,7 @@ Presets... Assemble.
 <br />✅ Macro's voor toewijzing van SuperSource layers
 <br />✅ Macro's voor switchen tussen SuperSource layouts
 <br />✅ 'Go playout' macro met dip to black en tie van DSK1
+<br />❌ Gelamineerde tabel
 
 ### Dante
 
