@@ -3,7 +3,12 @@
 ![ready](https://img.shields.io/badge/status-ready-green)
 ![version](https://img.shields.io/badge/version-1.0-green)
 
-## Features
+## Contents
+
+- [✨ Features](#-features)
+- [✨🏎️ Getting started](#-getting-started)
+
+## ✨ Features
 
 - Logische standaardconfigs en multiviews
 - SuperSource layouts op basis van het SuperSources master preset
@@ -12,7 +17,7 @@
 - 'Go Playout' macro met dip to black die DSK1 weghaalt
 - 2 aparte remote return feeds instelbaar via Companion
 
-## Getting started
+## 🏎️ Getting started
 
 1.  Open Atem Software Control
 2.  Stel de gewenste videomode in (indien anders dan 1080p50)
@@ -21,7 +26,7 @@
 5.  Zorg dat alles geselecteerd is (en selecteer desgewenst de videomode in)
 6.  Het kost ongeveer 20 seconden om de volledige preset in te laden en alle mediafiles te uploaden naar de Atem
 
-## Do's & Donts
+## 👍👎 Do's & Donts
 
 ```diff
 + DO: Pas de namen van inputs aan (bvb namen van camguys) voor je productie
@@ -35,7 +40,7 @@
 - DONT: De SuperSource layouts werken alleen op 16:9 aspect ratios en zijn alleen getest op 1920x1080
 ```
 
-## FAQ's
+## 🧑‍🏫 FAQ's
 
 ### ❓ **Hoe kan ik het beste de artwork images vervangen?**
 
@@ -54,7 +59,7 @@ Het enige dat dan uit je configuratie verdwijnt zijn de MediaFiles, die moet je 
 
 Je kunt ook een gedeeltelijke restore doen. Volg de zelfde procedure als hierboven, maar selecteer bij Stap 5 alleen 'Media Pool'.
 
-## Standaardconfiguratie
+## ⚙️ Standaardconfiguratie
 
 - **Color1**: Instelbaar, oranje bij default
 - **Color2**: Zwart, in gebruik voor de dip to black
@@ -65,7 +70,7 @@ Je kunt ook een gedeeltelijke restore doen. Volg de zelfde procedure als hierbov
 - **MediaPlayer2**: In gebruik voor SuperSource backgrounds
 - **VideoMode**: 1080p50
 
-## Input mapping
+## 🗺️ Input mapping
 
 | Input     | Toewijzing         |
 | --------- | ------------------ |
@@ -90,7 +95,7 @@ Je kunt ook een gedeeltelijke restore doen. Volg de zelfde procedure als hierbov
 | HD-SDI 19 | Flex 2             |
 | HD-SDI 20 | Flex 3             |
 
-## Output mapping
+## 📡 Output mapping
 
 | Outputs | Toewijzing   |
 | ------- | ------------ |
@@ -101,7 +106,7 @@ Je kunt ook een gedeeltelijke restore doen. Volg de zelfde procedure als hierbov
 | AUX 5   | REMOTE RTN 1 |
 | AUX 6   | REMOTE RTN 2 |
 
-## MultiView Layouts
+## 📺 MultiView Layouts
 
 | Multiviewer 1 | Source             | Multiviewer 2 | Source |
 | ------------- | ------------------ | ------------- | ------ |
@@ -114,7 +119,7 @@ Je kunt ook een gedeeltelijke restore doen. Volg de zelfde procedure als hierbov
 | Window 7      | Playout / GFX Fill | Window 7      | Blank  |
 | Window 8      | SuperSource        | Window 8      | Blank  |
 
-## Media Files
+## ▶️ Media Files
 
 | Media File Index | Toewijzing                 |
 | ---------------- | -------------------------- |
@@ -140,7 +145,7 @@ Je kunt ook een gedeeltelijke restore doen. Volg de zelfde procedure als hierbov
 | Slot 20          | SrS 14: 3x 4:3             |
 | Slot 21          | SrS 15: 4x 4:3             |
 
-## Macro's
+## 🕹️ Macro's
 
 | Macros   | Toewijzing                 | Omschrijving                      |
 | -------- | -------------------------- | --------------------------------- |
