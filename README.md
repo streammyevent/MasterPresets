@@ -5,16 +5,18 @@
 
 Master presets zijn uitgebreide standaardconfiguraties (hero setups) voor de hardware en software waar we vaak mee werken. De bedoeling is om complexe functionaliteit zoals SuperSources, Macro's, IFB en Dante klaar te hebben staan om tijd te besparen bij de technische bouw van een productie.
 
-Een master preset dient als startpositie voor een productie. Het doel is niet om een technicus te vervangen, maar om tijd te besparen.
+De MasterPresets zijn onderling goed op elkaar afgestemd. De gebruikte kleuren (van scribbe strips, knoppen etc) kloppen onderling. Een Remote heeft bijvoorbeeld dezelfde kleur op de Behringer, op het Atem panel en op Companion.
+
+Een MasterPreset dient als startpositie voor een productie. Het doel is niet om een technicus te vervangen, maar om tijd te besparen.
 
 **Dit zijn de regels:**
 
-- Één master preset per type software of hardware
-- De master preset moet documentatie hebben, zowel fysiek als digitaal
-- De master preset moet voorzien in standaard hardware patching, zodat iedere technicus de fysieke aansluiting kan doen
-- Master presets moeten onderling op elkaar afgestemd zijn om een goed ecosysteem te bevorderen
-- Master presets zijn zo globaal mogelijk - bij iedere toevoeging moet een overweging gemaakt worden tussen extra complexiteit en functionaliteit
-- Een master preset is niet geschikt voor álle producties, maar voor 90% van de producties.
+- Één MasterPreset per type software of hardware
+- De MasterPreset moet documentatie hebben, zowel fysiek als digitaal
+- De MasterPreset moet voorzien in standaard hardware patching, zodat iedere technicus de fysieke aansluiting kan doen
+- MasterPresets moeten onderling op elkaar afgestemd zijn om een goed ecosysteem te bevorderen
+- MasterPresets zijn zo globaal mogelijk - bij iedere toevoeging moet een overweging gemaakt worden tussen extra complexiteit en functionaliteit
+- Een MasterPreset is niet geschikt voor álle producties, maar voor 90% van de producties.
 
 Presets... Assemble.
 
