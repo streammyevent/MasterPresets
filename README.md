@@ -25,7 +25,16 @@ Presets... Assemble.
 ### Companion
 
 ![incomplete](https://img.shields.io/badge/status-incomplete-red)
-![version](https://img.shields.io/badge/version-0.1-red)
+![version](https://img.shields.io/badge/version-0.2-red)
+
+⚠️ JingleMachine control
+<br />✅ Behringer Intercom Control
+<br />✅ Atem SrS mapping
+<br />✅ Atem MultiView mapping
+<br />❌ Clock control
+<br />❌ V-Mix Virtual Event Control
+<br />⚠️ V-Mix Intercom Control
+<br />❌ Docs
 
 ### Behringer
 
