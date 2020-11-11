@@ -16,8 +16,8 @@ Een MasterPreset dient als startpositie voor een productie. Het doel is niet om 
 - Één MasterPreset per type software of hardware
 - De MasterPreset moet documentatie hebben, zowel fysiek als digitaal
 - De MasterPreset moet voorzien in standaard hardware patching, zodat iedere technicus de fysieke aansluiting kan doen
-- MasterPresets moeten onderling op elkaar afgestemd zijn om een goed ecosysteem te bevorderen
-- MasterPresets zijn zo globaal mogelijk - bij iedere toevoeging moet een overweging gemaakt worden tussen extra complexiteit en functionaliteit
+- MasterPresets moeten onderling op elkaar afgestemd zijn om een goed ecosysteem te bevorderen, bvb kleuren op de Behringer komen zo veel mogelijk overeen met kleuren op een Atem
+- MasterPresets zijn zo generiek mogelijk - bij iedere toevoeging moet een overweging gemaakt worden tussen extra complexiteit en functionaliteit
 - Een MasterPreset is niet geschikt voor álle producties, maar voor 90% van de producties.
 
 ## 🏎️ Getting started
@@ -32,6 +32,8 @@ Wil je leren welke functies er in ieder preset aanwezig zijn? Alle presets zijn 
 
 ```diff
 + DO: Pas een MasterPreset naar wens aan op productie
+
++ DO: Begin iedere productie met een 'verse' download van de MasterPresets
 
 + DO: Stuur de SuperSource images voor een productie naar een klant, zodat de klant haar designs daarop kan baseren
 
@@ -81,7 +83,7 @@ Wil je leren welke functies er in ieder preset aanwezig zijn? Alle presets zijn 
 <br />✅ Macro's voor toewijzing van SuperSource layers
 <br />✅ Macro's voor switchen tussen SuperSource layouts
 <br />✅ 'Go playout' macro met dip to black en tie van DSK1
-<br />❌ Gelamineerde tabel
+<br />✅ Input & output mapping fysiek op de Atem als label
 
 ### [Dante](https://github.com/streammyevent/MasterPresets/tree/master/Dante)
 
