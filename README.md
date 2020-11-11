@@ -84,6 +84,7 @@ Wil je leren welke functies er in ieder preset aanwezig zijn? Alle presets zijn 
 <br />✅ Macro's voor switchen tussen SuperSource layouts
 <br />✅ 'Go playout' macro met dip to black en tie van DSK1
 <br />✅ Input & output mapping fysiek op de Atem als label
+<br />✅ Docs
 
 ### [Dante](https://github.com/streammyevent/MasterPresets/tree/master/Dante)
 
