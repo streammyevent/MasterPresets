@@ -80,7 +80,7 @@ Om te leren welke functies er in ieder preset aanwezig zijn, en hoe je die moet 
 <br />✅ Fun Soundboard met 19 geluiden
 <br />✅ Docs
 
-### [Atem](https://github.com/streammyevent/MasterPresets/tree/master/Atem)
+### [Atem 2M/E](https://github.com/streammyevent/MasterPresets/tree/master/Atem2ME)
 
 ![ready](https://img.shields.io/badge/status-ready-green)
 ![version](https://img.shields.io/badge/version-1.0-green)

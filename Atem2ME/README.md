@@ -1,4 +1,4 @@
-# Atem Master Preset
+# Atem 2 M/E Master Preset
 
 ![ready](https://img.shields.io/badge/status-ready-green)
 ![version](https://img.shields.io/badge/version-1.0-green)
@@ -46,6 +46,8 @@
 - DONT: Verander liever niet de toewijzingen van input 9 t/m 20, dan werken geen van de standaard macro's meer
 
 - DONT: De SuperSource layouts werken alleen op 16:9 aspect ratios en zijn alleen getest op 1920x1080
+
+- DONT: Dit Master Preset is bedoeld voor de 2M/E Atem, voor de TVS Atems is deze niet handig
 ```
 
 ## 🧑‍🏫 FAQ's
