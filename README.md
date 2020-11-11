@@ -3,7 +3,7 @@
 ![incomplete](https://img.shields.io/badge/status-incomplete-red)
 ![version](https://img.shields.io/badge/version-0.3-red)
 
-### [**Download v0.3**](https://github.com/streammevent/MasterPreset/archive/master.zip)
+## ✨ Wat is het?
 
 Master presets zijn uitgebreide standaardconfiguraties (hero setups) voor de hardware en software waar we vaak mee werken. De bedoeling is om complexe functionaliteit zoals SuperSources, Macro's, IFB en Dante klaar te hebben staan om tijd te besparen bij de technische bouw van een productie.
 
@@ -11,7 +11,7 @@ De MasterPresets zijn onderling goed op elkaar afgestemd. De gebruikte kleuren (
 
 Een MasterPreset dient als startpositie voor een productie. Het doel is niet om een technicus te vervangen, maar om tijd te besparen.
 
-**Dit zijn de regels:**
+## 🚨 Wat zijn de regels?
 
 - Één MasterPreset per type software of hardware
 - De MasterPreset moet documentatie hebben, zowel fysiek als digitaal
@@ -20,9 +20,25 @@ Een MasterPreset dient als startpositie voor een productie. Het doel is niet om 
 - MasterPresets zijn zo globaal mogelijk - bij iedere toevoeging moet een overweging gemaakt worden tussen extra complexiteit en functionaliteit
 - Een MasterPreset is niet geschikt voor álle producties, maar voor 90% van de producties.
 
-Presets... Assemble.
+## 🏎️ Getting started
 
-## Status
+Aan de rechterkant van de pagina zie je 'releases', klik daar op de meest recente release om naar de download pagina te gaan. Klik vervolgens bij 'Assets' op 'Source Code' om een zipje te downloaden.
+
+Ieder MasterPreset is een preset, scene of project file van de bijbehorende applicatie of hardware. De gebruiksaanwijzing is dus voor ieder preset net een beetje anders, maar in algemene zin moet je het preset bestand openen en daarbij je bestaande configuratie overschrijven (indien van toepassing).
+
+Wil je leren welke functies er in ieder preset aanwezig zijn? Alle presets zijn ook voorzien van documentatie.
+
+## 👍👎 Do's & Donts
+
+```diff
++ DO: Pas een MasterPreset naar wens aan op productie
+
++ DO: Stuur de SuperSource images voor een productie naar een klant, zodat de klant haar designs daarop kan baseren
+
+- DONT: Verander liever niet de input & output mappings, dan kloppen de MasterPresets onderling niet meer
+```
+
+## De MasterPresets
 
 ### [Companion](https://github.com/streammyevent/MasterPresets/tree/master/Companion)
 
@@ -95,7 +111,9 @@ Not yet started.
 <br />✅ Sketch file inbegrepen
 <br />✅ Geïntegreerd in het Atem en V-Mix Master Preset
 
-## Andere soorten presets
+### Andere soorten presets
+
+Deze bewaren we op Google Drive:
 
 - **Productie Configs**: Backups van de configuratie aan het eind van de productie om toekomstige producties voor dezelfde klant sneller op te zetten.
 - **Technische Configs**: Backups van configs op gedeployede apparatuur, bvb geïnstalleerde routers.
