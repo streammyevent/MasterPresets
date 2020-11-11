@@ -7461,7 +7461,17 @@
                 "latch": false,
                 "relative_delay": false
             },
-            "29": {},
+            "29": {
+                "style": "png",
+                "text": "Audio Control",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 13158,
+                "latch": false,
+                "relative_delay": false
+            },
             "30": {
                 "style": "png",
                 "text": "GFX 1 Toggle",
@@ -7601,7 +7611,17 @@
                 "latch": false,
                 "relative_delay": false
             },
-            "29": {},
+            "29": {
+                "style": "png",
+                "text": "Audio Control",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 13158,
+                "latch": false,
+                "relative_delay": false
+            },
             "30": {},
             "31": {},
             "32": {}
@@ -9007,7 +9027,17 @@
                 "latch": false,
                 "relative_delay": false
             },
-            "29": {},
+            "29": {
+                "style": "png",
+                "text": "Audio Control",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 13158,
+                "latch": false,
+                "relative_delay": false
+            },
             "30": {},
             "31": {},
             "32": {}
@@ -9215,7 +9245,17 @@
                 "latch": false,
                 "relative_delay": false
             },
-            "29": {},
+            "29": {
+                "style": "png",
+                "text": "Audio Control",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 13158,
+                "latch": false,
+                "relative_delay": false
+            },
             "30": {},
             "31": {
                 "style": "png",
@@ -9233,35 +9273,203 @@
             }
         },
         "72": {
-            "1": {},
-            "2": {},
-            "3": {},
-            "4": {},
-            "5": {},
-            "6": {},
-            "7": {},
+            "1": {
+                "style": "png",
+                "text": "Input 1",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 0
+            },
+            "2": {
+                "style": "png",
+                "text": "Input 2",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 0
+            },
+            "3": {
+                "style": "png",
+                "text": "Input 3",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 0
+            },
+            "4": {
+                "style": "png",
+                "text": "Input 4",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 0
+            },
+            "5": {
+                "style": "png",
+                "text": "Flex 1",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 16750899
+            },
+            "6": {
+                "style": "png",
+                "text": "Flex 2",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 16750899
+            },
+            "7": {
+                "style": "png",
+                "text": "Flex 3",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 16750899
+            },
             "8": {},
-            "9": {},
-            "10": {},
-            "11": {},
-            "12": {},
-            "13": {},
-            "14": {},
-            "15": {},
-            "16": {},
-            "17": {},
-            "18": {},
-            "19": {},
+            "9": {
+                "style": "png",
+                "text": "Remote 1",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 13369599
+            },
+            "10": {
+                "style": "png",
+                "text": "Remote 2",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 13369599
+            },
+            "11": {
+                "style": "png",
+                "text": "Remote 3",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 13369599
+            },
+            "12": {
+                "style": "png",
+                "text": "Remote 4",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 13369599
+            },
+            "13": {
+                "style": "png",
+                "text": "Remote 5",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 13369599
+            },
+            "14": {
+                "style": "png",
+                "text": "Remote 6",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 13369599
+            },
+            "15": {
+                "style": "png",
+                "text": "Remote 7",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 13369599
+            },
+            "16": {
+                "style": "png",
+                "text": "Remote 8",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 13369599
+            },
+            "17": {
+                "style": "png",
+                "text": "Playout",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 33751
+            },
+            "18": {
+                "style": "png",
+                "text": "PPT",
+                "size": "14",
+                "color": 16777215,
+                "bgcolor": 33751
+            },
+            "19": {
+                "style": "png",
+                "text": "Interactive",
+                "size": "7",
+                "color": 16777215,
+                "bgcolor": 33751
+            },
             "20": {},
             "21": {},
             "22": {},
             "23": {},
-            "24": {},
-            "25": {},
-            "26": {},
-            "27": {},
-            "28": {},
-            "29": {},
+            "24": {
+                "style": "png",
+                "text": "Mute All",
+                "size": "18",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 16724736,
+                "latch": false,
+                "relative_delay": false
+            },
+            "25": {
+                "style": "png",
+                "text": "Back",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 13158,
+                "latch": false,
+                "relative_delay": false
+            },
+            "26": {
+                "style": "png",
+                "text": "SrSC Config",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 13158,
+                "latch": false,
+                "relative_delay": false
+            },
+            "27": {
+                "style": "png",
+                "text": "SrSC Select",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 13158,
+                "latch": false,
+                "relative_delay": false
+            },
+            "28": {
+                "style": "png",
+                "text": "Utility",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 13158,
+                "latch": false,
+                "relative_delay": false
+            },
+            "29": {
+                "style": "png",
+                "text": "Audio Control",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 3368601,
+                "latch": false,
+                "relative_delay": false
+            },
             "30": {},
             "31": {},
             "32": {}
@@ -10669,7 +10877,7 @@
                     "action": "set_page",
                     "options": {
                         "controller": "self",
-                        "page": "50"
+                        "page": "60"
                     }
                 }
             ],
@@ -22062,7 +22270,18 @@
                     }
                 }
             ],
-            "29": [],
+            "29": [
+                {
+                    "id": "Ke0QfsLDB",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "72"
+                    }
+                }
+            ],
             "30": [
                 {
                     "action": "overlayFunctions",
@@ -22263,7 +22482,18 @@
                     }
                 }
             ],
-            "29": [],
+            "29": [
+                {
+                    "id": "GevIRE-o6",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "72"
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": []
@@ -38589,7 +38819,18 @@
                     }
                 }
             ],
-            "29": [],
+            "29": [
+                {
+                    "id": "uVaSYNWOF",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "72"
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": []
@@ -38876,7 +39117,18 @@
                     }
                 }
             ],
-            "29": [],
+            "29": [
+                {
+                    "id": "T5e8n54hW",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "72"
+                    }
+                }
+            ],
             "30": [],
             "31": [
                 {
@@ -38906,35 +39158,421 @@
             ]
         },
         "72": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
+            "1": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Input 1"
+                    },
+                    "id": "5BqFQfT4hH",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "2": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Input 2"
+                    },
+                    "id": "NEGxk0cNV",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "3": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Input 3"
+                    },
+                    "id": "tKCx-KBhb",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "4": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Input 4"
+                    },
+                    "id": "A_D0TTg03",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "5": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Flex 1"
+                    },
+                    "id": "LdspZ-DOT",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "6": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Flex 2"
+                    },
+                    "id": "2TX4RYo5K",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "7": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Flex 3"
+                    },
+                    "id": "-DOCTECjf",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
             "8": [],
-            "9": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
-            "14": [],
-            "15": [],
-            "16": [],
-            "17": [],
-            "18": [],
-            "19": [],
+            "9": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Remote 1"
+                    },
+                    "id": "gf451xYZm",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "10": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Remote 2"
+                    },
+                    "id": "EgyjkpJ9g",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "11": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Remote 3"
+                    },
+                    "id": "i21TUnXxo",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "12": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Remote 4"
+                    },
+                    "id": "an3fLgAto",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "13": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Remote 5"
+                    },
+                    "id": "-1CBpXgCJ",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "14": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Remote 6"
+                    },
+                    "id": "UOPVV2cpR",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "15": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Remote 7"
+                    },
+                    "id": "dOJeYc7o_",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "16": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Remote 8"
+                    },
+                    "id": "O5pdRMV8d",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "17": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Playout"
+                    },
+                    "id": "5kosggMX1",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "18": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "PPT"
+                    },
+                    "id": "Kd-SPYL6g",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
+            "19": [
+                {
+                    "action": "Audio",
+                    "options": {
+                        "input": "Interactive"
+                    },
+                    "id": "irSws7_nP",
+                    "instance": "YU4EpcPoB",
+                    "label": "YU4EpcPoB:Audio"
+                }
+            ],
             "20": [],
             "21": [],
             "22": [],
             "23": [],
-            "24": [],
-            "25": [],
-            "26": [],
-            "27": [],
-            "28": [],
-            "29": [],
+            "24": [
+                {
+                    "id": "Nc0n-aTLw",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Input 1",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "sNU9YaNOU",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Input 2",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "6W9qzcNBn",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Input 3",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "Ot_UZrxGs",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Input 4",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "joOrlAqxG",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Remote 1",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "9vV9TbBJC",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Remote 2",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "BROsXgWcw",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Remote 3",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "iHjfu0ytj",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Remote 4",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "oDbqX1pw3",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Remote 5",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "vBs_GNO8l",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Remote 6",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "jl0VvayWi",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Remote 7",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "80AvQBU2k",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Remote 8",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "-Xmu0ge2N",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Playout",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "DUfjmvSfM",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "PPT",
+                        "functionID": "AudioOff"
+                    }
+                },
+                {
+                    "id": "IijrlsDDZ",
+                    "label": "YU4EpcPoB:AudioOnOff",
+                    "instance": "YU4EpcPoB",
+                    "action": "AudioOnOff",
+                    "options": {
+                        "input": "Interactive",
+                        "functionID": "AudioOff"
+                    }
+                }
+            ],
+            "25": [
+                {
+                    "id": "xOyxVsYCI",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "60"
+                    }
+                }
+            ],
+            "26": [
+                {
+                    "id": "gDA-NPI-C",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "61"
+                    }
+                }
+            ],
+            "27": [
+                {
+                    "id": "j84dI1Li6",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "71"
+                    }
+                }
+            ],
+            "28": [
+                {
+                    "id": "ut56wvpBE",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "70"
+                    }
+                }
+            ],
+            "29": [
+                {
+                    "id": "qf7v5Txx5",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "72"
+                    }
+                }
+            ],
             "30": [],
             "31": [],
             "32": []
@@ -44074,7 +44712,7 @@
             "name": "SrSC Select"
         },
         "72": {
-            "name": "PAGE"
+            "name": "Audio Control"
         },
         "73": {
             "name": "PAGE"
@@ -55592,25 +56230,223 @@
             "32": []
         },
         "72": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
+            "1": [
+                {
+                    "id": "CrbxmRGi9",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Input 1",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "2": [
+                {
+                    "id": "HiY05oeuF",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Input 2",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "3": [
+                {
+                    "id": "7xGHc_BX-",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Input 3",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "4": [
+                {
+                    "id": "vZSL-hXBe",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Input 4",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "5": [
+                {
+                    "id": "KlkbSIkWzE",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Flex 1",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "6": [
+                {
+                    "id": "DqvNSu-Ip1",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Flex 2",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "7": [
+                {
+                    "id": "tpBJoPJdW-",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Flex 3",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
             "8": [],
-            "9": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
-            "14": [],
-            "15": [],
-            "16": [],
-            "17": [],
-            "18": [],
-            "19": [],
+            "9": [
+                {
+                    "id": "QODEWuvMV",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Remote 1",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "10": [
+                {
+                    "id": "8nb6kEIaI",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Remote 2",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "id": "a04ArnMVh",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Remote 3",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "id": "n25AqoECg",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Remote 4",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "id": "AnMPUsaTn",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Remote 5",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "14": [
+                {
+                    "id": "2tuDW3-rU",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Remote 6",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "15": [
+                {
+                    "id": "74OLJc2iW",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Remote 7",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "16": [
+                {
+                    "id": "V9U0zNcxx",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Remote 8",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "17": [
+                {
+                    "id": "SYulxk8GR",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Playout",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "18": [
+                {
+                    "id": "ayMWAhdBH",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "PPT",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
+            "19": [
+                {
+                    "id": "W-x7s5Oe5",
+                    "type": "inputAudio",
+                    "instance_id": "YU4EpcPoB",
+                    "options": {
+                        "input": "Interactive",
+                        "fg": 16777215,
+                        "bg": 16711680
+                    }
+                }
+            ],
             "20": [],
             "21": [],
             "22": [],

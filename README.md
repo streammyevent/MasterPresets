@@ -50,10 +50,14 @@ Om te leren welke functies er in ieder preset aanwezig zijn, en hoe je die moet 
 
 ✅ JingleMachine control
 <br />✅ Behringer Intercom Control
-<br />✅ Atem SrS mapping
+<br />✅ Atem switching
+<br />✅ Atem SrSC mapping
 <br />✅ Atem MultiView mapping
 <br />❌ Clock control
-<br />❌ V-Mix Virtual Event Control
+<br />✅ V-Mix switching
+<br />✅ V-Mix SrSC mapping
+<br />✅ V-Mix Audio control
+<br />❌ V-Mix Call Manager
 <br />⚠️ V-Mix Intercom Control
 <br />❌ Docs
 
