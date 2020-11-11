@@ -1,7 +1,7 @@
 # The Master Presets Initiative
 
-![incomplete](https://img.shields.io/badge/status-incomplete-red)
-![version](https://img.shields.io/badge/version-0.3-red)
+![incomplete](https://img.shields.io/badge/status-beta-orange)
+![version](https://img.shields.io/badge/version-0.4-orange)
 
 ## ✨ Wat is het?
 
@@ -17,6 +17,7 @@ Een MasterPreset dient als startpositie voor een productie. Het doel is niet om 
 - De MasterPreset moet documentatie hebben, zowel fysiek als digitaal
 - De MasterPreset moet voorzien in standaard hardware patching, zodat iedere technicus de fysieke aansluiting kan doen
 - MasterPresets moeten onderling op elkaar afgestemd zijn om een goed ecosysteem te bevorderen, bvb kleuren op de Behringer komen zo veel mogelijk overeen met kleuren op een Atem
+- MasterPresets moeten ook onafhankelijk van elkaar goed werken
 - MasterPresets zijn zo generiek mogelijk - bij iedere toevoeging moet een overweging gemaakt worden tussen extra complexiteit en functionaliteit
 - Een MasterPreset is niet geschikt voor álle producties, maar voor 90% van de producties.
 
@@ -26,7 +27,7 @@ Aan de rechterkant van de pagina zie je 'releases', klik daar op de meest recent
 
 Ieder MasterPreset is een preset, scene of project file van de bijbehorende applicatie of hardware. De gebruiksaanwijzing is dus voor ieder preset net een beetje anders, maar in algemene zin moet je het preset bestand openen en daarbij je bestaande configuratie overschrijven (indien van toepassing).
 
-Wil je leren welke functies er in ieder preset aanwezig zijn? Alle presets zijn ook voorzien van documentatie.
+Om te leren welke functies er in ieder preset aanwezig zijn, en hoe je die moet gebruiken, klik je hieronder op de naam van ieder preset om naar de documentatie te gaan.
 
 ## 👍👎 Do's & Donts
 
@@ -45,9 +46,9 @@ Wil je leren welke functies er in ieder preset aanwezig zijn? Alle presets zijn 
 ### [Companion](https://github.com/streammyevent/MasterPresets/tree/master/Companion)
 
 ![incomplete](https://img.shields.io/badge/status-incomplete-red)
-![version](https://img.shields.io/badge/version-0.2-red)
+![version](https://img.shields.io/badge/version-0.3-red)
 
-⚠️ JingleMachine control
+✅ JingleMachine control
 <br />✅ Behringer Intercom Control
 <br />✅ Atem SrS mapping
 <br />✅ Atem MultiView mapping
@@ -70,8 +71,14 @@ Wil je leren welke functies er in ieder preset aanwezig zijn? Alle presets zijn 
 
 ### [Q-Lab (JingleMachine)](https://github.com/streammyevent/MasterPresets/tree/master/JingleMachine)
 
-![incomplete](https://img.shields.io/badge/status-no%20docs-orange)
-![version](https://img.shields.io/badge/version-1.0-green)
+![incomplete](https://img.shields.io/badge/status-ready-green)
+![version](https://img.shields.io/badge/version-1.1-green)
+
+✅ Corporate jingles (kort en lang)
+<br />✅ Energetic jingles (kort en lang)
+<br />✅ Diverse sound FX
+<br />✅ Fun Soundboard met 19 geluiden
+<br />✅ Docs
 
 ### [Atem](https://github.com/streammyevent/MasterPresets/tree/master/Atem)
 
