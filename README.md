@@ -3,6 +3,8 @@
 ![incomplete](https://img.shields.io/badge/status-incomplete-red)
 ![version](https://img.shields.io/badge/version-0.3-red)
 
+### [**Download v0.3**](https://github.com/streammevent/MasterPreset/archive/master.zip)
+
 Master presets zijn uitgebreide standaardconfiguraties (hero setups) voor de hardware en software waar we vaak mee werken. De bedoeling is om complexe functionaliteit zoals SuperSources, Macro's, IFB en Dante klaar te hebben staan om tijd te besparen bij de technische bouw van een productie.
 
 De MasterPresets zijn onderling goed op elkaar afgestemd. De gebruikte kleuren (van scribbe strips, knoppen etc) kloppen onderling. Een Remote heeft bijvoorbeeld dezelfde kleur op de Behringer, op het Atem panel en op Companion.
@@ -22,7 +24,7 @@ Presets... Assemble.
 
 ## Status
 
-### Companion
+### [Companion](https://github.com/streammyevent/MasterPresets/tree/master/Companion)
 
 ![incomplete](https://img.shields.io/badge/status-incomplete-red)
 ![version](https://img.shields.io/badge/version-0.2-red)
@@ -36,7 +38,7 @@ Presets... Assemble.
 <br />⚠️ V-Mix Intercom Control
 <br />❌ Docs
 
-### Behringer
+### [Behringer](https://github.com/streammyevent/MasterPresets/tree/master/Behringer)
 
 ![incomplete](https://img.shields.io/badge/status-no%20docs-orange)
 ![version](https://img.shields.io/badge/version-1.1-green)
@@ -48,12 +50,12 @@ Presets... Assemble.
 <br />❌ Gelamineerde tabel
 <br />❌ Docs
 
-### Q-Lab (JingleMachine)
+### [Q-Lab (JingleMachine)](https://github.com/streammyevent/MasterPresets/tree/master/JingleMachine)
 
 ![incomplete](https://img.shields.io/badge/status-no%20docs-orange)
 ![version](https://img.shields.io/badge/version-1.0-green)
 
-### Atem
+### [Atem](https://github.com/streammyevent/MasterPresets/tree/master/Atem)
 
 ![ready](https://img.shields.io/badge/status-ready-green)
 ![version](https://img.shields.io/badge/version-1.0-green)
@@ -65,11 +67,11 @@ Presets... Assemble.
 <br />✅ 'Go playout' macro met dip to black en tie van DSK1
 <br />❌ Gelamineerde tabel
 
-### Dante
+### [Dante](https://github.com/streammyevent/MasterPresets/tree/master/Dante)
 
 Not yet started.
 
-### V-Mix
+### [V-Mix](https://github.com/streammyevent/MasterPresets/tree/master/V-Mix)
 
 ![incomplete](https://img.shields.io/badge/status-incomplete-orange)
 ![version](https://img.shields.io/badge/version-0.3-red)
@@ -82,7 +84,7 @@ Not yet started.
 
 [RFC ready](https://github.com/streammyevent/MasterPresets/blob/master/V-Mix/RFC.md)
 
-### SuperSources / Artwork
+### [SuperSources / Artwork](https://github.com/streammyevent/MasterPresets/tree/master/SuperSources)
 
 ![ready](https://img.shields.io/badge/status-ready-green)
 ![version](https://img.shields.io/badge/version-1.0-green)
