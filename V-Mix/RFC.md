@@ -113,6 +113,6 @@ Als alternatief is het is ook mogelijk voor de operator om te switchen tussen pr
 
 ## Pending research
 
-- Blijven V-Mix Call IDs gelijk between saves? Experiment: Caller aanmaken. File opslaan. Caller aanpassen. Eerdere file laden. Is het caller ID terug naar de eerste staat?
+- Blijven V-Mix Call IDs gelijk between saves? Experiment: Caller aanmaken. File opslaan. Caller aanpassen. Eerdere file laden. Is het caller ID terug naar de eerste staat?<br />**Confirmed, caller ID blijft gelijk**
 - Is het mogelijk om vanuit Companion V-Mix aan te sturen op basis van input names ipv ID nummers?<br />**Confirmed, is mogelijk**
 - Is het mogelijk om een input van type te veranderen zonder dat V-Mix de input naam veranderd?<br />**Confirmed, is mogelijk. Bij een default name past V-Mix automatisch de naam aan als er van type veranderd wordt. Bij een non-default name blijft de ingestelde naam hetzelfde.**
