@@ -1,0 +1,80 @@
+Input, 1, CX Monitor 1
+Input, 2, CX Monitor 2
+Input, 3, CX Monitor 3
+Input, 4, CX Monitor 4
+Input, 5, clock-8001
+Input, 6, ISS Above
+Input, 7, EMPTY
+Input, 8, EMPTY
+Input, 9, PP5 Flex 1
+Input, 10, PP5 Flex 2
+Input, 11, PP1 SDI IN 1
+Input, 12, PP1 SDI IN 2
+Input, 13, PP1 HDMI 1
+Input, 14, PP2 HDMI 1
+Input, 15, PP3 HDMI 1
+Input, 16, PP4 SDI IN 1
+Input, 17, PP4 SDI IN 2
+Input, 18, PP4 HDMI IN 1
+Input, 19, PP6 SDI IN 1
+Input, 20, PP6 SDI IN 2
+Input, 21, PP6 SDI IN 3
+Input, 22, PP6 SDI IN 4
+Input, 23, Media PC HDMI
+Input, 24, CX Encoder 1
+Input, 25, CX Encoder 2
+Input, 26, CX Recording 1
+Input, 27, CX Recording 2
+Input, 28, CX Remote RTN 1
+Input, 29, CX Remote RTN 2
+Input, 30, CX Remote RTN 3
+Input, 31, CX MV 1
+Input, 32, CX MV 2
+Input, 33, CX MV 3
+Input, 34, CX MV 4
+Input, 35, LU2000 1
+Input, 36, LU2000 2
+Input, 37, LU2000 3
+Input, 38, LU2000 4
+Input, 39, Encoder 1 Monitor
+Input, 40, Encoder 2 Monitor
+Output, 1, Regie 1 mon 1
+Output, 2, Regie 1 mon 2
+Output, 3, Regie 1 mon 3
+Output, 4, Regie 1 mon 4 (PTZ MV)
+Output, 5, Regie 1 mon 5 (PGM SCHAKELTECH)
+Output, 6, Regie 2 mon 1
+Output, 7, Studio mon 1
+Output, 8, Studio mon 2
+Output, 9, Studio mon 3
+Output, 10, Studio mon 4
+Output, 11, Studio mon 5
+Output, 12, Office mon 1
+Output, 13, CX Multiview 3
+Output, 14, CX Multiview 4
+Output, 15, PP1 SDI OUT
+Output, 16, PP2 SDI OUT
+Output, 17, PP3 SDI OUT
+Output, 18, PP4 SDI OUT
+Output, 19, PP6 SDI OUT 1
+Output, 20, PP6 SDI OUT 2
+Output, 21, PP6 SDI OUT 3
+Output, 22, PP6 SDI OUT 4
+Output, 23, CX Remote 1
+Output, 24, CX Remote 2
+Output, 25, CX Remote 3
+Output, 26, CX Remote 4
+Output, 27, CX Key 1
+Output, 28, CX Fill 1
+Output, 29, CX Key 2
+Output, 30, CX Fill 2
+Output, 31, CX PPT
+Output, 32, CX PPT Notes
+Output, 33, CX Flex 1
+Output, 34, CX Flex 2
+Output, 35, CX Flex 3
+Output, 36, CX Flex 4
+Output, 37, Hyperdeck 1
+Output, 38, Hyperdeck 2
+Output, 39, Encoder 1
+Output, 40, Encoder 2

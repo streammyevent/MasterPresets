@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VideohubConfig majorVersion="1" minorVersion="0" model="Blackmagic Smart Videohub 40 x 40">
+    <Buttons>
+        <Button type="Source" videoType="Input" videoIndex="0" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="1" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="2" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="3" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="4" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="5" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="6" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="7" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="8" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="9" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="10" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="11" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="12" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="13" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="14" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="15" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="16" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="17" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="18" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="19" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="20" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="21" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="22" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="23" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="24" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="25" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="26" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="27" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="28" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="29" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="30" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="31" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="32" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="33" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="34" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="35" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="36" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="37" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="38" icon="Number"/>
+        <Button type="Source" videoType="Input" videoIndex="39" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="0" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="1" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="2" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="3" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="4" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="5" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="6" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="7" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="8" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="9" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="10" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="11" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="12" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="13" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="14" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="15" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="16" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="17" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="18" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="19" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="20" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="21" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="22" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="23" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="24" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="25" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="26" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="27" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="28" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="29" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="30" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="31" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="32" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="33" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="34" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="35" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="36" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="37" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="38" icon="Number"/>
+        <Button type="Destination" videoType="Output" videoIndex="39" icon="Number"/>
+    </Buttons>
+    <List>
+        <Row portType="Output" portIndex="0" filter="White"/>
+        <Row portType="Output" portIndex="1" filter="White"/>
+        <Row portType="Output" portIndex="2" filter="White"/>
+        <Row portType="Output" portIndex="3" filter="White"/>
+        <Row portType="Output" portIndex="4" filter="White"/>
+        <Row portType="Output" portIndex="5" filter="White"/>
+        <Row portType="Output" portIndex="6" filter="White"/>
+        <Row portType="Output" portIndex="7" filter="White"/>
+        <Row portType="Output" portIndex="8" filter="White"/>
+        <Row portType="Output" portIndex="9" filter="White"/>
+        <Row portType="Output" portIndex="10" filter="White"/>
+        <Row portType="Output" portIndex="11" filter="White"/>
+        <Row portType="Output" portIndex="12" filter="White"/>
+        <Row portType="Output" portIndex="13" filter="White"/>
+        <Row portType="Output" portIndex="14" filter="White"/>
+        <Row portType="Output" portIndex="15" filter="White"/>
+        <Row portType="Output" portIndex="16" filter="White"/>
+        <Row portType="Output" portIndex="17" filter="White"/>
+        <Row portType="Output" portIndex="18" filter="White"/>
+        <Row portType="Output" portIndex="19" filter="White"/>
+        <Row portType="Output" portIndex="20" filter="White"/>
+        <Row portType="Output" portIndex="21" filter="White"/>
+        <Row portType="Output" portIndex="22" filter="White"/>
+        <Row portType="Output" portIndex="23" filter="White"/>
+        <Row portType="Output" portIndex="24" filter="White"/>
+        <Row portType="Output" portIndex="25" filter="White"/>
+        <Row portType="Output" portIndex="26" filter="White"/>
+        <Row portType="Output" portIndex="27" filter="White"/>
+        <Row portType="Output" portIndex="28" filter="White"/>
+        <Row portType="Output" portIndex="29" filter="White"/>
+        <Row portType="Output" portIndex="30" filter="White"/>
+        <Row portType="Output" portIndex="31" filter="White"/>
+        <Row portType="Output" portIndex="32" filter="White"/>
+        <Row portType="Output" portIndex="33" filter="White"/>
+        <Row portType="Output" portIndex="34" filter="White"/>
+        <Row portType="Output" portIndex="35" filter="White"/>
+        <Row portType="Output" portIndex="36" filter="White"/>
+        <Row portType="Output" portIndex="37" filter="White"/>
+        <Row portType="Output" portIndex="38" filter="White"/>
+        <Row portType="Output" portIndex="39" filter="White"/>
+    </List>
+</VideohubConfig>
