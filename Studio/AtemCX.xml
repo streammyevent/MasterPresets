@@ -338,7 +338,7 @@
             <Input id="12" shortName="CM12" longName="Camera 12" externalPortType="SDI"/>
             <Input id="13" shortName="CM13" longName="Camera 13" externalPortType="SDI"/>
             <Input id="14" shortName="CM14" longName="Camera 14" externalPortType="SDI"/>
-            <Input id="15" shortName="CM15" longName="Camera 15 (Gopro)" externalPortType="SDI"/>
+            <Input id="15" shortName="CM15" longName="Camera 15" externalPortType="SDI"/>
             <Input id="16" shortName="RMT1" longName="Remote 1" externalPortType="SDI"/>
             <Input id="17" shortName="RMT2" longName="Remote 2" externalPortType="SDI"/>
             <Input id="18" shortName="RMT3" longName="Remote 3" externalPortType="SDI"/>
