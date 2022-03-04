@@ -125,6 +125,10 @@ Not yet started.
 <br />✅ Sketch file inbegrepen
 <br />✅ Geïntegreerd in het Atem en V-Mix Master Preset
 
+### Studio
+
+Docs todo.
+
 ### Andere soorten presets
 
 Deze bewaren we op Google Drive:
