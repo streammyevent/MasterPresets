@@ -127,7 +127,17 @@ Not yet started.
 
 ### Studio
 
-Docs todo.
+## To-Do:
+X32 compact:
+- EQ minder aggresief
+- MTX 1&6 op DCA faders
+
+x32 Rack:
+
+
+ATEM CX:
+- label aanpassen: Input 15 -> PTZ
+- Output mon 6 -> herman scherman
 
 ### Andere soorten presets
 
