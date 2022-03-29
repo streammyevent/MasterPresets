@@ -2502,42 +2502,7 @@
         <Property device="40" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
-        <Macro index="0" name="PPT to screen" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera26"/>
-        </Macro>
-        <Macro index="1" name="Fill to Screen" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera23"/>
-        </Macro>
-        <Macro index="2" name="SS1 studio" description="">
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
-        </Macro>
-        <Macro index="3" name="Record" description="">
-            <Op id="HyperDeckRecord" hyperDeckIndex="0"/>
-        </Macro>
-        <Macro index="4" name="MON2 - Remote 1" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera16"/>
-        </Macro>
-        <Macro index="5" name="MON2 - Remote 2" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera17"/>
-        </Macro>
-        <Macro index="6" name="MON2 - Remote 3" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera5"/>
-        </Macro>
-        <Macro index="7" name="MON2 -  Remote 4" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera19"/>
-        </Macro>
-        <Macro index="8" name="MON2 -  PPT" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera26"/>
-        </Macro>
-        <Macro index="9" name="MON2 - Menti" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera33"/>
-        </Macro>
-        <Macro index="10" name="Fill to screen" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera23"/>
-        </Macro>
+        
     </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
