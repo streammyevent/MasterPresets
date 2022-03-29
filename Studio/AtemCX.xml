@@ -345,17 +345,17 @@
             <Input id="19" shortName="RMT4" longName="Remote 4" externalPortType="SDI"/>
             <Input id="20" shortName="RMT5" longName="Remote 5" externalPortType="SDI"/>
             <Input id="21" shortName="RMT6" longName="Remote 6" externalPortType="SDI"/>
-            <Input id="22" shortName="KEY1" longName="Playout / GFX Key 1" externalPortType="SDI"/>
-            <Input id="23" shortName="FIL1" longName="Playout / GFX Fill 1" externalPortType="SDI"/>
-            <Input id="24" shortName="KEY2" longName="Playout / GFX Key 2" externalPortType="SDI"/>
-            <Input id="25" shortName="FIL2" longName="Playout / GFX Fill 2" externalPortType="SDI"/>
+            <Input id="22" shortName="HoKe" longName="HOLO KEY" externalPortType="SDI"/>
+            <Input id="23" shortName="HoFi" longName="HOLO FILL" externalPortType="SDI"/>
+            <Input id="24" shortName="PlKe" longName="PLAYOUT KEY" externalPortType="SDI"/>
+            <Input id="25" shortName="PlFi" longName="PLAYOUT FILL" externalPortType="SDI"/>
             <Input id="26" shortName="PT1" longName="PPT" externalPortType="SDI"/>
             <Input id="27" shortName="PTN1" longName="PPT Notes" externalPortType="SDI"/>
             <Input id="28" shortName="PT2" longName="PPT2" externalPortType="SDI"/>
             <Input id="29" shortName="PTN2" longName="PPT2 Notes" externalPortType="SDI"/>
             <Input id="30" shortName="INTR" longName="Interactive" externalPortType="SDI"/>
             <Input id="31" shortName="FLX1" longName="Flex 1" externalPortType="SDI"/>
-            <Input id="32" shortName="FLX2" longName="Flex 2" externalPortType="SDI"/>
+            <Input id="32" shortName="FLX2" longName="Flex2-StageTimer" externalPortType="SDI"/>
             <Input id="33" shortName="FLX3" longName="Flex 3" externalPortType="SDI"/>
             <Input id="34" shortName="FLX4" longName="Flex 4" externalPortType="SDI"/>
             <Input id="35" shortName="FLX5" longName="Flex 5" externalPortType="SDI"/>
