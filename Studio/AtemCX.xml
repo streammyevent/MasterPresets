@@ -407,32 +407,32 @@
                     <Window index="2" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="4" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="5" input="31" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="5" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="6" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="7" input="15" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="8" input="26" vuMeterEnabled="False" safeAreaEnabled="True"/>
-                    <Window index="9" input="23" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="10" input="30" vuMeterEnabled="False" safeAreaEnabled="True"/>
-                    <Window index="11" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="8" input="23" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="9" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="10" input="6000" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="11" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="8001" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="13" input="8004" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="14" input="8009" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="15" input="8019" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="14" input="8019" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="15" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
-            <MultiView index="1" layout="ProgramBottom" LayoutID="3" vuMeterOpacity="1">
+            <MultiView index="1" LayoutID="0" vuMeterOpacity="1">
                 <Windows>
                     <Window index="0" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="2" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="2" input="2" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="4" input="15" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="5" input="16" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="6" input="22" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="7" input="23" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="8" input="10011" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="8" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="10" input="10010" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="10" input="4" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="5" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="13" input="6" vuMeterEnabled="False" safeAreaEnabled="False"/>
@@ -440,29 +440,29 @@
                     <Window index="15" input="23" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
-            <MultiView index="2" LayoutID="0" vuMeterOpacity="1">
+            <MultiView index="2" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="1" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="0" input="15" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="2" input="2" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="2" input="10010" vuMeterEnabled="True" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="4" input="5" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="4" input="26" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="5" input="32" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="6" input="35" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="7" input="23" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="8" input="31" vuMeterEnabled="True" safeAreaEnabled="True"/>
-                    <Window index="9" input="17" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="10" input="32" vuMeterEnabled="True" safeAreaEnabled="True"/>
-                    <Window index="11" input="19" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="12" input="26" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="13" input="31" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="14" input="32" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="15" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="8" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="12" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="14" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="15" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
-            <MultiView index="3" layout="ProgramTop" LayoutID="12" vuMeterOpacity="1">
+            <MultiView index="3" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="10011" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="0" input="10011" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="2" input="10010" vuMeterEnabled="True" safeAreaEnabled="True"/>
                     <Window index="3" input="8012" vuMeterEnabled="True" safeAreaEnabled="False"/>
@@ -470,14 +470,14 @@
                     <Window index="5" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="6" input="8015" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="7" input="8016" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="8" input="1" vuMeterEnabled="True" safeAreaEnabled="True"/>
-                    <Window index="9" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="10" input="3" vuMeterEnabled="True" safeAreaEnabled="True"/>
-                    <Window index="11" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="12" input="26" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="13" input="16" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="14" input="23" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="15" input="15" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="8" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="12" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="14" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="15" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
         </MultiViews>
