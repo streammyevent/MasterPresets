@@ -2,8 +2,8 @@
 <Profile majorVersion="1" minorVersion="5" product="ATEM Constellation 8K (4K Mode)">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
-            <Program input="31"/>
-            <Preview input="32"/>
+            <Program input="25"/>
+            <Preview input="1"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -48,7 +48,7 @@
             <Program input="9"/>
             <Preview input="6"/>
             <NextTransition selection="Background" nextSelection="Background"/>
-            <TransitionStyle style="Stinger" nextStyle="Stinger" previewTransition="False" transitionPosition="0">
+            <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
                 <DipParameters rate="25" input="2001"/>
                 <WipeParameters rate="25" pattern="DiamondIris" symmetry="50" xPosition="0.5" yPosition="0.5" reverseDirection="False" flipFlip="False" borderInput="2001" borderWidth="0" borderSoftness="0"/>
@@ -134,7 +134,7 @@
             <Program input="10"/>
             <Preview input="10"/>
             <NextTransition selection="Background" nextSelection="Background"/>
-            <TransitionStyle style="Stinger" nextStyle="Stinger" previewTransition="False" transitionPosition="0">
+            <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
                 <DipParameters rate="25" input="2001"/>
                 <WipeParameters rate="25" pattern="DiamondIris" symmetry="50" xPosition="0.5" yPosition="0.5" reverseDirection="False" flipFlip="False" borderInput="2001" borderWidth="0" borderSoftness="0"/>
@@ -176,9 +176,9 @@
     </MixEffectBlocks>
     <DownstreamKeys>
         <DownstreamKey index="0" fillSource="23" keySource="22" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
-        <DownstreamKey index="1" fillSource="3010" keySource="3011" rate="20" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="False" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
-        <DownstreamKey index="2" fillSource="1" keySource="1" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
-        <DownstreamKey index="3" fillSource="1" keySource="1" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
+        <DownstreamKey index="1" fillSource="25" keySource="24" rate="20" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
+        <DownstreamKey index="2" fillSource="3030" keySource="3031" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
+        <DownstreamKey index="3" fillSource="3040" keySource="3041" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
     </DownstreamKeys>
     <ColorGenerators>
         <ColorGenerator index="0" hue="0" saturation="0" luma="72.1"/>
@@ -345,17 +345,17 @@
             <Input id="19" shortName="RMT4" longName="Remote 4" externalPortType="SDI"/>
             <Input id="20" shortName="RMT5" longName="Remote 5" externalPortType="SDI"/>
             <Input id="21" shortName="RMT6" longName="Remote 6" externalPortType="SDI"/>
-            <Input id="22" shortName="KEY1" longName="Playout / GFX Key 1" externalPortType="SDI"/>
-            <Input id="23" shortName="FIL1" longName="Playout / GFX Fill 1" externalPortType="SDI"/>
-            <Input id="24" shortName="KEY2" longName="Playout / GFX Key 2" externalPortType="SDI"/>
-            <Input id="25" shortName="FIL2" longName="Playout / GFX Fill 2" externalPortType="SDI"/>
+            <Input id="22" shortName="HoKe" longName="HOLO KEY" externalPortType="SDI"/>
+            <Input id="23" shortName="HoFi" longName="HOLO FILL" externalPortType="SDI"/>
+            <Input id="24" shortName="PlKe" longName="PLAYOUT KEY" externalPortType="SDI"/>
+            <Input id="25" shortName="PlFi" longName="PLAYOUT FILL" externalPortType="SDI"/>
             <Input id="26" shortName="PT1" longName="PPT" externalPortType="SDI"/>
             <Input id="27" shortName="PTN1" longName="PPT Notes" externalPortType="SDI"/>
             <Input id="28" shortName="PT2" longName="PPT2" externalPortType="SDI"/>
             <Input id="29" shortName="PTN2" longName="PPT2 Notes" externalPortType="SDI"/>
             <Input id="30" shortName="INTR" longName="Interactive" externalPortType="SDI"/>
             <Input id="31" shortName="FLX1" longName="Flex 1" externalPortType="SDI"/>
-            <Input id="32" shortName="FLX2" longName="Flex 2" externalPortType="SDI"/>
+            <Input id="32" shortName="FLX2" longName="Flex2-StageTimer" externalPortType="SDI"/>
             <Input id="33" shortName="FLX3" longName="Flex 3" externalPortType="SDI"/>
             <Input id="34" shortName="FLX4" longName="Flex 4" externalPortType="SDI"/>
             <Input id="35" shortName="FLX5" longName="Flex 5" externalPortType="SDI"/>
@@ -407,32 +407,32 @@
                     <Window index="2" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="4" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="5" input="31" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="5" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="6" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="7" input="15" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="8" input="26" vuMeterEnabled="False" safeAreaEnabled="True"/>
-                    <Window index="9" input="23" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="10" input="30" vuMeterEnabled="False" safeAreaEnabled="True"/>
-                    <Window index="11" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="8" input="23" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="9" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="10" input="6000" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="11" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="8001" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="13" input="8004" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="14" input="8009" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="15" input="8019" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="14" input="8019" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="15" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
-            <MultiView index="1" layout="ProgramBottom" LayoutID="3" vuMeterOpacity="1">
+            <MultiView index="1" LayoutID="0" vuMeterOpacity="1">
                 <Windows>
                     <Window index="0" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="2" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="2" input="2" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="4" input="15" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="5" input="16" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="6" input="22" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="7" input="23" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="8" input="10011" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="8" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="10" input="10010" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="10" input="4" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="5" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="13" input="6" vuMeterEnabled="False" safeAreaEnabled="False"/>
@@ -440,29 +440,29 @@
                     <Window index="15" input="23" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
-            <MultiView index="2" LayoutID="0" vuMeterOpacity="1">
+            <MultiView index="2" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="1" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="0" input="15" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="2" input="2" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="2" input="10010" vuMeterEnabled="True" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="4" input="5" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="4" input="26" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="5" input="32" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="6" input="35" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="7" input="23" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="8" input="31" vuMeterEnabled="True" safeAreaEnabled="True"/>
-                    <Window index="9" input="17" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="10" input="32" vuMeterEnabled="True" safeAreaEnabled="True"/>
-                    <Window index="11" input="19" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="12" input="26" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="13" input="31" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="14" input="32" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="15" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="8" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="12" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="14" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="15" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
-            <MultiView index="3" layout="ProgramTop" LayoutID="12" vuMeterOpacity="1">
+            <MultiView index="3" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="10011" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="0" input="10011" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="2" input="10010" vuMeterEnabled="True" safeAreaEnabled="True"/>
                     <Window index="3" input="8012" vuMeterEnabled="True" safeAreaEnabled="False"/>
@@ -470,14 +470,14 @@
                     <Window index="5" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="6" input="8015" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="7" input="8016" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="8" input="1" vuMeterEnabled="True" safeAreaEnabled="True"/>
-                    <Window index="9" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="10" input="3" vuMeterEnabled="True" safeAreaEnabled="True"/>
-                    <Window index="11" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="12" input="26" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="13" input="16" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="14" input="23" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="15" input="15" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="8" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="12" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="14" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="15" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
         </MultiViews>
@@ -524,7 +524,7 @@
             <Button index="39" externalInputIndex="39" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
         </ButtonMapping>
         <Remotes>
-            <Remote index="0" function="None"/>
+            <Remote index="0" function="PTZ VISCA"/>
         </Remotes>
         <UpstreamKeys sizeLink="True"/>
     </Settings>
@@ -635,7 +635,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="6">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="-0.2" mixOption="Off">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -771,7 +771,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="14">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0.2" mixOption="Off">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -907,7 +907,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="22">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="-0.2" mixOption="Off">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -1179,7 +1179,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="38">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0.2" mixOption="Off">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -1281,7 +1281,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="2004">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="-6.6" mixOption="AudioFollowVideo">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="AudioFollowVideo">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -1740,7 +1740,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="1527">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0.2" mixOption="Off">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -1860,7 +1860,7 @@
             </AudioInput>
             <AudioInput configuration="Stereo" id="1401">
                 <Analog level="ProLine"/>
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="On" delayFrames="0">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off" delayFrames="0">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -1888,7 +1888,7 @@
         <MediaPlayer index="3" sourceType="Clip" sourceIndex="1" playing="False" loop="False" atBeginning="True" clipFrame="0"/>
     </MediaPlayers>
     <SuperSources superSourceCascade="False">
-        <SuperSource index="0" artFillInput="1" artKeyInput="3021" artOption="Background" artPreMultiplied="True" artClip="50" artGain="70" artInvertKey="False" borderEnabled="False" borderBevel="None" borderHue="73.6" borderSaturation="0" borderLuma="0" borderWidthOut="0" borderWidthIn="0.12" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
+        <SuperSource index="0" artFillInput="3010" artKeyInput="3011" artOption="Background" artPreMultiplied="True" artClip="50" artGain="70" artInvertKey="False" borderEnabled="False" borderBevel="None" borderHue="73.6" borderSaturation="0" borderLuma="0" borderWidthOut="0" borderWidthIn="0.12" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
             <Boxes>
                 <Box index="0" enabled="True" inputSource="4" xPosition="-5.25" yPosition="0" size="0.6" cropped="True" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
                 <Box index="1" enabled="True" inputSource="4" xPosition="10" yPosition="0" size="0.3" cropped="True" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
@@ -2502,42 +2502,7 @@
         <Property device="40" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
-        <Macro index="0" name="PPT to screen" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera26"/>
-        </Macro>
-        <Macro index="1" name="Fill to Screen" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera23"/>
-        </Macro>
-        <Macro index="2" name="SS1 studio" description="">
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
-        </Macro>
-        <Macro index="3" name="Record" description="">
-            <Op id="HyperDeckRecord" hyperDeckIndex="0"/>
-        </Macro>
-        <Macro index="4" name="MON2 - Remote 1" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera16"/>
-        </Macro>
-        <Macro index="5" name="MON2 - Remote 2" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera17"/>
-        </Macro>
-        <Macro index="6" name="MON2 - Remote 3" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera5"/>
-        </Macro>
-        <Macro index="7" name="MON2 -  Remote 4" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera19"/>
-        </Macro>
-        <Macro index="8" name="MON2 -  PPT" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera26"/>
-        </Macro>
-        <Macro index="9" name="MON2 - Menti" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera33"/>
-        </Macro>
-        <Macro index="10" name="Fill to screen" description="">
-            <Op id="AuxiliaryInput" auxiliaryIndex="9" input="Camera23"/>
-        </Macro>
+        
     </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
