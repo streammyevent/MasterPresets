@@ -355,8 +355,8 @@
             <Input id="29" shortName="PTN2" longName="PPT2 Notes" externalPortType="SDI"/>
             <Input id="30" shortName="INTR" longName="Interactive" externalPortType="SDI"/>
             <Input id="31" shortName="FLX1" longName="Flex 1" externalPortType="SDI"/>
-            <Input id="32" shortName="FLX2" longName="Flex2-StageTimer" externalPortType="SDI"/>
-            <Input id="33" shortName="FLX3" longName="Flex 3" externalPortType="SDI"/>
+            <Input id="32" shortName="FLX2" longName="Flex2" externalPortType="SDI"/>
+            <Input id="33" shortName="FLX3" longName="Flex3-StageTimer" externalPortType="SDI"/>
             <Input id="34" shortName="FLX4" longName="Flex 4" externalPortType="SDI"/>
             <Input id="35" shortName="FLX5" longName="Flex 5" externalPortType="SDI"/>
             <Input id="36" shortName="FLX6" longName="Flex 6" externalPortType="SDI"/>
