@@ -176,7 +176,7 @@
     </MixEffectBlocks>
     <DownstreamKeys>
         <DownstreamKey index="0" fillSource="23" keySource="22" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
-        <DownstreamKey index="1" fillSource="25" keySource="24" rate="20" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
+        <DownstreamKey index="1" fillSource="24" keySource="25" rate="20" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
         <DownstreamKey index="2" fillSource="3030" keySource="3031" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
         <DownstreamKey index="3" fillSource="3040" keySource="3041" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
     </DownstreamKeys>
@@ -347,8 +347,8 @@
             <Input id="21" shortName="RMT6" longName="Remote 6" externalPortType="SDI"/>
             <Input id="22" shortName="HoKe" longName="HOLO KEY" externalPortType="SDI"/>
             <Input id="23" shortName="HoFi" longName="HOLO FILL" externalPortType="SDI"/>
-            <Input id="24" shortName="PlKe" longName="PLAYOUT KEY" externalPortType="SDI"/>
-            <Input id="25" shortName="PlFi" longName="PLAYOUT FILL" externalPortType="SDI"/>
+            <Input id="24" shortName="PlFi" longName="PLAYOUT Fill" externalPortType="SDI"/>
+            <Input id="25" shortName="PlKe" longName="PLAYOUT KEY" externalPortType="SDI"/>
             <Input id="26" shortName="PT1" longName="PPT" externalPortType="SDI"/>
             <Input id="27" shortName="PTN1" longName="PPT Notes" externalPortType="SDI"/>
             <Input id="28" shortName="PT2" longName="PPT2" externalPortType="SDI"/>
@@ -456,7 +456,7 @@
                     <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="14" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="14" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="15" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
@@ -476,7 +476,7 @@
                     <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="14" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="14" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="15" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
