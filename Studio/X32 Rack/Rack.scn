@@ -1,4 +1,4 @@
-#4.0# "Rack_v1.1" "" %000000000 1                                                                                              
+#4.0# "Rack" "" %000000000 1                                                                                                   
 /config/chlink OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF ON OFF OFF OFF OFF
 /config/auxlink OFF OFF OFF ON
 /config/fxlink ON ON ON ON
@@ -13,7 +13,7 @@
 /config/talk/B -12.0 OFF ON %000000000000000000
 /config/osc -20.0 2k11 1k00 F1 SINE 9
 /config/userrout/out 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/userrout/in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 157 158 41 42 43 44 45 46 47 48 143 144 145 146 147 148 149 150
+/config/userrout/in 1 2 3 4 5 6 7 8 9 10 11 12 35 14 157 158 41 36 43 44 45 46 47 48 143 144 145 146 147 148 149 150
 /config/routing REC
 /config/routing/IN UIN1-8 UIN9-16 UIN17-24 UIN25-32 AUX1-4
 /config/routing/AES50A OUT9-16 P169-16 P161-8 OUT9-16 P161-8 P169-16
@@ -420,7 +420,7 @@
 /ch/12/mix/16 ON   -oo
 /ch/12/grp %00000000 %000000
 /ch/12/automix OFF  +0.0
-/ch/13/config "PP5" 1 WHi 13
+/ch/13/config "Op1 schakel" 1 CYi 13
 /ch/13/delay OFF   0.3
 /ch/13/preamp +0.0 OFF OFF 24  20
 /ch/13/gate ON EXP4 -48.0 60.0 120 50.2  226 0
@@ -580,7 +580,7 @@
 /ch/17/mix/16 ON   -oo
 /ch/17/grp %00000000 %000000
 /ch/17/automix OFF  +0.0
-/ch/18/config "Remote Op 1" 1 CYi 18
+/ch/18/config "Op 2 Remote" 1 CYi 18
 /ch/18/delay OFF   0.3
 /ch/18/preamp +0.0 OFF OFF 24  20
 /ch/18/gate OFF GATE -80.0 60.0 10 50.2  258 0
@@ -1995,7 +1995,7 @@
 /headamp/004 +4.5 OFF
 /headamp/005 +0.0 OFF
 /headamp/006 +0.0 OFF
-/headamp/007 -0.5 OFF
+/headamp/007 +0.0 OFF
 /headamp/008 +51.5 OFF
 /headamp/009 +60.0 OFF
 /headamp/010 +51.0 OFF
