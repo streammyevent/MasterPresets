@@ -13,7 +13,7 @@
 /config/talk/B -12.0 OFF ON %000000000000000000
 /config/osc -20.0 2k11 1k00 F1 SINE 9
 /config/userrout/out 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/userrout/in 1 2 3 4 5 6 7 8 9 10 11 12 35 14 157 158 41 36 43 44 45 46 47 48 143 144 145 146 147 148 149 150
+/config/userrout/in 1 2 3 4 5 6 7 8 9 10 11 12 35 14 159 160 41 36 43 44 45 46 47 48 143 144 145 146 147 148 149 150
 /config/routing REC
 /config/routing/IN UIN1-8 UIN9-16 UIN17-24 UIN25-32 AUX1-4
 /config/routing/AES50A OUT9-16 P169-16 P161-8 OUT9-16 P161-8 P169-16
