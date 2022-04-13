@@ -34,7 +34,7 @@
 /config/amixenable ON ON
 /config/dp48 %0000 0 AESA
 /config/dp48/assign 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/dp48/link 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0
+/config/dp48/link 0 0 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "Mic 1" 1 GN 1
 /ch/01/delay OFF   0.3
@@ -1769,7 +1769,7 @@
 /mtx/01/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/01/eq/6 HShv 10k02 +0.00 2.0
 /mtx/01/mix ON   0.0
-/mtx/01/grp %00000000 %000000
+/mtx/01/grp %01000000 %000000
 /mtx/02/config "IFB Remote 1" 72 CY
 /mtx/02/preamp OFF
 /mtx/02/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
@@ -1839,7 +1839,7 @@
 /mtx/06/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/06/eq/6 HShv 10k02 +0.00 2.0
 /mtx/06/mix ON   0.0
-/mtx/06/grp %00000000 %000000
+/mtx/06/grp %10000000 %000000
 /main/st/config "" 66 WH
 /main/st/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /main/st/dyn/filter OFF 3.0 990.9
@@ -1851,7 +1851,7 @@
 /main/st/eq/4 PEQ 1k97 +0.00 2.0
 /main/st/eq/5 PEQ 5k02 +0.00 2.0
 /main/st/eq/6 HShv 10k02 +0.00 2.0
-/main/st/mix ON   0.0 +0
+/main/st/mix ON   -oo +0
 /main/st/mix/01 ON   -oo +0 POST 0
 /main/st/mix/02 ON   -oo
 /main/st/mix/03 ON   -oo +0 POST 0
@@ -1890,9 +1890,9 @@
 /dca/5/config "Jingle" 70 RD
 /dca/6 ON   -oo
 /dca/6/config "" 70 WHi
-/dca/7 ON -30.0
+/dca/7 ON   -oo
 /dca/7/config "Stage" 70 GN
-/dca/8 ON -30.0
+/dca/8 ON   -oo
 /dca/8/config "Regie" 70 YE
 /fx/1 VRM
 /fx/1/source INS INS
