@@ -1,4 +1,4 @@
-#4.0# "Compact_v1.1" "" %000000000 1                                                                                           
+#4.0# "Studio_X32" "" %000000000 1                                                                                             
 /config/chlink OFF OFF OFF OFF OFF ON ON ON ON OFF OFF OFF OFF OFF ON OFF
 /config/auxlink OFF OFF OFF ON
 /config/fxlink ON ON ON ON
@@ -38,17 +38,17 @@
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "Mic 1" 1 GN 1
 /ch/01/delay OFF   0.3
-/ch/01/preamp +0.0 OFF OFF 24  55
-/ch/01/gate OFF EXP4 -40.5 60.0 10  200 2050 0
+/ch/01/preamp +0.0 OFF ON 24  62
+/ch/01/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/01/gate/filter OFF 3.0 990.9
-/ch/01/dyn ON COMP PEAK LOG -30.0 20 1 8.00 10 10.0  151 POST 0 100 OFF
+/ch/01/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
 /ch/01/dyn/filter OFF 3.0 990.9
 /ch/01/insert OFF POST OFF
 /ch/01/eq ON
 /ch/01/eq/1 PEQ 170.2 +0.00 2.0
 /ch/01/eq/2 PEQ 496.6 +0.00 2.0
-/ch/01/eq/3 PEQ 4k37 +0.00 1.0
-/ch/01/eq/4 PEQ 11k91 -0.25 2.0
+/ch/01/eq/3 PEQ 1k97 +2.00 1.0
+/ch/01/eq/4 HShv 10k02 -1.25 2.0
 /ch/01/mix ON   0.0 OFF +0 OFF   -oo
 /ch/01/mix/01 ON   -oo +0 POST 0
 /ch/01/mix/02 ON   -oo
@@ -71,16 +71,16 @@
 /ch/02/config "Mic 2" 1 GN 2
 /ch/02/delay OFF   0.3
 /ch/02/preamp +0.0 OFF OFF 24 101
-/ch/02/gate OFF EXP4 -40.0 60.0 10  200 2050 0
+/ch/02/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/02/gate/filter OFF 3.0 990.9
-/ch/02/dyn ON COMP PEAK LOG -30.0 20 1 8.00 10 10.0  151 POST 0 100 OFF
+/ch/02/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
 /ch/02/dyn/filter OFF 3.0 990.9
 /ch/02/insert OFF POST OFF
 /ch/02/eq ON
 /ch/02/eq/1 PEQ 170.2 +0.00 2.0
 /ch/02/eq/2 PEQ 496.6 +0.00 2.0
-/ch/02/eq/3 PEQ 3k94 +0.00 0.8
-/ch/02/eq/4 PEQ 11k11 +0.00 2.0
+/ch/02/eq/3 PEQ 1k97 +2.00 1.0
+/ch/02/eq/4 HShv 10k02 -1.25 2.0
 /ch/02/mix ON   0.0 OFF +0 OFF   -oo
 /ch/02/mix/01 ON   -oo +0 POST 0
 /ch/02/mix/02 ON   -oo
@@ -103,16 +103,16 @@
 /ch/03/config "Mic 3" 1 GN 3
 /ch/03/delay OFF   0.3
 /ch/03/preamp +0.0 OFF OFF 24 101
-/ch/03/gate OFF EXP4 -40.0 60.0 10  200 2050 0
+/ch/03/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/03/gate/filter OFF 3.0 990.9
-/ch/03/dyn ON COMP PEAK LOG -30.0 20 1 8.00 10 10.0  151 POST 0 100 OFF
+/ch/03/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
 /ch/03/dyn/filter OFF 3.0 990.9
 /ch/03/insert OFF POST OFF
 /ch/03/eq ON
-/ch/03/eq/1 PEQ 124.7 +0.00 2.0
+/ch/03/eq/1 PEQ 170.2 +0.00 2.0
 /ch/03/eq/2 PEQ 496.6 +0.00 2.0
-/ch/03/eq/3 PEQ 4k08 +0.00 0.6
-/ch/03/eq/4 PEQ 10k74 +0.00 2.0
+/ch/03/eq/3 PEQ 1k97 +2.00 1.0
+/ch/03/eq/4 HShv 10k02 -1.25 2.0
 /ch/03/mix ON   0.0 OFF +0 OFF   -oo
 /ch/03/mix/01 ON   -oo +0 POST 0
 /ch/03/mix/02 ON   -oo
@@ -135,16 +135,16 @@
 /ch/04/config "Mic 4" 1 GN 4
 /ch/04/delay OFF   0.3
 /ch/04/preamp +0.0 OFF OFF 24 101
-/ch/04/gate OFF EXP4 -40.0 60.0 10  200 2050 0
+/ch/04/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/04/gate/filter OFF 3.0 990.9
-/ch/04/dyn ON COMP PEAK LOG -30.0 20 1 8.00 10 10.0  151 POST 0 100 OFF
+/ch/04/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
 /ch/04/dyn/filter OFF 3.0 990.9
 /ch/04/insert OFF POST OFF
 /ch/04/eq ON
 /ch/04/eq/1 PEQ 170.2 +0.00 2.0
 /ch/04/eq/2 PEQ 496.6 +0.00 2.0
-/ch/04/eq/3 PEQ 1k97 +0.00 2.0
-/ch/04/eq/4 PEQ 11k11 +0.00 2.0
+/ch/04/eq/3 PEQ 1k97 +2.00 1.0
+/ch/04/eq/4 HShv 10k02 -1.25 2.0
 /ch/04/mix ON   0.0 OFF +0 OFF   -oo
 /ch/04/mix/01 ON   -oo +0 POST 0
 /ch/04/mix/02 ON   -oo
@@ -167,16 +167,16 @@
 /ch/05/config "Mic 5" 1 GN 5
 /ch/05/delay OFF   0.3
 /ch/05/preamp +0.0 OFF OFF 24 101
-/ch/05/gate OFF EXP4 -40.0 60.0 10  200 2050 0
+/ch/05/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/05/gate/filter OFF 3.0 990.9
-/ch/05/dyn ON COMP PEAK LOG -30.0 20 1 8.00 10 10.0  151 POST 0 100 OFF
+/ch/05/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
 /ch/05/dyn/filter OFF 3.0 990.9
 /ch/05/insert OFF POST OFF
 /ch/05/eq ON
 /ch/05/eq/1 PEQ 170.2 +0.00 2.0
 /ch/05/eq/2 PEQ 496.6 +0.00 2.0
-/ch/05/eq/3 PEQ 1k97 +0.00 2.0
-/ch/05/eq/4 PEQ 20k00 +0.00 2.0
+/ch/05/eq/3 PEQ 1k97 +2.00 1.0
+/ch/05/eq/4 HShv 10k02 -1.25 2.0
 /ch/05/mix ON   0.0 OFF +0 OFF   -oo
 /ch/05/mix/01 ON   -oo +0 POST 0
 /ch/05/mix/02 ON   -oo
@@ -199,16 +199,16 @@
 /ch/06/config "Mic 6" 1 GN 6
 /ch/06/delay OFF   0.3
 /ch/06/preamp +0.0 OFF OFF 24 101
-/ch/06/gate OFF EXP4 -40.0 60.0 10  200 2050 0
+/ch/06/gate ON EXP4 -40.5 20.0 10  200 2050 0
 /ch/06/gate/filter OFF 3.0 990.9
-/ch/06/dyn ON COMP PEAK LOG -30.0 20 1 8.00 10 10.0  151 POST 0 100 OFF
+/ch/06/dyn ON COMP PEAK LOG -30.0 4.0 1 5.00 10 10.0  151 POST 0 100 OFF
 /ch/06/dyn/filter OFF 3.0 990.9
 /ch/06/insert OFF POST OFF
 /ch/06/eq ON
 /ch/06/eq/1 PEQ 170.2 +0.00 2.0
 /ch/06/eq/2 PEQ 496.6 +0.00 2.0
-/ch/06/eq/3 PEQ 1k97 +0.00 2.0
-/ch/06/eq/4 PEQ 20k00 +0.00 2.0
+/ch/06/eq/3 PEQ 1k97 +2.00 1.0
+/ch/06/eq/4 HShv 10k02 -1.25 2.0
 /ch/06/mix ON   0.0 OFF +0 OFF   -oo
 /ch/06/mix/01 ON   -oo +0 POST 0
 /ch/06/mix/02 ON   -oo
@@ -230,7 +230,7 @@
 /ch/06/automix X  +0.0
 /ch/07/config "Remote 1" 1 CY 7
 /ch/07/delay OFF  60.0
-/ch/07/preamp +3.8 OFF ON 24 101
+/ch/07/preamp +0.0 OFF OFF 24 101
 /ch/07/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/07/gate/filter OFF 3.0 990.9
 /ch/07/dyn ON COMP PEAK LOG -23.5 2.5 1 5.00 33 10.0  151 POST 0 100 OFF
@@ -242,7 +242,7 @@
 /ch/07/eq/3 PEQ 2k69 +0.00 0.6
 /ch/07/eq/4 HCut 20k00 +0.00 2.0
 /ch/07/mix ON   0.0 OFF +0 OFF   -oo
-/ch/07/mix/01 ON  +0.8 -100 POST 0
+/ch/07/mix/01 ON   0.0 -100 POST 0
 /ch/07/mix/02 ON   -oo
 /ch/07/mix/03 ON   -oo -100 POST 0
 /ch/07/mix/04 ON   -oo
@@ -262,7 +262,7 @@
 /ch/07/automix X  +0.0
 /ch/08/config "Remote 2" 1 CY 8
 /ch/08/delay OFF  60.0
-/ch/08/preamp +3.3 OFF ON 24 101
+/ch/08/preamp +0.0 OFF OFF 24 101
 /ch/08/gate OFF GATE -77.0 60.0 10 50.2  258 0
 /ch/08/gate/filter OFF 3.0 990.9
 /ch/08/dyn ON COMP PEAK LOG -23.5 2.5 1 5.00 33 10.0  151 POST 0 100 OFF
@@ -274,7 +274,7 @@
 /ch/08/eq/3 PEQ 1k44 +0.00 2.0
 /ch/08/eq/4 HCut 20k00 +0.00 2.0
 /ch/08/mix ON   0.0 OFF +0 OFF   -oo
-/ch/08/mix/01 ON  +0.8 +100 POST 0
+/ch/08/mix/01 ON   0.0 +100 POST 0
 /ch/08/mix/02 ON   -oo
 /ch/08/mix/03 ON   -oo +100 POST 0
 /ch/08/mix/04 ON   -oo
@@ -290,11 +290,11 @@
 /ch/08/mix/14 ON   -oo
 /ch/08/mix/15 ON   -oo +100 POST 0
 /ch/08/mix/16 ON   -oo
-/ch/08/grp %00000100 %000000
+/ch/08/grp %00000010 %000000
 /ch/08/automix X  +0.0
 /ch/09/config "Remote 3" 1 CY 9
 /ch/09/delay OFF  60.0
-/ch/09/preamp +0.0 OFF ON 24 101
+/ch/09/preamp +0.0 OFF OFF 24 101
 /ch/09/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/09/gate/filter OFF 3.0 990.9
 /ch/09/dyn ON COMP PEAK LOG -23.5 2.5 1 5.00 33 10.0  151 POST 0 100 OFF
@@ -306,7 +306,7 @@
 /ch/09/eq/3 PEQ 4k52 +0.00 0.3
 /ch/09/eq/4 HCut 20k00 +0.00 2.0
 /ch/09/mix ON   0.0 OFF +0 OFF   -oo
-/ch/09/mix/01 ON  +0.5 -100 POST 0
+/ch/09/mix/01 ON   0.0 -100 POST 0
 /ch/09/mix/02 ON   -oo
 /ch/09/mix/03 ON   -oo -100 POST 0
 /ch/09/mix/04 ON   -oo
@@ -322,11 +322,11 @@
 /ch/09/mix/14 ON   -oo
 /ch/09/mix/15 ON   -oo -100 POST 0
 /ch/09/mix/16 ON   -oo
-/ch/09/grp %00001000 %000000
+/ch/09/grp %00000010 %000000
 /ch/09/automix OFF  +0.0
 /ch/10/config "Remote 4" 1 CY 10
 /ch/10/delay OFF  60.0
-/ch/10/preamp +0.0 OFF ON 24 101
+/ch/10/preamp +0.0 OFF OFF 24 101
 /ch/10/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/10/gate/filter OFF 3.0 990.9
 /ch/10/dyn ON COMP PEAK LOG -23.5 2.5 1 5.00 33 10.0  151 POST 0 100 OFF
@@ -338,7 +338,7 @@
 /ch/10/eq/3 PEQ 1k97 +0.00 2.0
 /ch/10/eq/4 HCut 20k00 +0.00 2.0
 /ch/10/mix ON   0.0 OFF +100 OFF   -oo
-/ch/10/mix/01 ON  +0.5 +100 POST 0
+/ch/10/mix/01 ON   0.0 +100 POST 0
 /ch/10/mix/02 ON   -oo
 /ch/10/mix/03 ON   -oo +100 POST 0
 /ch/10/mix/04 ON   -oo
@@ -354,14 +354,14 @@
 /ch/10/mix/14 ON   -oo
 /ch/10/mix/15 ON   -oo +100 POST 0
 /ch/10/mix/16 ON   -oo
-/ch/10/grp %00010000 %000000
+/ch/10/grp %00000010 %000000
 /ch/10/automix OFF  +0.0
 /ch/11/config "Playout L" 1 MG 11
 /ch/11/delay ON 130.0
-/ch/11/preamp +1.0 OFF OFF 24 121
+/ch/11/preamp -2.0 OFF OFF 24 121
 /ch/11/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/11/gate/filter OFF 3.0 990.9
-/ch/11/dyn ON COMP PEAK LOG -23.5 5.0 1 2.00 33 10.0  151 POST 0 100 OFF
+/ch/11/dyn ON COMP PEAK LOG -23.5 3.0 1 2.00 33 10.0  151 POST 0 100 OFF
 /ch/11/dyn/filter OFF 3.0 990.9
 /ch/11/insert OFF POST OFF
 /ch/11/eq ON
@@ -369,13 +369,13 @@
 /ch/11/eq/2 PEQ 496.6 +0.00 2.0
 /ch/11/eq/3 PEQ 8k43 +0.00 0.7
 /ch/11/eq/4 HShv 16k82 +0.00 2.0
-/ch/11/mix ON  -5.0 ON -100 OFF   -oo
+/ch/11/mix ON  -3.0 ON -100 OFF   -oo
 /ch/11/mix/01 ON   -oo -100 POST 0
-/ch/11/mix/02 ON  +0.3
+/ch/11/mix/02 ON   0.0
 /ch/11/mix/03 ON   -oo -100 POST 0
 /ch/11/mix/04 ON   -oo
 /ch/11/mix/05 ON   -oo -100 POST 0
-/ch/11/mix/06 OFF   -oo
+/ch/11/mix/06 ON   -oo
 /ch/11/mix/07 ON   -oo -100 POST 0
 /ch/11/mix/08 ON  -4.3
 /ch/11/mix/09 ON   0.0 -100 POST 0
@@ -386,14 +386,14 @@
 /ch/11/mix/14 ON   -oo
 /ch/11/mix/15 ON   -oo -100 POST 0
 /ch/11/mix/16 ON   -oo
-/ch/11/grp %00100000 %000000
+/ch/11/grp %00000100 %000000
 /ch/11/automix OFF  +0.0
 /ch/12/config "Playout R" 1 MG 12
 /ch/12/delay ON 130.0
-/ch/12/preamp +1.0 OFF OFF 24 121
+/ch/12/preamp -2.0 OFF OFF 24 121
 /ch/12/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/12/gate/filter OFF 3.0 990.9
-/ch/12/dyn ON COMP PEAK LOG -23.5 5.0 1 2.00 33 10.0  151 POST 0 100 OFF
+/ch/12/dyn ON COMP PEAK LOG -23.5 3.0 1 2.00 33 10.0  151 POST 0 100 OFF
 /ch/12/dyn/filter OFF 3.0 990.9
 /ch/12/insert OFF POST OFF
 /ch/12/eq ON
@@ -401,13 +401,13 @@
 /ch/12/eq/2 PEQ 496.6 +0.00 2.0
 /ch/12/eq/3 PEQ 8k43 +0.00 0.7
 /ch/12/eq/4 HShv 16k82 +0.00 2.0
-/ch/12/mix ON  -5.0 ON +100 OFF   -oo
+/ch/12/mix ON  -3.0 ON +100 OFF   -oo
 /ch/12/mix/01 ON   -oo +100 POST 0
-/ch/12/mix/02 ON  +0.3
+/ch/12/mix/02 ON   0.0
 /ch/12/mix/03 ON   -oo +100 POST 0
 /ch/12/mix/04 ON   -oo
 /ch/12/mix/05 ON   -oo +100 POST 0
-/ch/12/mix/06 OFF   -oo
+/ch/12/mix/06 ON   -oo
 /ch/12/mix/07 ON   -oo +100 POST 0
 /ch/12/mix/08 ON  -4.3
 /ch/12/mix/09 ON   0.0 +100 POST 0
@@ -418,7 +418,7 @@
 /ch/12/mix/14 ON   -oo
 /ch/12/mix/15 ON   -oo +100 POST 0
 /ch/12/mix/16 ON   -oo
-/ch/12/grp %00100000 %000000
+/ch/12/grp %00000100 %000000
 /ch/12/automix OFF  +0.0
 /ch/13/config "PPT L" 1 BL 13
 /ch/13/delay ON  60.0
@@ -433,7 +433,7 @@
 /ch/13/eq/2 PEQ 496.6 +0.00 2.0
 /ch/13/eq/3 PEQ 1k97 +0.00 2.0
 /ch/13/eq/4 HShv 10k02 +0.00 2.0
-/ch/13/mix ON  -5.0 ON -100 OFF   -oo
+/ch/13/mix ON  -3.0 ON -100 OFF   -oo
 /ch/13/mix/01 ON   -oo -100 POST 0
 /ch/13/mix/02 ON   0.0
 /ch/13/mix/03 ON   -oo -100 POST 0
@@ -450,7 +450,7 @@
 /ch/13/mix/14 ON   -oo
 /ch/13/mix/15 ON   -oo -100 POST 0
 /ch/13/mix/16 ON   -oo
-/ch/13/grp %01000000 %000000
+/ch/13/grp %00001000 %000000
 /ch/13/automix OFF  +0.0
 /ch/14/config "PPT R" 1 BL 14
 /ch/14/delay ON  60.0
@@ -465,7 +465,7 @@
 /ch/14/eq/2 PEQ 496.6 +0.00 2.0
 /ch/14/eq/3 PEQ 1k97 +0.00 2.0
 /ch/14/eq/4 HShv 10k02 +0.00 2.0
-/ch/14/mix ON  -5.0 ON +100 OFF   -oo
+/ch/14/mix ON  -3.0 ON +100 OFF   -oo
 /ch/14/mix/01 ON   -oo +100 POST 0
 /ch/14/mix/02 ON   0.0
 /ch/14/mix/03 ON   -oo +100 POST 0
@@ -482,7 +482,7 @@
 /ch/14/mix/14 ON   -oo
 /ch/14/mix/15 ON   -oo +100 POST 0
 /ch/14/mix/16 ON   -oo
-/ch/14/grp %01000000 %000000
+/ch/14/grp %00001000 %000000
 /ch/14/automix OFF  +0.0
 /ch/15/config "Jingle L" 1 RD 15
 /ch/15/delay OFF   0.3
@@ -499,7 +499,7 @@
 /ch/15/eq/4 HShv 10k02 +0.00 2.0
 /ch/15/mix ON  -3.0 ON -100 OFF   -oo
 /ch/15/mix/01 ON   -oo -100 POST 0
-/ch/15/mix/02 ON  +0.3
+/ch/15/mix/02 ON   0.0
 /ch/15/mix/03 ON   -oo -100 POST 0
 /ch/15/mix/04 ON   -oo
 /ch/15/mix/05 ON   -oo -100 POST 0
@@ -514,7 +514,7 @@
 /ch/15/mix/14 ON   -oo
 /ch/15/mix/15 ON   -oo -100 POST 0
 /ch/15/mix/16 ON   -oo
-/ch/15/grp %10000000 %000000
+/ch/15/grp %00010000 %000000
 /ch/15/automix OFF  +0.0
 /ch/16/config "Jingle R" 1 RD 16
 /ch/16/delay OFF   0.3
@@ -531,7 +531,7 @@
 /ch/16/eq/4 HShv 10k02 +0.00 2.0
 /ch/16/mix ON  -3.0 ON +100 OFF   -oo
 /ch/16/mix/01 ON   -oo +100 POST 0
-/ch/16/mix/02 ON  +0.3
+/ch/16/mix/02 ON   0.0
 /ch/16/mix/03 ON   -oo +100 POST 0
 /ch/16/mix/04 ON   -oo
 /ch/16/mix/05 ON   -oo +100 POST 0
@@ -546,7 +546,7 @@
 /ch/16/mix/14 ON   -oo
 /ch/16/mix/15 ON   -oo +100 POST 0
 /ch/16/mix/16 ON   -oo
-/ch/16/grp %10000000 %000000
+/ch/16/grp %00010000 %000000
 /ch/16/automix OFF  +0.0
 /ch/17/config "Music L" 1 RDi 17
 /ch/17/delay OFF   0.3
@@ -561,7 +561,7 @@
 /ch/17/eq/2 PEQ 496.6 +0.00 2.0
 /ch/17/eq/3 PEQ 1k97 +0.00 2.0
 /ch/17/eq/4 HShv 3k43 +0.25 2.0
-/ch/17/mix ON  -5.0 OFF -100 OFF   -oo
+/ch/17/mix ON  -3.0 OFF -100 OFF   -oo
 /ch/17/mix/01 ON   -oo -100 POST 0
 /ch/17/mix/02 ON   0.0
 /ch/17/mix/03 ON   -oo -100 POST 0
@@ -593,7 +593,7 @@
 /ch/18/eq/2 PEQ 496.6 +0.00 2.0
 /ch/18/eq/3 PEQ 1k97 +0.00 2.0
 /ch/18/eq/4 HShv 3k43 +0.25 2.0
-/ch/18/mix ON  -5.0 OFF +100 OFF   -oo
+/ch/18/mix ON  -3.0 OFF +100 OFF   -oo
 /ch/18/mix/01 ON   -oo +100 POST 0
 /ch/18/mix/02 ON   0.0
 /ch/18/mix/03 ON   -oo +100 POST 0
@@ -627,7 +627,7 @@
 /ch/19/eq/4 HShv 10k02 +0.00 2.0
 /ch/19/mix ON   -oo ON +0 OFF   -oo
 /ch/19/mix/01 ON   -oo +0 POST 0
-/ch/19/mix/02 ON  -0.3
+/ch/19/mix/02 ON   0.0
 /ch/19/mix/03 ON   -oo +0 EQ-> 0
 /ch/19/mix/04 ON   -oo
 /ch/19/mix/05 ON   -oo +0 EQ-> 0
@@ -659,7 +659,7 @@
 /ch/20/eq/4 HShv 10k02 +0.00 2.0
 /ch/20/mix ON   -oo ON +0 OFF   -oo
 /ch/20/mix/01 ON   -oo +0 POST 0
-/ch/20/mix/02 ON  -0.3
+/ch/20/mix/02 ON   0.0
 /ch/20/mix/03 ON   -oo +0 EQ-> 0
 /ch/20/mix/04 ON   -oo
 /ch/20/mix/05 ON   -oo +0 EQ-> 0
@@ -691,7 +691,7 @@
 /ch/21/eq/4 HShv 10k02 +0.00 2.0
 /ch/21/mix ON   -oo ON +0 OFF   -oo
 /ch/21/mix/01 ON   -oo +0 POST 0
-/ch/21/mix/02 ON  -0.3
+/ch/21/mix/02 ON   0.0
 /ch/21/mix/03 ON   -oo +0 EQ-> 0
 /ch/21/mix/04 ON   -oo
 /ch/21/mix/05 ON   -oo +0 EQ-> 0
@@ -723,7 +723,7 @@
 /ch/22/eq/4 HShv 10k02 +0.00 2.0
 /ch/22/mix ON   -oo ON +0 OFF   -oo
 /ch/22/mix/01 ON   -oo +0 POST 0
-/ch/22/mix/02 ON  -0.3
+/ch/22/mix/02 ON   0.0
 /ch/22/mix/03 ON   -oo +0 EQ-> 0
 /ch/22/mix/04 ON   -oo
 /ch/22/mix/05 ON   -oo +0 EQ-> 0
@@ -755,7 +755,7 @@
 /ch/23/eq/4 HShv 10k02 +0.00 2.0
 /ch/23/mix ON   -oo ON +0 OFF   -oo
 /ch/23/mix/01 ON   -oo +0 POST 0
-/ch/23/mix/02 ON  -0.3
+/ch/23/mix/02 ON   0.0
 /ch/23/mix/03 ON   -oo +0 EQ-> 0
 /ch/23/mix/04 ON   -oo
 /ch/23/mix/05 ON   -oo +0 EQ-> 0
@@ -787,7 +787,7 @@
 /ch/24/eq/4 HShv 10k02 +0.00 2.0
 /ch/24/mix ON   -oo ON +0 OFF   -oo
 /ch/24/mix/01 ON   -oo +0 POST 0
-/ch/24/mix/02 ON  -0.3
+/ch/24/mix/02 ON   0.0
 /ch/24/mix/03 ON   -oo +0 EQ-> 0
 /ch/24/mix/04 ON   -oo
 /ch/24/mix/05 ON   -oo +0 EQ-> 0
@@ -804,7 +804,7 @@
 /ch/24/mix/16 ON   -oo
 /ch/24/grp %00000000 %000000
 /ch/24/automix OFF  +0.0
-/ch/25/config "HS PP5" 1 WH 25
+/ch/25/config "Intercom" 1 WH 25
 /ch/25/delay OFF   0.3
 /ch/25/preamp +0.0 OFF OFF 24  20
 /ch/25/gate OFF GATE -80.0 60.0 10 50.2  258 0
@@ -881,9 +881,9 @@
 /ch/27/eq/2 PEQ 496.6 +0.00 2.0
 /ch/27/eq/3 PEQ 1k97 +0.00 2.0
 /ch/27/eq/4 HShv 10k02 +0.00 2.0
-/ch/27/mix ON  +0.1 ON +0 OFF   -oo
+/ch/27/mix ON   0.0 ON +0 OFF   -oo
 /ch/27/mix/01 ON   -oo +0 POST 0
-/ch/27/mix/02 ON  -0.3
+/ch/27/mix/02 ON   0.0
 /ch/27/mix/03 ON   -oo +0 EQ-> 0
 /ch/27/mix/04 ON   -oo
 /ch/27/mix/05 ON   -oo +0 EQ-> 0
@@ -901,7 +901,7 @@
 /ch/27/grp %00000000 %000000
 /ch/27/automix OFF  +0.0
 /ch/28/config "Mic's delay" 1 GN 51
-/ch/28/delay ON 130.0
+/ch/28/delay ON  60.0
 /ch/28/preamp +0.0 OFF OFF 24  20
 /ch/28/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/28/gate/filter OFF 3.0 990.9
@@ -915,7 +915,7 @@
 /ch/28/eq/4 HShv 10k02 +0.00 2.0
 /ch/28/mix ON   0.0 ON +0 OFF   -oo
 /ch/28/mix/01 ON   -oo +0 POST 0
-/ch/28/mix/02 ON  -0.5
+/ch/28/mix/02 ON   0.0
 /ch/28/mix/03 ON   -oo +0 EQ-> 0
 /ch/28/mix/04 ON   -oo
 /ch/28/mix/05 ON   -oo +0 EQ-> 0
@@ -1041,7 +1041,7 @@
 /ch/32/eq/2 PEQ 496.6 +0.00 2.0
 /ch/32/eq/3 PEQ 1k97 +0.00 2.0
 /ch/32/eq/4 HShv 10k02 +0.00 2.0
-/ch/32/mix ON  -0.3 OFF +0 OFF   -oo
+/ch/32/mix ON   0.0 OFF +0 OFF   -oo
 /ch/32/mix/01 ON   -oo +0 POST 0
 /ch/32/mix/02 ON   -oo
 /ch/32/mix/03 ON   -oo +0 EQ-> 0
@@ -1463,7 +1463,7 @@
 /bus/01/eq/4 PEQ 1k97 +0.00 7.4
 /bus/01/eq/5 PEQ 5k02 +0.00 2.0
 /bus/01/eq/6 HShv 10k02 +0.00 2.0
-/bus/01/mix ON  +0.4 OFF +0 OFF   -oo
+/bus/01/mix ON   0.0 OFF +0 OFF   -oo
 /bus/01/mix/01 ON   -oo +0 POST 0
 /bus/01/mix/02 ON   -oo
 /bus/01/mix/03 ON   -oo +0 POST 0
@@ -1471,7 +1471,7 @@
 /bus/01/mix/05 ON   -oo +0 POST 0
 /bus/01/mix/06 ON   -oo
 /bus/01/grp %00000000 %000000
-/bus/02/config "Regie Mon" 71 MG
+/bus/02/config "Regie Mon" 71 YE
 /bus/02/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /bus/02/dyn/filter OFF 3.0 990.9
 /bus/02/insert OFF PRE OFF
@@ -1482,7 +1482,7 @@
 /bus/02/eq/4 PEQ 1k97 +0.00 2.0
 /bus/02/eq/5 PEQ 5k02 +0.00 2.0
 /bus/02/eq/6 HShv 10k02 +0.00 2.0
-/bus/02/mix ON  +0.5 OFF +0 OFF   -oo
+/bus/02/mix ON   0.0 OFF +0 OFF   -oo
 /bus/02/mix/01 ON   -oo +0 POST 0
 /bus/02/mix/02 ON   -oo
 /bus/02/mix/03 ON   -oo +0 POST 0
@@ -1501,7 +1501,7 @@
 /bus/03/eq/4 PEQ 1k97 +0.00 2.0
 /bus/03/eq/5 PEQ 5k02 +0.00 2.0
 /bus/03/eq/6 HShv 10k02 +0.00 2.0
-/bus/03/mix ON  +0.5 OFF +0 OFF   -oo
+/bus/03/mix ON   0.0 OFF +0 OFF   -oo
 /bus/03/mix/01 ON   -oo -100 POST 0
 /bus/03/mix/02 ON   -oo
 /bus/03/mix/03 ON   -oo -100 POST 0
@@ -1520,7 +1520,7 @@
 /bus/04/eq/4 PEQ 1k97 +0.00 2.0
 /bus/04/eq/5 PEQ 5k02 +0.00 2.0
 /bus/04/eq/6 HShv 10k02 +0.00 2.0
-/bus/04/mix ON  +0.2 OFF +0 OFF   -oo
+/bus/04/mix ON   0.0 OFF +0 OFF   -oo
 /bus/04/mix/01 OFF   0.0 +100 POST 0
 /bus/04/mix/02 OFF   0.0
 /bus/04/mix/03 OFF   0.0 +100 POST 0
@@ -1539,7 +1539,7 @@
 /bus/05/eq/4 PEQ 1k97 +0.00 2.0
 /bus/05/eq/5 PEQ 5k02 +0.00 2.0
 /bus/05/eq/6 HShv 10k02 +0.00 2.0
-/bus/05/mix ON  +0.2 OFF +0 OFF   -oo
+/bus/05/mix ON   0.0 OFF +0 OFF   -oo
 /bus/05/mix/01 ON   -oo -100 POST 0
 /bus/05/mix/02 ON   -oo
 /bus/05/mix/03 ON   -oo -100 POST 0
@@ -1558,7 +1558,7 @@
 /bus/06/eq/4 PEQ 1k97 +0.00 2.0
 /bus/06/eq/5 PEQ 5k02 +0.00 2.0
 /bus/06/eq/6 HShv 10k02 +0.00 2.0
-/bus/06/mix ON  +0.3 OFF +0 OFF   -oo
+/bus/06/mix ON   0.0 OFF +0 OFF   -oo
 /bus/06/mix/01 ON   -oo +100 POST 0
 /bus/06/mix/02 ON   -oo
 /bus/06/mix/03 ON   -oo +100 POST 0
@@ -1577,7 +1577,7 @@
 /bus/07/eq/4 PEQ 1k97 +0.00 2.0
 /bus/07/eq/5 PEQ 5k02 +0.00 2.0
 /bus/07/eq/6 HShv 10k02 +0.00 2.0
-/bus/07/mix ON  +0.2 OFF +0 OFF   -oo
+/bus/07/mix ON   0.0 OFF +0 OFF   -oo
 /bus/07/mix/01 OFF  +0.3 +0 POST 0
 /bus/07/mix/02 OFF  +0.3
 /bus/07/mix/03 OFF  +0.3 +0 POST 0
@@ -1596,7 +1596,7 @@
 /bus/08/eq/4 PEQ 1k97 +0.00 2.0
 /bus/08/eq/5 PEQ 5k02 +0.00 2.0
 /bus/08/eq/6 HShv 10k02 +0.00 2.0
-/bus/08/mix ON  +0.3 OFF +0 OFF   -oo
+/bus/08/mix ON   0.0 OFF +0 OFF   -oo
 /bus/08/mix/01 ON   0.0 +0 POST 0
 /bus/08/mix/02 ON   -oo
 /bus/08/mix/03 ON   -oo +0 POST 0
@@ -1615,7 +1615,7 @@
 /bus/09/eq/4 PEQ 1k97 +0.00 2.0
 /bus/09/eq/5 PEQ 5k02 +0.00 2.0
 /bus/09/eq/6 HShv 10k02 +0.00 2.0
-/bus/09/mix ON  -0.5 OFF +0 OFF   -oo
+/bus/09/mix ON   0.0 OFF +0 OFF   -oo
 /bus/09/mix/01 ON   -oo -100 POST 0
 /bus/09/mix/02 ON   0.0
 /bus/09/mix/03 ON   -oo -100 POST 0
@@ -1653,7 +1653,7 @@
 /bus/11/eq/4 PEQ 1k97 +0.00 2.0
 /bus/11/eq/5 PEQ 5k02 +0.00 2.0
 /bus/11/eq/6 HShv 10k02 +0.00 2.0
-/bus/11/mix ON  -0.6 OFF +0 OFF   -oo
+/bus/11/mix ON   0.0 OFF +0 OFF   -oo
 /bus/11/mix/01 ON   -oo -100 POST 0
 /bus/11/mix/02 ON   -oo
 /bus/11/mix/03 ON   -oo -100 POST 0
@@ -1756,7 +1756,7 @@
 /bus/16/mix/05 ON   -oo +0 POST 0
 /bus/16/mix/06 ON   -oo
 /bus/16/grp %00000000 %000000
-/mtx/01/config "IFB Stage" 72 MG
+/mtx/01/config "IFB Stage" 72 GN
 /mtx/01/preamp OFF
 /mtx/01/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/01/dyn/filter OFF 3.0 990.9
@@ -1768,9 +1768,9 @@
 /mtx/01/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/01/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/01/eq/6 HShv 10k02 +0.00 2.0
-/mtx/01/mix ON -25.0
-/mtx/01/grp %00000000 %000000
-/mtx/02/config "IFB Remote 1" 72 MG
+/mtx/01/mix ON   0.0
+/mtx/01/grp %01000000 %000000
+/mtx/02/config "IFB Remote 1" 72 CY
 /mtx/02/preamp OFF
 /mtx/02/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/02/dyn/filter OFF 3.0 990.9
@@ -1782,9 +1782,9 @@
 /mtx/02/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/02/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/02/eq/6 HShv 10k02 +0.00 2.0
-/mtx/02/mix ON  +0.2
+/mtx/02/mix ON   0.0
 /mtx/02/grp %00000000 %000000
-/mtx/03/config "IFB Remote 2" 72 MG
+/mtx/03/config "IFB Remote 2" 72 CY
 /mtx/03/preamp OFF
 /mtx/03/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/03/dyn/filter OFF 3.0 990.9
@@ -1796,9 +1796,9 @@
 /mtx/03/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/03/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/03/eq/6 HShv 10k02 +0.00 2.0
-/mtx/03/mix ON  -0.2
+/mtx/03/mix ON   0.0
 /mtx/03/grp %00000000 %000000
-/mtx/04/config "IFB Remote 3" 72 MG
+/mtx/04/config "IFB Remote 3" 72 CY
 /mtx/04/preamp OFF
 /mtx/04/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/04/dyn/filter OFF 3.0 990.9
@@ -1810,9 +1810,9 @@
 /mtx/04/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/04/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/04/eq/6 HShv 10k02 +0.00 2.0
-/mtx/04/mix ON  -0.2
+/mtx/04/mix ON   0.0
 /mtx/04/grp %00000000 %000000
-/mtx/05/config "IFB Remote 4" 72 MG
+/mtx/05/config "IFB Remote 4" 72 CY
 /mtx/05/preamp OFF
 /mtx/05/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/05/dyn/filter OFF 3.0 990.9
@@ -1826,7 +1826,7 @@
 /mtx/05/eq/6 HShv 10k02 +0.00 2.0
 /mtx/05/mix ON   0.0
 /mtx/05/grp %00000000 %000000
-/mtx/06/config "Regie" 72 MG
+/mtx/06/config "Regie" 72 YE
 /mtx/06/preamp OFF
 /mtx/06/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/06/dyn/filter OFF 3.0 990.9
@@ -1838,8 +1838,8 @@
 /mtx/06/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/06/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/06/eq/6 HShv 10k02 +0.00 2.0
-/mtx/06/mix ON -30.0
-/mtx/06/grp %00000000 %000000
+/mtx/06/mix ON   0.0
+/mtx/06/grp %10000000 %000000
 /main/st/config "" 66 WH
 /main/st/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /main/st/dyn/filter OFF 3.0 990.9
@@ -1851,7 +1851,7 @@
 /main/st/eq/4 PEQ 1k97 +0.00 2.0
 /main/st/eq/5 PEQ 5k02 +0.00 2.0
 /main/st/eq/6 HShv 10k02 +0.00 2.0
-/main/st/mix ON   0.0 +0
+/main/st/mix ON   -oo +0
 /main/st/mix/01 ON   -oo +0 POST 0
 /main/st/mix/02 ON   -oo
 /main/st/mix/03 ON   -oo +0 POST 0
@@ -1878,22 +1878,22 @@
 /main/m/mix/05 ON   -oo +0 POST 0
 /main/m/mix/06 ON   -oo
 /main/m/grp %00000000 %000000
-/dca/1 ON  +0.2
+/dca/1 ON   -oo
 /dca/1/config "Mics" 70 GN
 /dca/2 ON   -oo
-/dca/2/config "Remote 1" 70 CY
+/dca/2/config "Remotes" 70 CY
 /dca/3 ON   -oo
-/dca/3/config "Remote 2" 70 CY
+/dca/3/config "Playout" 70 MG
 /dca/4 ON   -oo
-/dca/4/config "Remote 3" 70 CY
+/dca/4/config "PPT" 70 BL
 /dca/5 ON   -oo
-/dca/5/config "Remote 4" 70 CY
-/dca/6 ON  -0.2
-/dca/6/config "Playouts" 70 MG
-/dca/7 ON  +0.3
-/dca/7/config "PPT" 70 BL
-/dca/8 ON   -oo
-/dca/8/config "Jingles" 70 RD
+/dca/5/config "Jingle" 70 RD
+/dca/6 ON   -oo
+/dca/6/config "" 70 WHi
+/dca/7 ON -30.0
+/dca/7/config "Stage" 70 GN
+/dca/8 ON -30.0
+/dca/8/config "Regie" 70 YE
 /fx/1 VRM
 /fx/1/source INS INS
 /fx/1/par 20 1.94 24 30 22 0.0 1.10 0.69 97 10k4 28 34 OFF 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -1996,7 +1996,7 @@
 /headamp/005 +5.0 OFF
 /headamp/006 +0.0 OFF
 /headamp/007 +0.0 OFF
-/headamp/008 +60.0 OFF
+/headamp/008 +0.0 OFF
 /headamp/009 +0.5 OFF
 /headamp/010 +0.0 OFF
 /headamp/011 +0.0 OFF

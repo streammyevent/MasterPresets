@@ -127,9 +127,9 @@ Not yet started.
 
 ### Studio
 
-## To-Do:
+#### To-Do:
 X32 compact:
-- EQ minder aggresief
+- EQ minder aggresief (toegepast in v2.0)
 - MTX 1&6 op DCA faders
 
 x32 Rack:
