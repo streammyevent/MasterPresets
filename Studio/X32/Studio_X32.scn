@@ -34,7 +34,7 @@
 /config/amixenable ON ON
 /config/dp48 %0000 0 AESA
 /config/dp48/assign 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/dp48/link 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0
+/config/dp48/link 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "Mic 1" 1 GN 1
 /ch/01/delay OFF   0.3
@@ -1886,13 +1886,13 @@
 /dca/3/config "Playout" 70 MG
 /dca/4 ON   -oo
 /dca/4/config "PPT" 70 BL
-/dca/5 ON   -oo
+/dca/5 ON -32.6
 /dca/5/config "Jingle" 70 RD
 /dca/6 ON   -oo
 /dca/6/config "" 70 WHi
 /dca/7 ON -30.0
 /dca/7/config "Stage" 70 GN
-/dca/8 ON -30.0
+/dca/8 ON -32.6
 /dca/8/config "Regie" 70 YE
 /fx/1 VRM
 /fx/1/source INS INS

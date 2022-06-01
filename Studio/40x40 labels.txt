@@ -64,10 +64,10 @@ Output, 23, CX Remote 1
 Output, 24, CX Remote 2
 Output, 25, CX Remote 3
 Output, 26, CX Remote 4
-Output, 27, CX Key 1
-Output, 28, CX Fill 1
-Output, 29, CX Key 2
-Output, 30, CX Fill 2
+Output, 27, 
+Output, 28, 
+Output, 29, Playout Fill
+Output, 30, Playout Key
 Output, 31, CX PPT
 Output, 32, CX PPT Notes
 Output, 33, CX Flex 1
