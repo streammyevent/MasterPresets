@@ -3,7 +3,7 @@ Input, 2, CX Monitor 2
 Input, 3, CX Monitor 3
 Input, 4, CX Monitor 4
 Input, 5, CX Monitor 5
-Input, 6, clock-8001
+Input, 6, Stagetimer.io
 Input, 7, ISS Above
 Input, 8, Apple TV
 Input, 9, PP5 Flex 1
