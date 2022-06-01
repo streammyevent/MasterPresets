@@ -411,7 +411,7 @@
                     <Window index="6" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="7" input="15" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="8" input="23" vuMeterEnabled="False" safeAreaEnabled="True"/>
-                    <Window index="9" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="9" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="10" input="6000" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="11" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="8001" vuMeterEnabled="True" safeAreaEnabled="False"/>
