@@ -2,7 +2,7 @@
 <Profile majorVersion="1" minorVersion="5" product="ATEM Constellation 8K (4K Mode)">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
-            <Program input="25"/>
+            <Program input="1"/>
             <Preview input="1"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
@@ -176,7 +176,7 @@
     </MixEffectBlocks>
     <DownstreamKeys>
         <DownstreamKey index="0" fillSource="23" keySource="22" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
-        <DownstreamKey index="1" fillSource="24" keySource="25" rate="20" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
+        <DownstreamKey index="1" fillSource="24" keySource="25" rate="20" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="True" tie="False"/>
         <DownstreamKey index="2" fillSource="3030" keySource="3031" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
         <DownstreamKey index="3" fillSource="3040" keySource="3041" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
     </DownstreamKeys>
