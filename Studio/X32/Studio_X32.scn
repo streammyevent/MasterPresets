@@ -9,7 +9,7 @@
 /config/mono LR+M OFF
 /config/solo   0.0 LRAFL 0.5 PFL PFL PFL OFF OFF OFF -20 OFF OFF OFF   0.3 OFF OFF OFF
 /config/talk ON EXT
-/config/talk/A -12.0 OFF OFF %000000000000000000
+/config/talk/A +10.0 OFF OFF %000000000010000000
 /config/talk/B -12.0 OFF ON %000000000000000000
 /config/osc -20.0 1k00 1k00 F1 SINE 18
 /config/userrout/out 33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
