@@ -806,8 +806,8 @@
 /ch/24/automix OFF  +0.0
 /ch/25/config "Intercom" 1 WH 25
 /ch/25/delay OFF   0.3
-/ch/25/preamp +0.0 OFF OFF 24  20
-/ch/25/gate OFF GATE -80.0 60.0 10 50.2  258 0
+/ch/25/preamp +7.5 OFF OFF 24  20
+/ch/25/gate ON EXP4 -50.0 60.0 100 1.00   5 0
 /ch/25/gate/filter OFF 3.0 990.9
 /ch/25/dyn OFF COMP PEAK LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
 /ch/25/dyn/filter OFF 3.0 990.9
@@ -817,7 +817,7 @@
 /ch/25/eq/2 PEQ 496.6 +0.00 2.0
 /ch/25/eq/3 PEQ 1k97 +0.00 2.0
 /ch/25/eq/4 HShv 10k02 +0.00 2.0
-/ch/25/mix ON   -oo OFF +0 OFF   -oo
+/ch/25/mix ON   0.0 OFF +0 OFF   -oo
 /ch/25/mix/01 ON   -oo +0 POST 0
 /ch/25/mix/02 ON   -oo
 /ch/25/mix/03 ON   -oo +0 EQ-> 0
@@ -1946,7 +1946,7 @@
 /outputs/main/15/delay OFF   0.3
 /outputs/main/16 2 POST OFF
 /outputs/main/16/delay OFF   0.3
-/outputs/aux/01 0 POST OFF
+/outputs/aux/01 50 POST OFF
 /outputs/aux/02 0 POST OFF
 /outputs/aux/03 0 POST OFF
 /outputs/aux/04 0 POST OFF
