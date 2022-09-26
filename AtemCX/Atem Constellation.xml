@@ -45,8 +45,8 @@
             <FadeToBlack rate="25" isFullyBlack="False"/>
         </MixEffectBlock>
         <MixEffectBlock index="1">
-            <Program input="9"/>
-            <Preview input="4"/>
+            <Program input="1"/>
+            <Preview input="2"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Stinger" nextStyle="Stinger" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -88,8 +88,8 @@
             <FadeToBlack rate="25" isFullyBlack="False"/>
         </MixEffectBlock>
         <MixEffectBlock index="2">
-            <Program input="2"/>
-            <Preview input="7"/>
+            <Program input="1"/>
+            <Preview input="2"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -131,8 +131,8 @@
             <FadeToBlack rate="25" isFullyBlack="False"/>
         </MixEffectBlock>
         <MixEffectBlock index="3">
-            <Program input="10"/>
-            <Preview input="10"/>
+            <Program input="1"/>
+            <Preview input="2"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Stinger" nextStyle="Stinger" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -720,7 +720,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="11">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="-0.2" mixOption="Off">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0.0" mixOption="Off">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -2468,16 +2468,6 @@
         <Property device="40" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
-        <Macro index="0" name="To Slow Mo" description="">
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera5"/>
-            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Stinger"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MediaPlayerGoToBeginning" mediaPlayer="3"/>
-        </Macro>
-        <Macro index="1" name="From Slow-mo" description="">
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MediaPlayerGoToBeginning" mediaPlayer="3"/>
-        </Macro>
     </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
