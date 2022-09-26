@@ -1882,18 +1882,18 @@
         </AudioHeadphoneOutputs>
     </FairlightAudioMixer>
     <MediaPlayers>
-        <MediaPlayer index="0" sourceType="Still" sourceIndex="6"/>
-        <MediaPlayer index="1" sourceType="Still" sourceIndex="4"/>
-        <MediaPlayer index="2" sourceType="Still" sourceIndex="2"/>
-        <MediaPlayer index="3" sourceType="Clip" sourceIndex="1" playing="False" loop="False" atBeginning="True" clipFrame="0"/>
+        <MediaPlayer index="0" sourceType="Still" sourceIndex="3"/>
+        <MediaPlayer index="1" sourceType="Still" sourceIndex="0"/>
+        <MediaPlayer index="2" sourceType="Still" sourceIndex="1"/>
+        <MediaPlayer index="3" sourceType="Still" sourceIndex="2"/>
     </MediaPlayers>
     <SuperSources superSourceCascade="False">
-        <SuperSource index="0" artFillInput="3020" artKeyInput="3021" artOption="Background" artPreMultiplied="False" artClip="50" artGain="70" artInvertKey="False" borderEnabled="True" borderBevel="None" borderHue="73.6" borderSaturation="0" borderLuma="100" borderWidthOut="0.5" borderWidthIn="0.5" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
+        <SuperSource index="0" artFillInput="3040" artKeyInput="3041" artOption="Background" artPreMultiplied="False" artClip="50" artGain="70" artInvertKey="False" borderEnabled="True" borderBevel="None" borderHue="73.6" borderSaturation="0" borderLuma="100" borderWidthOut="0.05" borderWidthIn="0" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
             <Boxes>
-                <Box index="0" enabled="True" inputSource="1" xPosition="10.6" yPosition="-3" size="0.3" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
-                <Box index="1" enabled="True" inputSource="3" xPosition="-2.5" yPosition="1" size="0.8" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
-                <Box index="2" enabled="False" inputSource="0" xPosition="0" yPosition="0" size="1" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
-                <Box index="3" enabled="False" inputSource="0" xPosition="0" yPosition="0" size="1" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="0" enabled="True" inputSource="3" xPosition="10.5" yPosition="-5.6" size="0.3" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="1" enabled="True" inputSource="26" xPosition="-2.5" yPosition="1" size="0.8" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="2" enabled="False" inputSource="3" xPosition="-7.9" yPosition="0" size="0.48" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="3" enabled="False" inputSource="16" xPosition="7.9" yPosition="0" size="0.48" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
             </Boxes>
         </SuperSource>
         <SuperSource index="1" artFillInput="3030" artKeyInput="3031" artOption="Background" artPreMultiplied="False" artClip="50" artGain="70" artInvertKey="False" borderEnabled="False" borderBevel="InOut" borderHue="0" borderSaturation="0" borderLuma="100" borderWidthOut="0.5" borderWidthIn="0.5" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
@@ -1905,6 +1905,13 @@
             </Boxes>
         </SuperSource>
     </SuperSources>
+    <MediaPool>
+        <Stills>
+            <Still index="0" name="Alignment grid wit" path="ATEM Media Pool/Alignment grid wit.png"/>
+            <Still index="1" name="Alignment grid zwart" path="ATEM Media Pool/Alignment grid zwart.png"/>
+            <Still index="2" name="Stream My Event" path="ATEM Media Pool/Stream My Event.png"/>
+        </Stills>
+    </MediaPool>
     <CameraControl>
         <Parameter device="1" category="Lens" parameter="ApertureFstop" value="5.25"/>
         <Parameter device="1" category="Video" parameter="ManualWhiteBalance" value="5600"/>
@@ -2508,6 +2515,36 @@
         <Property device="40" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
+        <Macro index="0" name="PiP PPT CAM" description="">
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+        </Macro>
+        <Macro index="1" name="PiP CAM1" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera1"/>
+        </Macro>
+        <Macro index="2" name="PiP CAM2" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="3" name="PiP CAM3" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera3"/>
+        </Macro>
+        <Macro index="5" name="Side CAM REM" description="">
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True"/>
+        </Macro>
+        <Macro index="6" name="Side CAM1" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="2" input="Camera1"/>
+        </Macro>
+        <Macro index="7" name="Side CAM2" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="2" input="Camera2"/>
+        </Macro>
+        <Macro index="8" name="Side CAM3" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="2" input="Camera3"/>
+        </Macro>
     </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
