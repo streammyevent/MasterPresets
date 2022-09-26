@@ -358,7 +358,7 @@
             <Input id="32" shortName="FLX2" longName="Flex2" externalPortType="SDI"/>
             <Input id="33" shortName="FLX3" longName="Flex3 - StageTimer" externalPortType="SDI"/>
             <Input id="34" shortName="FLX4" longName="Flex 4" externalPortType="SDI"/>
-            <Input id="35" shortName="FLX5" longName="Flex 5" externalPortType="SDI"/>
+            <Input id="35" shortName="FLX5" longName="Flex 5 (stagetimer)" externalPortType="SDI"/>
             <Input id="36" shortName="FLX6" longName="Flex 6" externalPortType="SDI"/>
             <Input id="37" shortName="REC" longName="Recorder" externalPortType="SDI"/>
             <Input id="38" shortName="MV2" longName="Multiview 2" externalPortType="SDI"/>
@@ -408,7 +408,7 @@
                     <Window index="3" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="4" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="5" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="6" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="6" input="35" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="7" input="15" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="8" input="23" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="9" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
