@@ -61,7 +61,9 @@
             "6": {},
             "7": {},
             "8": {},
-            "9": {},
+            "9": {
+                "bgcolor": 16711680
+            },
             "10": {
                 "style": "png",
                 "text": "Holo",
@@ -86,7 +88,7 @@
             },
             "12": {
                 "style": "png",
-                "text": "Macro",
+                "text": "Intercom setup",
                 "size": "auto",
                 "alignment": "center:center",
                 "pngalignment": "center:center",
@@ -95,7 +97,17 @@
                 "latch": false,
                 "relative_delay": false
             },
-            "13": {},
+            "13": {
+                "style": "png",
+                "text": "ATEM Macro's",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
             "14": {},
             "15": {},
             "16": {},
@@ -396,8 +408,28 @@
                 "latch": false,
                 "relative_delay": false
             },
-            "2": {},
-            "3": {},
+            "2": {
+                "style": "png",
+                "text": "SS1 CAM1 REM1",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "3": {
+                "style": "png",
+                "text": "SS1 CAM2 REM2",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
             "4": {},
             "5": {},
             "6": {},
@@ -416,8 +448,28 @@
             },
             "18": {},
             "19": {},
-            "20": {},
-            "21": {},
+            "20": {
+                "style": "png",
+                "text": "SS2 CAM2 FLEX1",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "21": {
+                "style": "png",
+                "text": "SS2 CAM4 PPT",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
             "22": {},
             "23": {},
             "24": {},
@@ -546,28 +598,8 @@
                 "latch": false,
                 "relative_delay": false
             },
-            "10": {
-                "style": "png",
-                "text": "ss2-ppt-cam4",
-                "size": "auto",
-                "alignment": "center:center",
-                "pngalignment": "center:center",
-                "color": 16777215,
-                "bgcolor": 0,
-                "latch": false,
-                "relative_delay": false
-            },
-            "11": {
-                "style": "png",
-                "text": "ss2-flex-cam2",
-                "size": "auto",
-                "alignment": "center:center",
-                "pngalignment": "center:center",
-                "color": 16777215,
-                "bgcolor": 0,
-                "latch": false,
-                "relative_delay": false
-            },
+            "10": {},
+            "11": {},
             "12": {},
             "13": {},
             "14": {},
@@ -744,7 +776,17 @@
                 "latch": true,
                 "relative_delay": false
             },
-            "20": {},
+            "20": {
+                "style": "png",
+                "text": "",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
             "21": {
                 "style": "png",
                 "text": "-",
@@ -842,41 +884,239 @@
             },
             "2": {
                 "style": "png",
-                "text": "$(atem:macro_11)",
-                "size": "auto",
+                "text": "PP1 mute hollyland",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
                 "color": 16777215,
-                "bgcolor": 0
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
             },
             "3": {
                 "style": "png",
-                "text": "$(atem:macro_12)",
-                "size": "auto",
+                "text": "PP1 mute SELF",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
                 "color": 16777215,
-                "bgcolor": 0
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
             },
-            "4": {},
-            "5": {},
-            "6": {},
-            "7": {},
-            "8": {},
+            "4": {
+                "style": "png",
+                "text": "PP1 mute PP2",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "5": {
+                "style": "png",
+                "text": "PP1 mute PP3",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "6": {
+                "style": "png",
+                "text": "PP1 PGM",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "7": {
+                "style": "png",
+                "text": "-",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "8": {
+                "style": "png",
+                "text": "+",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
             "9": {},
-            "10": {},
-            "11": {},
-            "12": {},
-            "13": {},
-            "14": {},
-            "15": {},
-            "16": {},
+            "10": {
+                "style": "png",
+                "text": "PP2 mute hollyland",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "11": {
+                "style": "png",
+                "text": "PP2 mute PP1",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "12": {
+                "style": "png",
+                "text": "PP2 mute SELF",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "13": {
+                "style": "png",
+                "text": "PP2 mute PP3",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "14": {
+                "style": "png",
+                "text": "PP2 PGM",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "15": {
+                "style": "png",
+                "text": "-",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "16": {
+                "style": "png",
+                "text": "+",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
             "17": {
                 "style": "pagenum"
             },
-            "18": {},
-            "19": {},
-            "20": {},
-            "21": {},
-            "22": {},
-            "23": {},
-            "24": {},
+            "18": {
+                "style": "png",
+                "text": "PP3 mute hollyland",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "19": {
+                "style": "png",
+                "text": "PP3 mute PP1",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "20": {
+                "style": "png",
+                "text": "PP3 mute PP2",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "21": {
+                "style": "png",
+                "text": "PP3 mute SELF",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "22": {
+                "style": "png",
+                "text": "PP3 PGM",
+                "size": "14",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "23": {
+                "style": "png",
+                "text": "-",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
+            "24": {
+                "style": "png",
+                "text": "+",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            },
             "25": {},
             "26": {},
             "27": {},
@@ -884,7 +1124,17 @@
             "29": {},
             "30": {},
             "31": {},
-            "32": {}
+            "32": {
+                "style": "png",
+                "text": "",
+                "size": "auto",
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "color": 16777215,
+                "bgcolor": 0,
+                "latch": false,
+                "relative_delay": false
+            }
         },
         "9": {
             "1": {
@@ -898,8 +1148,28 @@
                 "latch": false,
                 "relative_delay": false
             },
-            "2": {},
-            "3": {},
+            "2": {
+                "style": "png",
+                "text": "$(atem:macro_11)",
+                "size": "24",
+                "color": 16777215,
+                "bgcolor": 0,
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "latch": false,
+                "relative_delay": false
+            },
+            "3": {
+                "style": "png",
+                "text": "$(atem:macro_12)",
+                "size": "24",
+                "color": 16777215,
+                "bgcolor": 0,
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "latch": false,
+                "relative_delay": false
+            },
             "4": {},
             "5": {},
             "6": {},
@@ -958,7 +1228,10 @@
                 "size": "18",
                 "color": 16777215,
                 "bgcolor": 0,
-                "latch": true
+                "latch": true,
+                "alignment": "center:center",
+                "pngalignment": "center:center",
+                "relative_delay": false
             },
             "4": {},
             "5": {},
@@ -10558,7 +10831,7 @@
             "host": "192.168.2.99",
             "modelID": "0",
             "presets": "0",
-            "enabled": false,
+            "enabled": true,
             "import_to": "6BsC04r2E"
         },
         "YU4EpcPoB": {
@@ -10566,17 +10839,24 @@
             "product": "vMix",
             "label": "vmix",
             "_configIdx": 0,
-            "host": "192.168.2.223",
+            "host": "192.168.2.32",
             "httpPort": "8088",
             "tcpPort": "8099",
             "import_to": "YU4EpcPoB",
-            "enabled": false,
+            "enabled": true,
             "apiPollInterval": 250,
             "errorLog": true,
             "volumeLinear": false,
             "tbarEnabled": false,
             "tbarMin": 2,
-            "tbarMax": 253
+            "tbarMax": 253,
+            "connectionErrorLog": true,
+            "shiftDelimiter": "/",
+            "shiftBlinkPrvPrgm": true,
+            "shiftBlinkLayerRouting": true,
+            "variablesShowInputs": true,
+            "variablesShowInputNumbers": true,
+            "variablesShowInputGUID": true
         },
         "jvI0da6pg": {
             "instance_type": "ptzoptics-visca",
@@ -10591,9 +10871,10 @@
             "instance_type": "hologfx-holographics",
             "product": "Holographics",
             "label": "hologfx",
-            "host": "192.168.2.186",
+            "host": "192.168.2.32",
             "port": "3000",
-            "import_to": "0FYt8ARRt"
+            "import_to": "0FYt8ARRt",
+            "enabled": true
         },
         "CR6jo1KQ9": {
             "instance_type": "bmd-videohub",
@@ -10606,7 +10887,8 @@
             "monitoringCount": "0",
             "serialCount": "0",
             "port": 9990,
-            "import_to": "new"
+            "import_to": "new",
+            "enabled": true
         },
         "r8YQ4SI2R": {
             "instance_type": "behringer-x32",
@@ -10739,7 +11021,19 @@
                     "delay": 0
                 }
             ],
-            "13": [],
+            "13": [
+                {
+                    "id": "XWZGmP2PW",
+                    "label": "bitfocus-companion:set_page",
+                    "instance": "bitfocus-companion",
+                    "action": "set_page",
+                    "options": {
+                        "controller": "self",
+                        "page": "8"
+                    },
+                    "delay": 0
+                }
+            ],
             "14": [],
             "15": [],
             "16": [],
@@ -11024,8 +11318,58 @@
                     "delay": 0
                 }
             ],
-            "2": [],
-            "3": [],
+            "2": [
+                {
+                    "id": "EhH8JxC8_",
+                    "label": "6BsC04r2E:setSsrcBoxSource",
+                    "instance": "6BsC04r2E",
+                    "action": "setSsrcBoxSource",
+                    "options": {
+                        "ssrcId": 0,
+                        "boxIndex": 0,
+                        "source": 1
+                    },
+                    "delay": 0
+                },
+                {
+                    "id": "LAM5g5wqlD",
+                    "label": "6BsC04r2E:setSsrcBoxSource",
+                    "instance": "6BsC04r2E",
+                    "action": "setSsrcBoxSource",
+                    "options": {
+                        "ssrcId": 0,
+                        "boxIndex": 1,
+                        "source": 16
+                    },
+                    "delay": 0
+                }
+            ],
+            "3": [
+                {
+                    "id": "EeTlWCcCD",
+                    "label": "6BsC04r2E:setSsrcBoxSource",
+                    "instance": "6BsC04r2E",
+                    "action": "setSsrcBoxSource",
+                    "options": {
+                        "ssrcId": 0,
+                        "boxIndex": 0,
+                        "source": 2
+                    },
+                    "delay": 0
+                },
+                {
+                    "id": "Sht5Z7oVHT",
+                    "label": "6BsC04r2E:setSsrcBoxSource",
+                    "instance": "6BsC04r2E",
+                    "action": "setSsrcBoxSource",
+                    "options": {
+                        "ssrcId": 0,
+                        "boxIndex": 1,
+                        "source": 17
+                    },
+                    "delay": 0
+                }
+            ],
             "4": [],
             "5": [],
             "6": [],
@@ -11042,8 +11386,58 @@
             "17": [],
             "18": [],
             "19": [],
-            "20": [],
-            "21": [],
+            "20": [
+                {
+                    "id": "A-Fy4bG9U",
+                    "label": "6BsC04r2E:setSsrcBoxSource",
+                    "instance": "6BsC04r2E",
+                    "action": "setSsrcBoxSource",
+                    "options": {
+                        "ssrcId": 1,
+                        "boxIndex": 0,
+                        "source": 2
+                    },
+                    "delay": 0
+                },
+                {
+                    "id": "zh7GmcvFJ6",
+                    "label": "6BsC04r2E:setSsrcBoxSource",
+                    "instance": "6BsC04r2E",
+                    "action": "setSsrcBoxSource",
+                    "options": {
+                        "ssrcId": 1,
+                        "boxIndex": 1,
+                        "source": 31
+                    },
+                    "delay": 0
+                }
+            ],
+            "21": [
+                {
+                    "id": "ajrNMcCLr",
+                    "label": "6BsC04r2E:setSsrcBoxSource",
+                    "instance": "6BsC04r2E",
+                    "action": "setSsrcBoxSource",
+                    "options": {
+                        "ssrcId": 1,
+                        "boxIndex": 0,
+                        "source": 4
+                    },
+                    "delay": 0
+                },
+                {
+                    "id": "JvNeyy5kB3",
+                    "label": "6BsC04r2E:setSsrcBoxSource",
+                    "instance": "6BsC04r2E",
+                    "action": "setSsrcBoxSource",
+                    "options": {
+                        "ssrcId": 1,
+                        "boxIndex": 1,
+                        "source": 26
+                    },
+                    "delay": 0
+                }
+            ],
             "22": [],
             "23": [],
             "24": [],
@@ -11184,58 +11578,8 @@
                     "delay": 0
                 }
             ],
-            "10": [
-                {
-                    "id": "f3bLXY0uphJ",
-                    "label": "6BsC04r2E:setSsrcBoxSource",
-                    "instance": "6BsC04r2E",
-                    "action": "setSsrcBoxSource",
-                    "options": {
-                        "ssrcId": 1,
-                        "boxIndex": 0,
-                        "source": 4
-                    },
-                    "delay": 0
-                },
-                {
-                    "id": "EK5fX81BYE2",
-                    "label": "6BsC04r2E:setSsrcBoxSource",
-                    "instance": "6BsC04r2E",
-                    "action": "setSsrcBoxSource",
-                    "options": {
-                        "ssrcId": 1,
-                        "boxIndex": 1,
-                        "source": 26
-                    },
-                    "delay": 0
-                }
-            ],
-            "11": [
-                {
-                    "id": "Yy0giMim272",
-                    "label": "6BsC04r2E:setSsrcBoxSource",
-                    "instance": "6BsC04r2E",
-                    "action": "setSsrcBoxSource",
-                    "options": {
-                        "ssrcId": 1,
-                        "boxIndex": 0,
-                        "source": 2
-                    },
-                    "delay": 0
-                },
-                {
-                    "id": "gT4eOZoQ33i",
-                    "label": "6BsC04r2E:setSsrcBoxSource",
-                    "instance": "6BsC04r2E",
-                    "action": "setSsrcBoxSource",
-                    "options": {
-                        "ssrcId": 1,
-                        "boxIndex": 1,
-                        "source": 31
-                    },
-                    "delay": 0
-                }
-            ],
+            "10": [],
+            "11": [],
             "12": [],
             "13": [],
             "14": [],
@@ -11819,49 +12163,306 @@
             ],
             "2": [
                 {
-                    "action": "macrorun",
+                    "id": "5-LXTVgm1",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
                     "options": {
-                        "macro": 11,
-                        "action": "runContinue"
+                        "source": "/ch/14",
+                        "target": "01/on",
+                        "mute": 2
                     },
-                    "id": "-8K2irCB_J1",
-                    "instance": "6BsC04r2E",
-                    "label": "6BsC04r2E:macrorun"
+                    "delay": 0
                 }
             ],
             "3": [
                 {
-                    "action": "macrorun",
+                    "id": "TRURUH34X",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
                     "options": {
-                        "macro": 12,
-                        "action": "runContinue"
+                        "source": "/ch/09",
+                        "target": "01/on",
+                        "mute": 2
                     },
-                    "id": "2HTP2IEHBO3",
-                    "instance": "6BsC04r2E",
-                    "label": "6BsC04r2E:macrorun"
+                    "delay": 0
                 }
             ],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
-            "8": [],
+            "4": [
+                {
+                    "id": "ZIXVMC1e5",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "01/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "5": [
+                {
+                    "id": "9mrUVKeqg",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "01/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "6": [
+                {
+                    "id": "wvql9A-fe",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "01/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "7": [
+                {
+                    "id": "fEDxzPfj6",
+                    "label": "L-D5jeoNl:level_channel_send_delta",
+                    "instance": "L-D5jeoNl",
+                    "action": "level_channel_send_delta",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "01/level",
+                        "delta": -5,
+                        "fadeDuration": 100
+                    },
+                    "delay": 0
+                }
+            ],
+            "8": [
+                {
+                    "id": "K01RU-LiJ",
+                    "label": "L-D5jeoNl:level_channel_send_delta",
+                    "instance": "L-D5jeoNl",
+                    "action": "level_channel_send_delta",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "01/level",
+                        "delta": 5,
+                        "fadeDuration": 100
+                    },
+                    "delay": 0
+                }
+            ],
             "9": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
-            "14": [],
-            "15": [],
-            "16": [],
+            "10": [
+                {
+                    "id": "G-bl9B3Ji",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/14",
+                        "target": "02/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "11": [
+                {
+                    "id": "C3Lxsxry6",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/09",
+                        "target": "02/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "12": [
+                {
+                    "id": "lKDzWpDzN",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "02/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "13": [
+                {
+                    "id": "VQoTKAue-",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "02/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "14": [
+                {
+                    "id": "odsK0Ty8h",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "02/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "15": [
+                {
+                    "id": "MpS_g7u9e",
+                    "label": "L-D5jeoNl:level_channel_send_delta",
+                    "instance": "L-D5jeoNl",
+                    "action": "level_channel_send_delta",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "02/level",
+                        "delta": -5,
+                        "fadeDuration": 100
+                    },
+                    "delay": 0
+                }
+            ],
+            "16": [
+                {
+                    "id": "1jhc-9yjv",
+                    "label": "L-D5jeoNl:level_channel_send_delta",
+                    "instance": "L-D5jeoNl",
+                    "action": "level_channel_send_delta",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "02/level",
+                        "delta": 5,
+                        "fadeDuration": 100
+                    },
+                    "delay": 0
+                }
+            ],
             "17": [],
-            "18": [],
-            "19": [],
-            "20": [],
-            "21": [],
-            "22": [],
-            "23": [],
-            "24": [],
+            "18": [
+                {
+                    "id": "miUbRfJZr",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/14",
+                        "target": "03/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "19": [
+                {
+                    "id": "hK1ivVuod",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/09",
+                        "target": "03/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "20": [
+                {
+                    "id": "hsd-qGfo-",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "03/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "21": [
+                {
+                    "id": "vihUH-VC7",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "03/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "22": [
+                {
+                    "id": "Kx_6Aonun",
+                    "label": "L-D5jeoNl:mute_channel_send",
+                    "instance": "L-D5jeoNl",
+                    "action": "mute_channel_send",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "03/on",
+                        "mute": 2
+                    },
+                    "delay": 0
+                }
+            ],
+            "23": [
+                {
+                    "id": "EBO_dXxrD",
+                    "label": "L-D5jeoNl:level_channel_send_delta",
+                    "instance": "L-D5jeoNl",
+                    "action": "level_channel_send_delta",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "03/level",
+                        "delta": -5,
+                        "fadeDuration": 100
+                    },
+                    "delay": 0
+                }
+            ],
+            "24": [
+                {
+                    "id": "FWSxOJ0F3",
+                    "label": "L-D5jeoNl:level_channel_send_delta",
+                    "instance": "L-D5jeoNl",
+                    "action": "level_channel_send_delta",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "03/level",
+                        "delta": 5,
+                        "fadeDuration": 100
+                    },
+                    "delay": 0
+                }
+            ],
             "25": [],
             "26": [],
             "27": [],
@@ -11885,8 +12486,32 @@
                     "delay": 0
                 }
             ],
-            "2": [],
-            "3": [],
+            "2": [
+                {
+                    "action": "macrorun",
+                    "options": {
+                        "macro": 11,
+                        "action": "runContinue"
+                    },
+                    "id": "XrSxVJebM",
+                    "instance": "6BsC04r2E",
+                    "label": "6BsC04r2E:macrorun",
+                    "delay": 0
+                }
+            ],
+            "3": [
+                {
+                    "action": "macrorun",
+                    "options": {
+                        "macro": 12,
+                        "action": "runContinue"
+                    },
+                    "id": "YAK144D2u",
+                    "instance": "6BsC04r2E",
+                    "label": "6BsC04r2E:macrorun",
+                    "delay": 0
+                }
+            ],
             "4": [],
             "5": [],
             "6": [],
@@ -11952,7 +12577,8 @@
                     },
                     "id": "kRBhNOTOvsW",
                     "instance": "0FYt8ARRt",
-                    "label": "0FYt8ARRt:setWidgetVisibility"
+                    "label": "0FYt8ARRt:setWidgetVisibility",
+                    "delay": 0
                 }
             ],
             "4": [],
@@ -41142,7 +41768,8 @@
                     },
                     "id": "-n0jg6Dq6Xy",
                     "instance": "0FYt8ARRt",
-                    "label": "0FYt8ARRt:setWidgetVisibility"
+                    "label": "0FYt8ARRt:setWidgetVisibility",
+                    "delay": 0
                 }
             ],
             "4": [],
@@ -44225,10 +44852,10 @@
             "name": "Intercom1 schakel"
         },
         "8": {
-            "name": "Macro"
+            "name": "Intercom setup"
         },
         "9": {
-            "name": "PAGE"
+            "name": "ATEM Macro"
         },
         "10": {
             "name": "HOLO"
@@ -45113,6 +45740,568 @@
             "1": [],
             "2": [
                 {
+                    "id": "-AduWNKgB",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/14",
+                        "target": "01/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "GEONXckSV",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/14",
+                        "target": "01/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "3": [
+                {
+                    "id": "Cg8_WOeT3E",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/09",
+                        "target": "01/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "gOQX9mZN40",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/09",
+                        "target": "01/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "4": [
+                {
+                    "id": "AiWe3O0LCq",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "01/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "x-ikx0sEe2",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "01/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "5": [
+                {
+                    "id": "YOIA41tC3w",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "01/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "nfkW-I6Zr9",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "01/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "6": [
+                {
+                    "id": "yuZiFKO_q6",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "01/level",
+                        "comparitor": "gte",
+                        "fad": -90
+                    },
+                    "style": {
+                        "bgcolor": 16739328,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "M9YAvf_3yB",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "01/level",
+                        "comparitor": "gte",
+                        "fad": -35
+                    },
+                    "style": {
+                        "bgcolor": 16771072,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "ve0LopSE_a",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "01/level",
+                        "comparitor": "gte",
+                        "fad": -15
+                    },
+                    "style": {
+                        "bgcolor": 65280,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "m30LSFNVbt",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "01/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                }
+            ],
+            "7": [],
+            "8": [],
+            "9": [],
+            "10": [
+                {
+                    "id": "WIvNQFcApT",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/14",
+                        "target": "02/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "gP9m4HMLvN",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/14",
+                        "target": "02/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "11": [
+                {
+                    "id": "YrVAfOhV2U",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/09",
+                        "target": "02/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "nYMCDZVSJ1",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/09",
+                        "target": "02/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "12": [
+                {
+                    "id": "uzWVWm6H8u",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "02/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "m6HpiKPwy2",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "02/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "13": [
+                {
+                    "id": "hc-Ci-sU9B",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "02/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "zmAFtpAjv_",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "02/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "14": [
+                {
+                    "id": "85HJmnmILz",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "02/level",
+                        "comparitor": "gte",
+                        "fad": -90
+                    },
+                    "style": {
+                        "bgcolor": 16739328,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "JU3DYK4mTb",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "02/level",
+                        "comparitor": "gte",
+                        "fad": -35
+                    },
+                    "style": {
+                        "bgcolor": 16771072,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "jYHmwjuKsW",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "02/level",
+                        "comparitor": "gte",
+                        "fad": -15
+                    },
+                    "style": {
+                        "bgcolor": 65280,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "1dPOAnLIB0",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "02/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                }
+            ],
+            "15": [],
+            "16": [],
+            "17": [],
+            "18": [
+                {
+                    "id": "snEAkfS6OI",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/14",
+                        "target": "03/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "Sv4W_kX2jm",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/14",
+                        "target": "03/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "19": [
+                {
+                    "id": "kTYc0irLgI",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/09",
+                        "target": "03/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "NR4eSgViWE",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/09",
+                        "target": "03/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "20": [
+                {
+                    "id": "M3U6iFmAyB",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "03/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "2JmKa3847O",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/10",
+                        "target": "03/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "21": [
+                {
+                    "id": "dZ0FgNtR9e",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "03/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "3KkHxP0EpD",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/11",
+                        "target": "03/on",
+                        "state": false
+                    },
+                    "style": {
+                        "bgcolor": 4645888,
+                        "color": 0
+                    }
+                }
+            ],
+            "22": [
+                {
+                    "id": "osNYjOl92J",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "03/level",
+                        "comparitor": "gte",
+                        "fad": -90
+                    },
+                    "style": {
+                        "bgcolor": 16739328,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "GU2YXJJv9i",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "03/level",
+                        "comparitor": "gte",
+                        "fad": -35
+                    },
+                    "style": {
+                        "bgcolor": 16771072,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "VaqvJA-FkY",
+                    "type": "level_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "03/level",
+                        "comparitor": "gte",
+                        "fad": -15
+                    },
+                    "style": {
+                        "bgcolor": 65280,
+                        "color": 0
+                    }
+                },
+                {
+                    "id": "ayiuk-Xtda",
+                    "type": "mute_channel_send",
+                    "instance_id": "L-D5jeoNl",
+                    "options": {
+                        "source": "/ch/23",
+                        "target": "03/on",
+                        "state": true
+                    },
+                    "style": {
+                        "bgcolor": 16711680,
+                        "color": 0
+                    }
+                }
+            ],
+            "23": [],
+            "24": [],
+            "25": [],
+            "26": [],
+            "27": [],
+            "28": [],
+            "29": [],
+            "30": [],
+            "31": [],
+            "32": []
+        },
+        "9": {
+            "1": [],
+            "2": [
+                {
                     "type": "macro",
                     "options": {
                         "macroIndex": 11,
@@ -45122,7 +46311,7 @@
                         "bgcolor": 238,
                         "color": 16777215
                     },
-                    "id": "R9qPdKOZ5tI",
+                    "id": "coNCUZ2Zqm",
                     "instance_id": "6BsC04r2E"
                 },
                 {
@@ -45135,7 +46324,7 @@
                         "bgcolor": 60928,
                         "color": 16777215
                     },
-                    "id": "2IIghYtsvkN",
+                    "id": "jNPQBj7n5-",
                     "instance_id": "6BsC04r2E"
                 },
                 {
@@ -45148,7 +46337,7 @@
                         "bgcolor": 15658496,
                         "color": 16777215
                     },
-                    "id": "HhXgI3TkRMv",
+                    "id": "RhgXkUMvsV",
                     "instance_id": "6BsC04r2E"
                 },
                 {
@@ -45161,7 +46350,7 @@
                         "bgcolor": 15597568,
                         "color": 16777215
                     },
-                    "id": "tZTRJ_GVzjy",
+                    "id": "0ESuYpjb-E",
                     "instance_id": "6BsC04r2E"
                 }
             ],
@@ -45176,7 +46365,7 @@
                         "bgcolor": 238,
                         "color": 16777215
                     },
-                    "id": "PXRamEWEeI-",
+                    "id": "11kLxzZXuZ",
                     "instance_id": "6BsC04r2E"
                 },
                 {
@@ -45189,7 +46378,7 @@
                         "bgcolor": 60928,
                         "color": 16777215
                     },
-                    "id": "y5Su1Q4qT_o",
+                    "id": "krAZR8Fce-",
                     "instance_id": "6BsC04r2E"
                 },
                 {
@@ -45202,7 +46391,7 @@
                         "bgcolor": 15658496,
                         "color": 16777215
                     },
-                    "id": "w95sabjV2yK",
+                    "id": "XRwSpfTnwK",
                     "instance_id": "6BsC04r2E"
                 },
                 {
@@ -45215,44 +46404,10 @@
                         "bgcolor": 15597568,
                         "color": 16777215
                     },
-                    "id": "aENCbMWnPzS",
+                    "id": "AK2nEiAaUv",
                     "instance_id": "6BsC04r2E"
                 }
             ],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
-            "8": [],
-            "9": [],
-            "10": [],
-            "11": [],
-            "12": [],
-            "13": [],
-            "14": [],
-            "15": [],
-            "16": [],
-            "17": [],
-            "18": [],
-            "19": [],
-            "20": [],
-            "21": [],
-            "22": [],
-            "23": [],
-            "24": [],
-            "25": [],
-            "26": [],
-            "27": [],
-            "28": [],
-            "29": [],
-            "30": [],
-            "31": [],
-            "32": []
-        },
-        "9": {
-            "1": [],
-            "2": [],
-            "3": [],
             "4": [],
             "5": [],
             "6": [],
