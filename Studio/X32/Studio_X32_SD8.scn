@@ -998,7 +998,7 @@
 /ch/30/automix OFF  +0.0
 /ch/31/config "Talkback 1" 1 WH 31
 /ch/31/delay OFF   0.3
-/ch/31/preamp +10.0 OFF OFF 24  20
+/ch/31/preamp +0.0 OFF OFF 24  20
 /ch/31/gate ON EXP4 -40.0 60.0 10  100  412 0
 /ch/31/gate/filter OFF 3.0 990.9
 /ch/31/dyn ON COMP PEAK LOG -33.0 4.0 1 20.0 10 10.0  151 POST 0 100 OFF
