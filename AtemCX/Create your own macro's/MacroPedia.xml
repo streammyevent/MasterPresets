@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="5" product="ATEM 2 M/E Production Studio 4K">
+    
+    <MacroPool>
+        <Macro index="0" name="All possible commands" description="">
+            <!--GENERAL ACTIONS-->
+            <Op id="ProgramInput" mixEffectBlockIndex="0" input="Camera2"/>                         <!--Set input on PGM-->
+
+            <!--KEYERS-->
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera1"/>            <!--Set Key1 DVE source to Camera1-->
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>                   <!--Key1 M/E1 On Air-->
+            <Op id="KeyOnAir" mixEffectBlockIndex="1" keyIndex="1" onAir="False"/>                  <!--Key2 M/E2 Off Air-->
+            <Op id="DownstreamKeyAuto" keyIndex="0"/>                                               <!--DSK1 Fade-->
+            <Op id="DownstreamKeyOnAir" keyIndex="0" onAir="True"/>                                 <!--DSK1 cut-->
+
+            <!--SUPERSOURCE-->
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="False"/>           <!--SuperSource box 1 disable-->
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="3" input="ColorBars"/>         <!--SuperSource box 4 input-->
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-7.58"/>     <!--SuperSource box 1 x position-->
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>         <!--SuperSource box 1 y position-->
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="0.417007"/>            <!--SuperSource box size (0.0-1)-->
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="32"/>              <!--SuperSource Crop Left (0-32)-->
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="18"/>                <!--SuperSource Crop Top (0-18)-->
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>             <!--SuperSource Crop Right (0-32)-->
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>           <!--SuperSource Crop Bottom (0-18)-->
+            <!-- SUPERSOURCE ART-->
+            <Op id="SuperSourceV2ArtFillInput" superSource="0" input="MediaPlayer1"/>               <!--SuperSource Art input-->
+            <Op id="SuperSourceV2ArtCutInput" superSource="0" input="MediaPlayer1Key"/>             <!--SuperSource Art key input-->
+            <Op id="SuperSourceV2ArtAbove" superSource="0" artAbove="True"/>                        <!--SuperSource Art Foreground-->
+            <Op id="SuperSourceV2ArtAbove" superSource="0" artAbove="False"/>                       <!--SuperSource Art Background-->
+            <Op id="SuperSourceV2ArtPreMultiply" superSource="0" preMultiply="False"/>              <!--Premultiplied Off-->
+            <Op id="SuperSourceV2ArtClip" superSource="0" clip="0.537994"/>                         <!--SuperSource Art clip (0-100%)-->
+            <Op id="SuperSourceV2ArtGain" superSource="0" gain="0.645996"/>                         <!--SuperSource Art gain (0-100%)-->
+            <Op id="SuperSourceV2ArtInvert" superSource="0" invert="True"/>                         <!--SuperSource Art Key Invert-->
+
+
+            <!--AUDIO-->
+            <Op id="AudioMixerInputMixType" input="Camera2" mixType="On"/>                          <!--Audio input 2 On-->
+            <Op id="AudioMixerMonitorOutMute" mute="False"/>                                        <!--Monitor Audio uit-->
+            <Op id="AudioMixerMonitorOutDim" dim="True"/>                                           <!--Monitor audio dim-->
+            <Op id="AudioMixerMonitorOutSolo" solo="True"/>                                         <!--Turn on audio solo on XLR-->
+            <Op id="AudioMixerMonitorOutSoloInput" input="ExternalXLR"/>                            <!--Turn on audio solo on XLR-->
+            <Op id="AudioMixerMonitorOutSolo" solo="False"/>                                        <!--Turn off audio solo-->
+            <Op id="AudioMixerMonitorOutGain" gain="2854"/>
+
+            <!--AUXILIARY-->
+            <Op id="AuxiliaryInput" auxiliaryIndex="0" input="Camera3"/>                            <!--Set Auxiliary 1 to Camera 3-->
+            
+
+            <!--MACRO commands-->
+            <Op id="MacroSleep" frames="1"/>                                                        <!--Wait 1 frame before executing next step in macro sequence-->
+            <Op id="MacroUserWait"/>                                                                <!--Wait for user input before executing next step in macro sequence-->
+        </Macro>
+
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>
+
+
+<!-- 
+        List of inputs: 
+
+        
+        Audio inputs:
+            ExternalRCA
+            ExternalXLR
+    
+        Auxiliary codes:
+            <Auxiliary id="8001" input="7001"/>         - Aux1 = clean feed
+
+            AUX1:       8001
+            AUX2:       8002
+            AUX3:       8003
+            AUX4:       8004
+            AUX5:       8005
+            AUX6:       8006
+            AUX7:       8007
+            AUX8:       8008
+            AUX9:       8009
+            AUX10:      8010
+            AUX11:      8011
+            AUX12:      8012
+            AUX13:      8013
+            AUX14:      8014
+            AUX15:      8015
+            AUX16:      8016
+            AUX17:      8017
+            AUX18:      8018
+            AUX19:      8019
+            AUX20:      8020
+            AUX21:      8021
+            AUX22:      8022
+            AUX23:      8023
+            AUX24:      8024
+    
+
+
+            Inputs:
+            Black:                      0
+            Camera 1                    1
+            Camera 2                    2
+            Camera 3                    3
+            Camera 4                    4
+            Camera 5                    5
+            Camera 6                    6
+            Camera 7                    7
+            Camera 8                    8
+            Camera 9                    9
+            Camera 10                   10
+            Camera 11                   11
+            Camera 12                   12
+            Camera 13                   13
+            Camera 14                   14
+            Camera 15                   15
+            Remote 1                    16
+            Remote 2                    17
+            Remote 3                    18
+            Remote 4                    19
+            Remote 5                    20
+            Remote 6                    21
+            Holo Key                    22
+            Holo Fill                   23
+            Playout Fill                24
+            Playout Key                 25
+            PPT                         26
+            PPT Notes                   27
+            PPT2                        28
+            PPT2 Notes                  29
+            Interactive                 30
+            Flex 1                      31
+            Flex 2                      32
+            Flex 3                      33
+            Flex 4                      34
+            Flex 5                      35
+            Flex 6                      36
+            Hyperdeck                   37
+            Multiview 2                 38
+            Multiview 3                 39
+            Multiview 4                 40
+            Color Bars                  1000
+            Color 1                     2001
+            Color 2                     2002
+            Media Player 1              3010
+            Media Player 1 key          3011
+            Media Player 2              3020
+            Media Player 2 key          3021
+            Media Player 3              3030
+            Media Player 3 key          3031
+            Media Player 4              3040
+            Media Player 4 key          3041
+            ME 1 Key 1 Mask             4010
+            ME 1 Key 2 Mask             4020
+            ME 1 Key 3 Mask             4030
+            ME 1 Key 4 Mask             4040
+            ME 2 Key 1 Mask             4050
+            ME 2 Key 2 Mask             4060
+            ME 2 Key 3 Mask             4070
+            ME 2 Key 4 Mask             4080
+            ME 3 Key 1 Mask             4090
+            ME 3 Key 2 Mask             4100
+            ME 3 Key 3 Mask             4110
+            ME 3 Key 4 Mask             4120
+            ME 4 Key 1 Mask             4130
+            ME 4 Key 2 Mask             4140
+            ME 4 Key 3 Mask             4150
+            ME 4 Key 4 Mask             4160
+            DSK 1 Mask                  5010
+            DSK 2 Mask                  5020
+            DSK 3 Mask                  5030
+            DSK 4 Mask                  5040
+            Supersource 1               6000
+            Supersource 2               6001
+            Clean Feed 1                7001
+            Clean Feed 2                7002
+            Clean Feed 3                7003
+            Clean Feed 4                7004
+            ME 1 PGM:                   10010
+            ME 1 PVW:                   10011
+            ME 2 PGM:                   10020
+            ME 2 PVW:                   10021
+            ME 3 PGM:                   10030
+            ME 3 PVW:                   10031
+            ME 4 PGM:                   10040
+            ME 4 PVW:                   10041
+    -->

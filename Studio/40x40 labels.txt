@@ -3,7 +3,7 @@ Input, 2, CX Monitor 2
 Input, 3, CX Monitor 3
 Input, 4, CX Monitor 4
 Input, 5, CX Monitor 5
-Input, 6, clock-8001
+Input, 6, Stagetimer.io
 Input, 7, ISS Above
 Input, 8, Apple TV
 Input, 9, PP5 Flex 1
@@ -64,16 +64,16 @@ Output, 23, CX Remote 1
 Output, 24, CX Remote 2
 Output, 25, CX Remote 3
 Output, 26, CX Remote 4
-Output, 27, 
-Output, 28, 
+Output, 27, x
+Output, 28, x
 Output, 29, Playout Fill
 Output, 30, Playout Key
 Output, 31, CX PPT
 Output, 32, CX PPT Notes
 Output, 33, CX Flex 1
 Output, 34, CX Flex 2
-Output, 35, CX Flex 3
-Output, 36, CX Flex 4
+Output, 35, CX Flex 4
+Output, 36, CX Flex 5
 Output, 37, Hyperdeck 1
 Output, 38, Hyperdeck 2
 Output, 39, Encoder 1

@@ -45,8 +45,8 @@
             <FadeToBlack rate="25" isFullyBlack="False"/>
         </MixEffectBlock>
         <MixEffectBlock index="1">
-            <Program input="9"/>
-            <Preview input="4"/>
+            <Program input="1"/>
+            <Preview input="2"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Stinger" nextStyle="Stinger" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -88,8 +88,8 @@
             <FadeToBlack rate="25" isFullyBlack="False"/>
         </MixEffectBlock>
         <MixEffectBlock index="2">
-            <Program input="2"/>
-            <Preview input="7"/>
+            <Program input="1"/>
+            <Preview input="2"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -131,8 +131,8 @@
             <FadeToBlack rate="25" isFullyBlack="False"/>
         </MixEffectBlock>
         <MixEffectBlock index="3">
-            <Program input="10"/>
-            <Preview input="10"/>
+            <Program input="1"/>
+            <Preview input="2"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Stinger" nextStyle="Stinger" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -400,7 +400,7 @@
             <MixMinusOutput index="23" audioMode="ProgramOut"/>
         </MixMinusOutputs>
         <MultiViews>
-            <MultiView index="0" layout="ProgramTop" LayoutID="12" vuMeterOpacity="1">
+            <MultiView index="0" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
                     <Window index="0" input="10011" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="1" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
@@ -420,7 +420,7 @@
                     <Window index="15" input="8" vuMeterEnabled="False" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
-            <MultiView index="1" layout="ProgramTop" LayoutID="12" vuMeterOpacity="1">
+            <MultiView index="1" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
                     <Window index="0" input="10011" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="1" input="18" vuMeterEnabled="True" safeAreaEnabled="False"/>
@@ -460,9 +460,9 @@
                     <Window index="15" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
-            <MultiView index="3" layout="ProgramTop" LayoutID="12" vuMeterOpacity="1">
+            <MultiView index="3" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="10011" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="0" input="10011" vuMeterEnabled="True" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="2" input="10010" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="8012" vuMeterEnabled="True" safeAreaEnabled="False"/>
@@ -482,46 +482,46 @@
             </MultiView>
         </MultiViews>
         <ButtonMapping>
-            <Button index="0" externalInputIndex="0" mappedToCamera="True"/>
-            <Button index="1" externalInputIndex="1" mappedToCamera="True"/>
-            <Button index="2" externalInputIndex="2" mappedToCamera="True"/>
-            <Button index="3" externalInputIndex="3" mappedToCamera="True"/>
-            <Button index="4" externalInputIndex="32" mappedToCamera="True"/>
-            <Button index="5" externalInputIndex="33" mappedToCamera="True"/>
-            <Button index="6" externalInputIndex="34" mappedToCamera="True"/>
-            <Button index="7" externalInputIndex="35" mappedToCamera="True"/>
-            <Button index="8" externalInputIndex="36" mappedToCamera="True"/>
-            <Button index="9" externalInputIndex="37" mappedToCamera="True"/>
-            <Button index="10" externalInputIndex="10" mappedToCamera="True"/>
-            <Button index="11" externalInputIndex="11" mappedToCamera="True"/>
-            <Button index="12" externalInputIndex="12" mappedToCamera="True"/>
-            <Button index="13" externalInputIndex="13" mappedToCamera="True"/>
-            <Button index="14" externalInputIndex="14" mappedToCamera="True"/>
-            <Button index="15" externalInputIndex="15" mappedToCamera="True"/>
-            <Button index="16" externalInputIndex="16" mappedToCamera="True"/>
-            <Button index="17" externalInputIndex="17" mappedToCamera="True"/>
-            <Button index="18" externalInputIndex="18" mappedToCamera="True"/>
-            <Button index="19" externalInputIndex="19" mappedToCamera="True"/>
-            <Button index="20" externalInputIndex="20" mappedToCamera="True"/>
-            <Button index="21" externalInputIndex="21" mappedToCamera="True"/>
-            <Button index="22" externalInputIndex="22" mappedToCamera="True"/>
-            <Button index="23" externalInputIndex="23" mappedToCamera="True"/>
-            <Button index="24" externalInputIndex="24" mappedToCamera="True"/>
-            <Button index="25" externalInputIndex="25" mappedToCamera="True"/>
-            <Button index="26" externalInputIndex="26" mappedToCamera="True"/>
-            <Button index="27" externalInputIndex="27" mappedToCamera="True"/>
-            <Button index="28" externalInputIndex="28" mappedToCamera="True"/>
-            <Button index="29" externalInputIndex="29" mappedToCamera="True"/>
-            <Button index="30" externalInputIndex="30" mappedToCamera="True"/>
-            <Button index="31" externalInputIndex="31" mappedToCamera="True"/>
-            <Button index="32" externalInputIndex="32" mappedToCamera="True"/>
-            <Button index="33" externalInputIndex="33" mappedToCamera="True"/>
-            <Button index="34" externalInputIndex="34" mappedToCamera="True"/>
-            <Button index="35" externalInputIndex="35" mappedToCamera="True"/>
-            <Button index="36" externalInputIndex="36" mappedToCamera="True"/>
-            <Button index="37" externalInputIndex="37" mappedToCamera="True"/>
-            <Button index="38" externalInputIndex="38" mappedToCamera="True"/>
-            <Button index="39" externalInputIndex="39" mappedToCamera="True"/>
+            <Button index="0" externalInputIndex="0" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="1" externalInputIndex="1" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="2" externalInputIndex="2" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="3" externalInputIndex="3" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="4" externalInputIndex="4" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="5" externalInputIndex="5" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="6" externalInputIndex="6" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="7" externalInputIndex="7" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="8" externalInputIndex="8" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="9" externalInputIndex="9" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="10" externalInputIndex="10" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="11" externalInputIndex="11" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="12" externalInputIndex="12" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="13" externalInputIndex="13" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="14" externalInputIndex="14" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="15" externalInputIndex="15" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="16" externalInputIndex="16" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="17" externalInputIndex="17" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="18" externalInputIndex="18" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="19" externalInputIndex="19" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="20" externalInputIndex="20" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="21" externalInputIndex="21" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="22" externalInputIndex="22" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="23" externalInputIndex="23" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="24" externalInputIndex="24" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="25" externalInputIndex="25" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="26" externalInputIndex="26" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="27" externalInputIndex="27" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="28" externalInputIndex="28" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="29" externalInputIndex="29" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="30" externalInputIndex="30" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="31" externalInputIndex="31" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="32" externalInputIndex="32" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="33" externalInputIndex="33" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="34" externalInputIndex="34" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="35" externalInputIndex="35" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="36" externalInputIndex="36" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="37" externalInputIndex="37" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="38" externalInputIndex="38" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="39" externalInputIndex="39" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
         </ButtonMapping>
         <Remotes>
             <Remote index="0" function="None"/>
@@ -720,7 +720,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="11">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="-0.2" mixOption="Off">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -1878,22 +1878,22 @@
             </AudioInput>
         </AudioInputs>
         <AudioHeadphoneOutputs>
-            <AudioHeadphoneOutput index="0" gain="-15" masterOutGain="-6" talkbackGain="-10" sidetoneGain="-10"/>
+            <AudioHeadphoneOutput index="0" gain="-15" masterOutGain="-6" masterOutMute="True" talkbackGain="-10" talkbackMute="True" sidetoneGain="-10"/>
         </AudioHeadphoneOutputs>
     </FairlightAudioMixer>
     <MediaPlayers>
-        <MediaPlayer index="0" sourceType="Still" sourceIndex="6"/>
-        <MediaPlayer index="1" sourceType="Still" sourceIndex="4"/>
-        <MediaPlayer index="2" sourceType="Still" sourceIndex="2"/>
-        <MediaPlayer index="3" sourceType="Clip" sourceIndex="1" playing="False" loop="False" atBeginning="True" clipFrame="0"/>
+        <MediaPlayer index="0" sourceType="Still" sourceIndex="3"/>
+        <MediaPlayer index="1" sourceType="Still" sourceIndex="0"/>
+        <MediaPlayer index="2" sourceType="Still" sourceIndex="1"/>
+        <MediaPlayer index="3" sourceType="Still" sourceIndex="2"/>
     </MediaPlayers>
     <SuperSources superSourceCascade="False">
-        <SuperSource index="0" artFillInput="3020" artKeyInput="3021" artOption="Background" artPreMultiplied="False" artClip="50" artGain="70" artInvertKey="False" borderEnabled="True" borderBevel="None" borderHue="73.6" borderSaturation="0" borderLuma="100" borderWidthOut="0.5" borderWidthIn="0.5" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
+        <SuperSource index="0" artFillInput="3040" artKeyInput="3041" artOption="Background" artPreMultiplied="False" artClip="50" artGain="70" artInvertKey="False" borderEnabled="True" borderBevel="None" borderHue="73.6" borderSaturation="0" borderLuma="100" borderWidthOut="0.05" borderWidthIn="0" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
             <Boxes>
-                <Box index="0" enabled="True" inputSource="1" xPosition="10.6" yPosition="-3" size="0.3" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
-                <Box index="1" enabled="True" inputSource="3" xPosition="-2.5" yPosition="1" size="0.8" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
-                <Box index="2" enabled="False" inputSource="0" xPosition="0" yPosition="0" size="1" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
-                <Box index="3" enabled="False" inputSource="0" xPosition="0" yPosition="0" size="1" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="0" enabled="True" inputSource="3" xPosition="10.5" yPosition="-5.6" size="0.3" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="1" enabled="True" inputSource="26" xPosition="-2.5" yPosition="1" size="0.8" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="2" enabled="False" inputSource="3" xPosition="-7.9" yPosition="0" size="0.48" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="3" enabled="False" inputSource="16" xPosition="7.9" yPosition="0" size="0.48" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
             </Boxes>
         </SuperSource>
         <SuperSource index="1" artFillInput="3030" artKeyInput="3031" artOption="Background" artPreMultiplied="False" artClip="50" artGain="70" artInvertKey="False" borderEnabled="False" borderBevel="InOut" borderHue="0" borderSaturation="0" borderLuma="100" borderWidthOut="0.5" borderWidthIn="0.5" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
@@ -1905,12 +1905,20 @@
             </Boxes>
         </SuperSource>
     </SuperSources>
+    <MediaPool>
+        <Stills>
+            <Still index="0" name="Alignment grid wit" path="ATEM Media Pool/Alignment grid wit.png"/>
+            <Still index="1" name="Alignment grid zwart" path="ATEM Media Pool/Alignment grid zwart.png"/>
+            <Still index="2" name="Stream My Event" path="ATEM Media Pool/Stream My Event.png"/>
+        </Stills>
+    </MediaPool>
     <CameraControl>
         <Parameter device="1" category="Lens" parameter="ApertureFstop" value="5.25"/>
         <Parameter device="1" category="Video" parameter="ManualWhiteBalance" value="5600"/>
         <Parameter device="1" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="1" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="1" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="1" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="1" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="1" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="1" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1923,6 +1931,7 @@
         <Parameter device="2" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="2" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="2" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="2" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="2" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="2" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="2" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1935,6 +1944,7 @@
         <Parameter device="3" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="3" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="3" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="3" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="3" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="3" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="3" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1947,6 +1957,7 @@
         <Parameter device="4" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="4" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="4" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="4" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="4" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="4" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="4" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1959,6 +1970,7 @@
         <Parameter device="5" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="5" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="5" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="5" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="5" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="5" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="5" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1971,6 +1983,7 @@
         <Parameter device="6" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="6" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="6" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="6" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="6" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="6" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="6" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1983,6 +1996,7 @@
         <Parameter device="7" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="7" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="7" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="7" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="7" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="7" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="7" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1995,6 +2009,7 @@
         <Parameter device="8" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="8" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="8" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="8" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="8" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="8" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="8" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2007,6 +2022,7 @@
         <Parameter device="9" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="9" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="9" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="9" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="9" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="9" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="9" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2019,6 +2035,7 @@
         <Parameter device="10" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="10" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="10" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="10" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="10" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="10" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="10" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2031,6 +2048,7 @@
         <Parameter device="11" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="11" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="11" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="11" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="11" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="11" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="11" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2043,6 +2061,7 @@
         <Parameter device="12" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="12" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="12" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="12" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="12" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="12" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="12" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2055,6 +2074,7 @@
         <Parameter device="13" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="13" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="13" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="13" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="13" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="13" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="13" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2067,6 +2087,7 @@
         <Parameter device="14" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="14" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="14" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="14" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="14" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="14" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="14" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2079,6 +2100,7 @@
         <Parameter device="15" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="15" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="15" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="15" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="15" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="15" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="15" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2091,6 +2113,7 @@
         <Parameter device="16" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="16" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="16" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="16" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="16" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="16" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="16" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2103,6 +2126,7 @@
         <Parameter device="17" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="17" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="17" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="17" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="17" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="17" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="17" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2115,6 +2139,7 @@
         <Parameter device="18" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="18" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="18" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="18" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="18" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="18" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="18" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2127,6 +2152,7 @@
         <Parameter device="19" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="19" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="19" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="19" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="19" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="19" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="19" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2139,6 +2165,7 @@
         <Parameter device="20" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="20" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="20" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="20" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="20" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="20" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="20" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2151,6 +2178,7 @@
         <Parameter device="21" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="21" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="21" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="21" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="21" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="21" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="21" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2163,6 +2191,7 @@
         <Parameter device="22" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="22" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="22" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="22" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="22" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="22" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="22" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2175,6 +2204,7 @@
         <Parameter device="23" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="23" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="23" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="23" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="23" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="23" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="23" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2187,6 +2217,7 @@
         <Parameter device="24" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="24" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="24" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="24" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="24" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="24" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="24" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2199,6 +2230,7 @@
         <Parameter device="25" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="25" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="25" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="25" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="25" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="25" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="25" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2211,6 +2243,7 @@
         <Parameter device="26" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="26" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="26" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="26" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="26" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="26" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="26" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2223,6 +2256,7 @@
         <Parameter device="27" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="27" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="27" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="27" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="27" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="27" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="27" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2235,6 +2269,7 @@
         <Parameter device="28" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="28" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="28" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="28" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="28" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="28" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="28" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2247,6 +2282,7 @@
         <Parameter device="29" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="29" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="29" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="29" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="29" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="29" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="29" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2259,6 +2295,7 @@
         <Parameter device="30" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="30" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="30" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="30" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="30" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="30" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="30" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2271,6 +2308,7 @@
         <Parameter device="31" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="31" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="31" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="31" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="31" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="31" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="31" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2283,6 +2321,7 @@
         <Parameter device="32" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="32" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="32" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="32" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="32" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="32" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="32" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2295,6 +2334,7 @@
         <Parameter device="33" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="33" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="33" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="33" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="33" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="33" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="33" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2307,6 +2347,7 @@
         <Parameter device="34" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="34" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="34" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="34" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="34" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="34" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="34" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2319,6 +2360,7 @@
         <Parameter device="35" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="35" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="35" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="35" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="35" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="35" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="35" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2331,6 +2373,7 @@
         <Parameter device="36" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="36" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="36" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="36" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="36" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="36" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="36" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2343,6 +2386,7 @@
         <Parameter device="37" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="37" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="37" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="37" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="37" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="37" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="37" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2355,6 +2399,7 @@
         <Parameter device="38" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="38" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="38" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="38" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="38" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="38" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="38" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2367,6 +2412,7 @@
         <Parameter device="39" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="39" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="39" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="39" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="39" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="39" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="39" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2379,6 +2425,7 @@
         <Parameter device="40" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="40" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="40" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="40" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="40" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="40" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="40" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2468,15 +2515,35 @@
         <Property device="40" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
-        <Macro index="0" name="To Slow Mo" description="">
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera5"/>
-            <Op id="TransitionStyle" mixEffectBlockIndex="0" style="Stinger"/>
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MediaPlayerGoToBeginning" mediaPlayer="3"/>
+        <Macro index="0" name="PiP PPT CAM" description="">
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
         </Macro>
-        <Macro index="1" name="From Slow-mo" description="">
-            <Op id="AutoTransition" mixEffectBlockIndex="0"/>
-            <Op id="MediaPlayerGoToBeginning" mediaPlayer="3"/>
+        <Macro index="1" name="PiP CAM1" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera1"/>
+        </Macro>
+        <Macro index="2" name="PiP CAM2" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera2"/>
+        </Macro>
+        <Macro index="3" name="PiP CAM3" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera3"/>
+        </Macro>
+        <Macro index="5" name="Side CAM REM" description="">
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True"/>
+        </Macro>
+        <Macro index="6" name="Side CAM1" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="2" input="Camera1"/>
+        </Macro>
+        <Macro index="7" name="Side CAM2" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="2" input="Camera2"/>
+        </Macro>
+        <Macro index="8" name="Side CAM3" description="">
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="2" input="Camera3"/>
         </Macro>
     </MacroPool>
     <MacroControl loop="False"/>

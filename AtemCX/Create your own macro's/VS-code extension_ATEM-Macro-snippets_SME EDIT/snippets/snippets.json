@@ -1,0 +1,901 @@
+{
+	"ATEM Constellation": {
+		"prefix": "ATEM Constellation",
+		"body": [
+			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+			"<Profile majorVersion=\"1\" minorVersion=\"5\" product=\"ATEM Constellation 8K (4K Mode)\">",
+			"    <MixEffectBlocks>",
+			"        <MixEffectBlock index=\"0\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"        <MixEffectBlock index=\"1\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"        <MixEffectBlock index=\"2\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"        <MixEffectBlock index=\"3\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"    </MixEffectBlocks>",
+			"    <MediaPlayers/>",
+			"    <MacroPool>",
+			"        ",
+			"    </MacroPool>",
+			"    <MacroControl loop=\"False\"/>",
+			"</Profile>",
+			""
+		],
+		"description": "For non-8K modes."
+	},
+	"ATEM 4 M/E Broadcast Studio Profile": {
+		"prefix": "ATEM 4 M/E Broadcast Studio Profile",
+		"body": [
+			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+			"<Profile majorVersion=\"1\" minorVersion=\"5\" product=\"ATEM 4 M/E Broadcast Studio 4K\">",
+			"    <MixEffectBlocks>",
+			"        <MixEffectBlock index=\"0\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"        <MixEffectBlock index=\"1\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"        <MixEffectBlock index=\"2\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"        <MixEffectBlock index=\"3\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"    </MixEffectBlocks>",
+			"    <DownstreamKeys/>",
+			"    <ColorGenerators/>",
+			"    <MediaPlayers/>",
+			"    <MacroPool>",
+			"  ",
+			"    </MacroPool>",
+			"    <MacroControl loop=\"False\"/>",
+			"</Profile>",
+			""
+		],
+		"description": ""
+	},
+	"ATEM 2 M/E Production Studio Profile": {
+		"prefix": "ATEM 2 M/E Production Studio Profile",
+		"body": [
+			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+			"<Profile majorVersion=\"1\" minorVersion=\"5\" product=\"ATEM 2 M/E Production Studio 4K\">",
+			"    <MixEffectBlocks>",
+			"        <MixEffectBlock index=\"0\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"        <MixEffectBlock index=\"1\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"    </MixEffectBlocks>",
+			"    <DownstreamKeys/>",
+			"    <ColorGenerators/>",
+			"    <MediaPlayers/>",
+			"    <MacroPool>",
+			"  ",
+			"    </MacroPool>",
+			"    <MacroControl loop=\"False\"/>",
+			"</Profile>",
+			""
+		],
+		"description": ""
+	},
+	"ATEM 1 M/E Production Studio Profile": {
+		"prefix": "ATEM 1 M/E Production Studio Profile",
+		"body": [
+			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+			"<Profile majorVersion=\"1\" minorVersion=\"5\" product=\"ATEM 1 M/E Production Studio 4K\">",
+			"    <MixEffectBlocks>",
+			"        <MixEffectBlock index=\"0\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"    </MixEffectBlocks>",
+			"    <DownstreamKeys/>",
+			"    <ColorGenerators/>",
+			"    <MediaPlayers/>",
+			"    <MacroPool>",
+			"",
+			"    </MacroPool>",
+			"    <MacroControl loop=\"False\"/>",
+			"</Profile>"
+		],
+		"description": ""
+	},
+	"ATEM Mini Profile": {
+		"prefix": "ATEM Mini Profile",
+		"body": [
+			"<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+			"<Profile majorVersion=\"1\" minorVersion=\"5\" product=\"ATEM Mini\">",
+			"    <MixEffectBlocks>",
+			"        <MixEffectBlock index=\"0\">",
+			"            <Keys/>",
+			"        </MixEffectBlock>",
+			"    </MixEffectBlocks>",
+			"    <MediaPlayers/>",
+			"    <MacroPool>",
+			"       ",
+			"    </MacroPool>",
+			"    <MacroControl loop=\"False\"/>",
+			"</Profile>"
+		],
+		"description": ""
+	},
+	"Macro Pool - Empty": {
+		"prefix": "Macro Pool",
+		"body": [
+			"<MacroPool>",
+			"    ",
+			"</MacroPool>",
+			"<MacroControl loop=\"False\"/>"
+		],
+		"description": "Empty Macro Pool container"
+	},
+	"Macro": {
+		"prefix": "Macro",
+		"body": [
+			"<Macro index=\"$1\" name=\"$2\" description=\"$3\">",
+			"    $0",
+			"</Macro>"
+		],
+		"description": "Empty Marco container"
+	},
+	"Macro Sleep": {
+		"prefix": "Macro Sleep",
+		"body": [
+			"<Op id=\"MacroSleep\" frames=\"${1:30}\"/>"
+		],
+		"description": ""
+	},
+	"Macro User Wait": {
+		"prefix": "Macro User Wait",
+		"body": [
+			"<Op id=\"MacroUserWait\"/>"
+		],
+		"description": "Pauses Macro until user intervention"
+	},
+	"Preview Input": {
+		"prefix": "Preview Input",
+		"body": [
+			"<Op id=\"PreviewInput\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" input=\"${2:Camera1}\"/>"
+		],
+		"description": ""
+	},
+	"Program Input": {
+		"prefix": "Program Input",
+		"body": [
+			"<Op id=\"ProgramInput\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" input=\"${2:Camera1}\"/>"
+		],
+		"description": "M/E 4"
+	},
+	"Key On Air": {
+		"prefix": "Key On Air",
+		"body": [
+			"<Op id=\"KeyOnAir\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" onAir=\"${3|True,False|}\"/>"
+		],
+		"description": "Key 1 - M/E 1"
+	},
+	"Transition Source": {
+		"prefix": "Transition Source",
+		"body": [
+			"<Op id=\"TransitionSource\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" source=\"${2|Background,Key1,Key2,Key3,Key4|}\"/>"
+		],
+		"description": ""
+	},
+	"Media Player Still": {
+		"prefix": "Media Player Still",
+		"body": [
+			"<Op id=\"MediaPlayerSourceStill\" mediaPlayer=\"${1|0,1,2,3|}\"/>"
+		],
+		"description": ""
+	},
+	"Media Player Clip": {
+		"prefix": "Media Player Clip",
+		"body": [
+			"<Op id=\"MediaPlayerSourceClip\" mediaPlayer=\"${1|0,1,2,3|}\"/>"
+		],
+		"description": ""
+	},
+	"Media Player Play": {
+		"prefix": "Media Player Play",
+		"body": [
+			"<Op id=\"MediaPlayerPlay\" mediaPlayer=\"${1|0,1,2,3|}\"/>"
+		]
+	},
+	"Media Player Clip Source": {
+		"prefix": "Media Player Clip Source",
+		"body": [
+			"<Op id=\"MediaPlayerSourceClipIndex\" mediaPlayer=\"${1|0,1,2,3|}\" index=\"${2:0}\"/>"
+		],
+		"description": ""
+	},
+	"Media Player Still Source": {
+		"prefix": "Media Player Still Source",
+		"body": [
+			"<Op id=\"MediaPlayerSourceStillIndex\" mediaPlayer=\"${1|0,1,2,3|}\" index=\"${2:0}\"/>"
+		],
+		"description": ""
+	},
+	"Multiview Window Input": {
+		"prefix": "Multiview Window Input",
+		"body": [
+			"<Op id=\"MultiViewWindowInput\" multiViewIndex=\"${1:0}\" windowIndex=\"${2:0}\" input=\"${3|Camera1,Camera2,Camera3,Camera4,Camera5,Camera6,Camera7,Camera8,Camera9,Camera10,Black|}\"/>"
+		],
+		"description": ""
+	},
+	"Hyperdeck Record": {
+		"prefix": "Hyperdeck Record",
+		"body": [
+			"<Op id=\"HyperDeckRecord\" hyperDeckIndex=\"${1|0,1,2,3|}\"/>"
+		],
+		"description": ""
+	},
+	"Hyperdeck Stop": {
+		"prefix": "Hyperdeck Stop",
+		"body": [
+			"<Op id=\"HyperDeckStop\" hyperDeckIndex=\"${1|0,1,2,3|}\"/>"
+		],
+		"description": ""
+	},
+	"Hyperdeck Playback Speed": {
+		"prefix": "Hyperdeck Playback Speed",
+		"body": [
+			"<Op id=\"HyperDeckSetSpeed\" hyperDeckIndex=\"${1|0,1,2,3|}\" speedPercent=\"${2:1}\"/>"
+		],
+		"description": "speedPercent must be between 0 and 1."
+	},
+	"Hyperdeck Loop": {
+		"prefix": "Hyperdeck Loop",
+		"body": [
+			"<Op id=\"HyperDeckSetLoop\" hyperDeckIndex=\"${1|0,1,2,3|}\" loopEnabled=\"${2|True,False|}\"/>"
+		],
+		"description": ""
+	},
+	"Hyperdeck Clip Index": {
+		"prefix": "Hyperdeck Clip Index",
+		"body": [
+			"<Op id=\"HyperDeckSetSourceClipIndex\" hyperDeckIndex=\"${1|0,1,2,3|}\" clipIndex=\"${2:0}\"/>"
+		],
+		"description": ""
+	},
+	"Capture Still": {
+		"prefix": "Capture Still",
+		"body": [
+			"<Op id=\"CaptureStill\"/>"
+		],
+		"description": ""
+	},
+	"FTB (Fade to Black) Rate": {
+		"prefix": "FTB (Fade to Black) Rate",
+		"body": [
+			"<Op id=\"FadeToBlackRate\" mixEffectBlockIndex=\"0\" rate=\"${1:30}\"/>"
+		],
+		"description": "Measured in frames"
+	},
+	"FTB (Fade to Black) Auto": {
+		"prefix": "FTB (Fade to Black) Auto",
+		"body": [
+			"<Op id=\"FadeToBlackAuto\" mixEffectBlockIndex=\"0\"/>"
+		],
+		"description": "Perfoms a FTB transition at the set rate"
+	},
+	"Color Generator": {
+		"prefix": "Color Generator",
+		"body": [
+			"<Op id=\"ColorGeneratorHue\" colorGeneratorIndex=\"${1|0,1|}\" hue=\"0\"/>",
+			"<Op id=\"ColorGeneratorSaturation\" colorGeneratorIndex=\"$1\" saturation=\"0\"/>",
+			"<Op id=\"ColorGeneratorLuminescence\" colorGeneratorIndex=\"$1\" luminescence=\"1\"/>"
+		],
+		"description": "White"
+	},
+	"Transition Mix Rate": {
+		"prefix": "Mix Rate",
+		"body":[
+			"<Op id=\"TransitionMixRate\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" rate=\"${1:6}\"/>"
+		],
+		"description": "Set Mix Rate"
+	},
+	"Dip Transition Settings": {
+		"prefix": "Dip Transition Settings",
+		"body": [
+			"<Op id=\"TransitionDipInput\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" input=\"${2:Color2}\"/>",
+			"<Op id=\"TransitionDipRate\" mixEffectBlockIndex=\"$1\" rate=\"${3:15}\"/>"
+		],
+		"description": ""
+	},
+	"Dip Transition Input": {
+		"prefix": "Dip Transition Input",
+		"body": [
+			"<Op id=\"TransitionDipInput\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" input=\"${2:Color2}\"/>"
+		],
+		"description": ""
+	},
+	"Dip Transition Rate": {
+		"prefix": "Dip Transition Rate",
+		"body": [
+			"<Op id=\"TransitionDipRate\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" rate=\"${2:15}\"/>"
+		],
+		"description": "Measured in frames"
+	},
+	"Transition Style": {
+		"prefix": "Transition Style",
+		"body": [
+			"<Op id=\"TransitionStyle\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" style=\"${2|Mix,Dip,Wipe,Sting,DVE|}\"/>"
+		],
+		"description": ""
+	},
+	"AUTO Transition": {
+		"prefix": "AUTO Transition",
+		"body": [
+			"<Op id=\"AutoTransition\" mixEffectBlockIndex=\"${1|0,1,2,3|}\"/>"
+		],
+		"description": ""
+	},
+	"CUT Transition": {
+		"prefix": "CUT Transition",
+		"body": [
+			"<Op id=\"CutTransition\" mixEffectBlockIndex=\"${1|0,1,2,3|}\"/>"
+		],
+		"description": ""
+	},
+	"AUX Output": {
+		"prefix": "AUX Output",
+		"body": [
+			"<Op id=\"AuxiliaryInput\" auxiliaryIndex=\"${1|0,1,2,3,4,5|}\" input=\"${2|ME1Preview,ME1Program,ME2Preview,ME2Program,ME3Preview,ME3Program,ME4Preview,ME4Program,MediaPlayer1,MediaPlayer1Key,MediaPlayer2,MediaPlayer2Key,MediaPlayer3,MediaPlayer3Key,MediaPlayer4,MediaPlayer4Key|}\"/>"
+		],
+		"description": ""
+	},
+	"DSK All": {
+		"prefix": "DSK All Setting",
+		"body": [
+				"<Op id=\"DownstreamKeyFillInput\" keyIndex=\"$1\" input=\"${3|MediaPlayer1,MediaPlayer2,MediaPlayer3,MediaPlayer4|}\"/>",
+				"<Op id=\"DownstreamKeyCutInput\" keyIndex=\"$1\" input=\"$3Key\"/>",
+				"<Op id=\"DownstreamKeyMaskEnable\" keyIndex=\"$1\" enable=\"${2:True/False}\"/>",
+				"<Op id=\"DownstreamKeyMaskLeft\" keyIndex=\"$1\" left=\"${2:-16}\"/>",
+				"<Op id=\"DownstreamKeyMaskTop\" keyIndex=\"$1\" top=\"${2:-9}\"/>",
+				"<Op id=\"DownstreamKeyMaskRight\" keyIndex=\"$1\" right=\"${2:16}\"/>",
+				"<Op id=\"DownstreamKeyMaskBottom\" keyIndex=\"$1\" bottom=\"${2:9}\"/>",
+				"<Op id=\"DownstreamKeyPreMultiply\" keyIndex=\"$1\" preMultiply=\"${2:True/False}\"/>",
+				"<Op id=\"DownstreamKeyClip\" keyIndex=\"$1\" clip=\"${2:0.0}\"/>",
+				"<Op id=\"DownstreamKeyGain\" keyIndex=\"$1\" gain=\"${2:0.0}\"/>",
+				"<Op id=\"DownstreamKeyRate\" keyIndex=\"${1|0,1|}\" rate=\"${2:6}\"/>",
+				"<Op id=\"DownstreamKeyAuto\" keyIndex=\"$1\"/>",
+				"<Op id=\"DownstreamKeyOnAir\" keyIndex=\"$1\" onAir=\"${2:True/False}\"/>",
+				"<Op id=\"DownstreamKeyTie\" keyIndex=\"$1\" tie=\"${2:True/False}\"/>"
+		],
+		"description" : "All DSK"
+		},
+	"DSK PreMultiply": {
+		"prefix": "DSK PreMultiply",
+		"body": [
+			"<Op id=\"DownstreamKeyPreMultiply\" keyIndex=\"${1|0,1|}\" preMultiply=\"${2|True,False|}\"/>"
+		],
+		"description": ""
+	},
+	"DSK Mask Settings": {
+		"prefix": "DSK Mask Settings",
+		"body": [
+			"<Op id=\"DownstreamKeyMaskEnable\" keyIndex=\"${1|0,1|}\" enable=\"${2|True,False|}\"/>",
+			"<Op id=\"DownstreamKeyMaskTop\" keyIndex=\"$1\" top=\"${3:9}\"/>",
+			"<Op id=\"DownstreamKeyMaskBottom\" keyIndex=\"$1\" bottom=\"${4:-9.00002}\"/>",
+			"<Op id=\"DownstreamKeyMaskLeft\" keyIndex=\"$1\" left=\"${5:-16}\"/>",
+			"<Op id=\"DownstreamKeyMaskRight\" keyIndex=\"$1\" right=\"${6:16}\"/>"
+		],
+		"description": ""
+	},
+	"DSK Rate": {
+		"prefix": "DSK Rate",
+		"body": [
+			"<Op id=\"DownstreamKeyRate\" keyIndex=\"${1|0,1|}\" rate=\"${2:10}\"/>"
+		],
+		"description": ""
+	},
+	"DSK Key Gain": {
+		"prefix": "DSK Key Gain",
+		"body": [
+			"<Op id=\"DownstreamKeyGain\" keyIndex=\"${1|0,1|}\" gain=\"${2:0.699997}\"/>"
+		],
+		"description": ""
+	},
+	"DSK Key Clip": {
+		"prefix": "DSK Key Clip",
+		"body": [
+			"<Op id=\"DownstreamKeyClip\" keyIndex=\"${1|0,1|}\" clip=\"${2:0.5}\"/>"
+		],
+		"description": ""
+	},
+	"DSK Auto Transition": {
+		"prefix": "DSK Auto Transition",
+		"body": [
+			"<Op id=\"DownstreamKeyAuto\" keyIndex=\"${1|0,1|}\"/>"
+		],
+		"description": ""
+	},
+	"DSK Mask": {
+		"prefix": "DSK Mask",
+		"body": [
+			"<Op id=\"DownstreamKeyMaskEnable\" keyIndex=\"${1|0,1|}\" enable=\"${2|True,False|}\"/>"
+		],
+		"description": ""
+	},
+	"DSK Tie": {
+		"prefix": "DSK Tie",
+		"body": [
+			" <Op id=\"DownstreamKeyTie\" keyIndex=\"${1|0,1|}\" tie=\"${2|True,False|}\"/>"
+		],
+		"description": ""
+	},
+	"DSK On Air": {
+		"prefix": "DSK On Air",
+		"body": [
+			"<Op id=\"DownstreamKeyOnAir\" keyIndex=\"${1|0,1|}\" onAir=\"${2|True,False|}\"/>"
+		],
+		"description": ""
+	},
+	"DSK Input": {
+		"prefix": "DSK Input",
+		"body": [
+			"<Op id=\"DownstreamKeyFillInput\" keyIndex=\"${1|0,1|}\" input=\"${2|MediaPlayer1,MediaPlayer2,MediaPlayer3,MediaPlayer4|}\"/>",
+			"<Op id=\"DownstreamKeyCutInput\" keyIndex=\"$1\" input=\"$2Key\"/>"
+		],
+		"description": "Fill and Key inputs"
+	},
+	"DSK Fill Input": {
+		"prefix": "DSK Fill Input",
+		"body": [
+			"<Op id=\"DownstreamKeyFillInput\" keyIndex=\"${1|0,1|}\" input=\"${2|MediaPlayer1,MediaPlayer2,MediaPlayer3,MediaPlayer4|}\"/>"
+		],
+		"description": "Fill input only"
+	},
+	"DSK Key Input": {
+		"prefix": "DSK Key Input",
+		"body": [
+			"<Op id=\"DownstreamKeyCutInput\" keyIndex=\"${1|0,1|}\" input=\"${2|MediaPlayer1Key,MediaPlayer2Key,MediaPlayer3Key,MediaPlayer4Key|}\"/>"
+		],
+		"description": "Key input only"
+	},
+	"DSK Mask Top": {
+		"prefix": "DSK Mask Top",
+		"body": [
+			"<Op id=\"DownstreamKeyMaskTop\" keyIndex=\"${1|0,1|}\" top=\"9\"/>"
+		],
+		"description": "Top mask only"
+	},
+	"DSK Mask Bottom": {
+		"prefix": "DSK Mask Bottom",
+		"body": [
+			"<Op id=\"DownstreamKeyMaskBottom\" keyIndex=\"${1|0,1|}\" bottom=\"${2:-9.00002}\"/>"
+		],
+		"description": "Bottom mask only"
+	},
+	"DSK Mask Left": {
+		"prefix": "DSK Mask Left",
+		"body": [
+			"<Op id=\"DownstreamKeyMaskLeft\" keyIndex=\"${1|0,1|}\" left=\"${2:-16}\"/>"
+		],
+		"description": "Left mask only"
+	},
+	"DSK Mask Right": {
+		"prefix": "DSK Mask Right",
+		"body": [
+			"<Op id=\"DownstreamKeyMaskRight\" keyIndex=\"${1|0,1|}\" right=\"${2:16}\"/>"
+		],
+		"description": "Right mask only"
+	},
+	"Wipe Tranistion Pattern": {
+		"prefix": "Wipe Transition Pattern",
+		"body": [
+			"<Op id=\"TransitionWipePattern\" mixEffectBlockIndex=\"0\" pattern=\"${1|LeftToRightBar,TopToBottomBar,HorizontalBarnDoor,VerticalBarnDoor,CornersInFourBox,RectangleIris,DiamondIris,CircleIris,TopLeftBox,TopRightBox,BottomRightBox,BottomLeftBox,TopCentreBox,RightCentreBox,BottomCentreBox,LeftCentreBox,TopLeftDiagonal,TopRightDiagonal|}\"/>"
+		],
+		"description": ""
+	},
+	"Wipe Transition Symmetry": {
+		"prefix": "Wipe Transition Symmetry",
+		"body": [
+			"<Op id=\"TransitionWipeSymmetry\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" symmetry=\"${2:0.509995}\"/>"
+		],
+		"description": ""
+	},
+	"Wipe Transition Position": {
+		"prefix": "Wipe Transition Position",
+		"body": [
+			"<Op id=\"TransitionWipeXPosition\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" xPosition=\"${2:0.509995}\"/>",
+			"<Op id=\"TransitionWipeYPosition\" mixEffectBlockIndex=\"$1\" yPosition=\"${3:0.5}\"/>"
+		],
+		"description": ""
+	},
+	"Wipe Transition Softness": {
+		"prefix": "Wipe Transition Softness",
+		"body": [
+			"<Op id=\"TransitionWipeBorderSoftness\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" softness=\"${2:0.800003}\"/>"
+		],
+		"description": ""
+	},
+	"Wipe Transition Border": {
+		"prefix": "Wipe Transition Border",
+		"body": [
+			"<Op id=\"TransitionWipeBorderWidth\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" width=\"${2:0.0399933}\"/>",
+			"            <Op id=\"TransitionWipeBorderFillInput\" mixEffectBlockIndex=\"$1\" input=\"${3:Color1,Color2}\"/>"
+		],
+		"description": "Width and Fill"
+	},
+	"Transition Reverse Direction (Wipe & DVE)": {
+		"prefix": "Transition Reverse Direction (Wipe & DVE)",
+		"body": [
+			"<Op id=\"TransitionWipeAndDVEReverse\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" reverse=\"${2|True,False|}\"/>"
+		],
+		"description": "Wipe & DVE"
+	},
+	"Transition Flip/Flop Direction (Wipe & DVE)": {
+		"prefix": "Transition Flip/Flop Direction (Wipe & DVE)",
+		"body": [
+			"<Op id=\"TransitionWipeAndDVEFlipFlop\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" flipFlop=\"${2|True,False|}\"/>"
+		],
+		"description": "Wipe & DVE"
+	},
+	"Wipe Transition Rate": {
+		"prefix": "Wipe Transition Rate",
+		"body": [
+			"<Op id=\"TransitionWipeRate\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" rate=\"${2:30}\"/>"
+		],
+		"description": "Measured in frames"
+	},
+	"DVE Transition Pattern": {
+		"prefix": "DVE Transition Pattern",
+		"body": [
+			"<Op id=\"TransitionDVEPattern\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" pattern=\"${2|PushTopLeft,LeftToRightBar,PushTop,PushTopLeft,PushTopRight,PushLeft,PushRight,PushBottomLeft,PushBottom,PushBottomRight,SqueezeTopLeft,SqueezeTop,SqueezeTopRight,SqueezeLeft,SqueezeRight,SqueezeBottomLeft,SqueezeBottom,SqueezeBottomRight|}\"/>"
+		],
+		"description": ""
+	},
+	"SuperSource Box Enable (All Boxes)": {
+		"prefix": "SuperSource Box Enable (All Boxes)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxEnable\" superSource=\"${1|0,1|}\" boxIndex=\"0\" enable=\"${2|True,False|}\"/>",
+			"<Op id=\"SuperSourceV2BoxEnable\" superSource=\"$1\" boxIndex=\"1\" enable=\"${3|True,False|}\"/>",
+			"<Op id=\"SuperSourceV2BoxEnable\" superSource=\"$1\" boxIndex=\"2\" enable=\"${4|True,False|}\"/>",
+			"<Op id=\"SuperSourceV2BoxEnable\" superSource=\"$1\" boxIndex=\"2\" enable=\"${5|True,False|}\"/>"
+		],
+		"description": "All boxes - V2"
+	},
+	"SuperSource Box Enable (Single Box)": {
+		"prefix": "SuperSource Box Enable (Single Box)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxEnable\" superSource=\"${1|0,1|}\" boxIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>"
+		],
+		"description": "Single box - V2"
+	},
+	"SuperSource Box Input (All Boxes)": {
+		"prefix": "SuperSource Box Input (All Boxes)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxInput\" superSource=\"${1|0,1|}\" boxIndex=\"0\" input=\"${2|Camera1,Camera2,Camera3,Camera4,Camera5,Camera6,Camera7,Camera8,Camera9,Camera10,Black|}\"/>",
+			"<Op id=\"SuperSourceV2BoxInput\" superSource=\"$1\" boxIndex=\"1\" input=\"${3|Camera1,Camera2,Camera3,Camera4,Camera5,Camera6,Camera7,Camera8,Camera9,Camera10,Black|}\"/>",
+			"<Op id=\"SuperSourceV2BoxInput\" superSource=\"$1\" boxIndex=\"2\" input=\"${4|Camera1,Camera2,Camera3,Camera4,Camera5,Camera6,Camera7,Camera8,Camera9,Camera10,Black|}\"/>",
+			"<Op id=\"SuperSourceV2BoxInput\" superSource=\"$1\" boxIndex=\"3\" input=\"${5|Camera1,Camera2,Camera3,Camera4,Camera5,Camera6,Camera7,Camera8,Camera9,Camera10,Black|}\"/>"
+		],
+		"description": "All boxes - V2"
+	},
+	"SuperSource Box Input (Single Box)": {
+		"prefix": "SuperSource Box Input (Single Box)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxInput\" superSource=\"${1|0,1|}\" boxIndex=\"${2|0,1,2,3|}\" input=\"${3|Camera1,Camera2,Camera3,Camera4,Camera5,Camera6,Camera7,Camera8,Camera9,Camera10,Black|}\"/>"
+		],
+		"description": "Single Box - V2"
+	},
+	"SuperSource Art": {
+		"prefix": "SuperSource Art",
+		"body": [
+			"<Op id=\"SuperSourceV2ArtAbove\" superSource=\"${1|0,1|}\" artAbove=\"${2|True,False|}\"/>",
+			"<Op id=\"SuperSourceV2ArtFillInput\" superSource=\"$1\" input=\"${3|MediaPlayer1,MediaPlayer2,MediaPlayer3,MediaPlayer4|}\"/>"
+		],
+		"description": "Foreground/Background - V2"
+	},
+	"SuperSource Box Size (All Boxes)": {
+		"prefix": "SuperSource Box Size (All Boxes)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxSize\" superSource=\"${1|0,1|}\" boxIndex=\"0\" size=\"${2:0.445007}\"/>",
+			"<Op id=\"SuperSourceV2BoxSize\" superSource=\"$1\" boxIndex=\"1\" size=\"${3:0.445007}\"/>",
+			"<Op id=\"SuperSourceV2BoxSize\" superSource=\"$1\" boxIndex=\"2\" size=\"${4:0.445007}\"/>",
+			"<Op id=\"SuperSourceV2BoxSize\" superSource=\"$1\" boxIndex=\"3\" size=\"${5:0.445007}\"/>"
+		],
+		"description": "All box sizes - V2"
+	},
+	"SuperSource Box Size (Single Box)": {
+		"prefix": "SuperSource Box Size (Single Box)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxSize\" superSource=\"${1|0,1|}\" boxIndex=\"${2|0,1,2,3|}\" size=\"${3:0.445007}\"/>"
+		],
+		"description": "Single box size - V2"
+	},
+	"SuperSource Box Position (All Boxes)": {
+		"prefix": "SuperSource Box Position (All Boxes)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxXPosition\" superSource=\"${1|0,1|}\" boxIndex=\"0\" xPosition=\"${3:12.04}\"/>",
+			"<Op id=\"SuperSourceV2BoxYPosition\" superSource=\"$1\" boxIndex=\"0\" yPosition=\"${4:1.60001}\"/>",
+			"<Op id=\"SuperSourceV2BoxXPosition\" superSource=\"$1\" boxIndex=\"1\" xPosition=\"${5:-4.00002}\"/>",
+			"<Op id=\"SuperSourceV2BoxYPosition\" superSource=\"$1\" boxIndex=\"1\" yPosition=\"${6:0.00999451}\"/>",
+			"<Op id=\"SuperSourceV2BoxXPosition\" superSource=\"$1\" boxIndex=\"2\" xPosition=\"${7:-4.06}\"/>",
+			"<Op id=\"SuperSourceV2BoxYPosition\" superSource=\"$1\" boxIndex=\"2\" yPosition=\"${8:-0.02}\"/>",
+			"<Op id=\"SuperSourceV2BoxXPosition\" superSource=\"$1\" boxIndex=\"3\" xPosition=\"${9:-4.06}\"/>",
+			"<Op id=\"SuperSourceV2BoxYPosition\" superSource=\"$1\" boxIndex=\"3\" yPosition=\"${10:-0.02}\"/>"
+		],
+		"description": "All boxes X & Y Positions - V2"
+	},
+	"SuperSource Box Position (Single Box)": {
+		"prefix": "SuperSource Box Position (Single Box)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxXPosition\" superSource=\"${1|0,1|}\" boxIndex=\"${2|0,1,2,3|}\" xPosition=\"${3:12.04}\"/>",
+			"<Op id=\"SuperSourceV2BoxYPosition\" superSource=\"$1\" boxIndex=\"$2\" yPosition=\"${4:1.60001}\"/>"
+		],
+		"description": "Singke box X & Y position - V2"
+	},
+	"SuperSource Mask (Single Box)": {
+		"prefix": "SuperSource Box Mask (Single Box)",
+		"body": [
+			"<Op id=\"SuperSourceV2BoxMaskEnable\" superSource=\"${1|0,1|}\" boxIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>",
+			"<Op id=\"SuperSourceV2BoxMaskTop\" superSource=\"$1\" boxIndex=\"$2\" top=\"${4:0}\"/>",
+			"<Op id=\"SuperSourceV2BoxMaskBottom\" superSource=\"$1\" boxIndex=\"$2\" bottom=\"${5:0}\"/>",
+			"<Op id=\"SuperSourceV2BoxMaskLeft\" superSource=\"$1\" boxIndex=\"$2\" left=\"${6:0}\"/>",
+			"<Op id=\"SuperSourceV2BoxMaskRight\" superSource=\"$1\" boxIndex=\"$2\" right=\"${7:0}\"/>"
+		],
+		"description": "On/Off & mask settings - V2"
+	},
+	"Master Fader Gain": {
+		"prefix": "Master Fader Gain",
+		"body": [
+			"<Op id=\"FairlightAudioMixerMasterOutFaderGain\" gain=\"${1:0}\"/>"
+		],
+		"description": "Set the gain of the Master fader"
+	},
+	"Master Fader AFV": {
+		"prefix": "Master Fader AFV",
+		"body": [
+			"<Op id=\"FairlightAudioMixerMasterOutFollowFadeToBlackMixEffectBlock1\" follow=\"${1|True,False|}\"/>"
+		],
+		"description": "Toggle AFV on the Master fader (this applies when using FTB)."
+	},
+	"Key Type": {
+		"prefix": "Key Type",
+		"body": [
+			"<Op id=\"KeyType\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" type=\"${3|Luma,Pattern,Chroma,DVE|}\"/>"
+		]
+	},
+	"Key Fill Source": {
+		"prefix": "Key Fill Source",
+		"body": [
+			"<Op id=\"KeyFillInput\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" input=\"${3:Camera2}\"/>"
+		],
+		"description": "Fill source for a selected keyer."
+	},
+	"Key Mask Enable": {
+		"prefix": "Key Mask Enable",
+		"body": [
+			"<Op id=\"KeyMaskEnable\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>"
+		],
+		"description": "Toggle the mask on/off for Luma, Chroma, and Pattern keys. Use DVE Mask for DVE/Fly keys."
+	},
+	"Key Mask (All Settings)": {
+		"prefix": "Key Mask (All Settings)",
+		"body": [
+			"<Op id=\"KeyMaskEnable\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>",
+			"<Op id=\"KeyMaskTop\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" top=\"${4:9\"/>",
+			"<Op id=\"KeyMaskBottom\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" bottom=\"${5:-9}\"/>",
+			"<Op id=\"KeyMaskLeft\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" left=\"${6:-16}\"/>",
+			"<Op id=\"KeyMaskRight\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" right=\"${7:16}\"/>"
+		],
+		"description": "Mask settings for Luma, Chroma, and Pattern keys. Use DVE Mask for DVE/Fly keys."
+	},
+	"Luma Key - Key (Cut) Source": {
+		"prefix": "Luma Key - Key (Cut) Source",
+		"body": [
+			"<Op id=\"KeyCutInput\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" input=\"${3:MediaPlayer1Key}\"/>"
+		],
+		"description": "Key (cut) source for a Luma key."
+	},
+	"Luma Key Pre Multiply": {
+		"prefix": "Luma Key Pre Multiply",
+		"body": [
+			"<Op id=\"LumaKeyPreMultiply\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" preMultiply=\"${3|True,False|}\"/>"
+		],
+		"description": "Pre Multiply setting for a Luma key."
+	},
+	"Luma Key Clip": {
+		"prefix": "Luma Key Clip",
+		"body": [
+			"<Op id=\"LumaKeyClip\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" clip=\"${3:0.5}\"/>"
+		],
+		"description": "Set the clip value for a Luma key."
+	},
+	"Luma Key Gain": {
+		"prefix": "Luma Key Gain",
+		"body": [
+			"<Op id=\"LumaKeyGain\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" gain=\"${3:0.699997}\"/>"
+		],
+		"description": "Set the gain value for a Luma key."
+	},
+	"Luma Key Invert": {
+		"prefix": "Luma Key Invert",
+		"body": [
+			"<Op id=\"LumaKeyInvert\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" invert=\"${3|True,False|}\"/>"
+		],
+		"description": "Invert setting for a Luma key."
+	},
+	"Luma Key (All Settings)": {
+		"prefix": "Luma Key (All Settings)",
+		"body": [
+			"<Op id=\"KeyFillInput\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" input=\"${3:MediaPlayer1}\"/>",
+			"<Op id=\"KeyCutInput\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" input=\"${4:MediaPlayer1Key}\"/>",
+			"<Op id=\"LumaKeyPreMultiply\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" preMultiply=\"${5|True,False|}\"/>",
+			"<Op id=\"LumaKeyClip\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" clip=\"${6:0.5}\"/>",
+			"<Op id=\"LumaKeyGain\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" gain=\"${7:0.699997}\"/>",
+			"<Op id=\"LumaKeyInvert\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" invert=\"${8|True,False|}\"/>"
+		],
+		"description": "All settings applicable to a Luma key."
+	},
+	"DVE / Fly Key Size": {
+		"prefix": "DVE / Fly Key Size",
+		"body": [
+			"<Op id=\"DVEAndFlyKeyXSize\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" xSize=\"${3:0.199997}\"/>",
+			"<Op id=\"DVEAndFlyKeyYSize\" mixEffectBlockIndex=\"$1\" keyIndex=\"${2|0,1,2,3|}\" ySize=\"$3\"/>"
+		],
+		"description": "Set the size (proportionally) for a DVE or fly key."
+	},
+	"DVE / Fly Key Position": {
+		"prefix": "DVE / Fly Key Position",
+		"body": [
+			"<Op id=\"DVEAndFlyKeyXPosition\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" xPosition=\"${3:12.5}\"/>",
+			"<Op id=\"DVEAndFlyKeyYPosition\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" yPosition=\"${4:7}\"/>"
+		],
+		"description": "Set the position for a DVE or fly key."
+	},
+	"DVE / Fly Key Rotation": {
+		"prefix": "DVE / Fly Key Rotation",
+		"body": [
+			"<Op id=\"DVEAndFlyKeyRotation\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" rotation=\"${3:0}\"/>"
+		],
+		"description": "Set the rotaion (in degrees) for a DVE or fly key."
+	},
+	"DVE Mask Enable": {
+		"prefix": "DVE Mask Enable",
+		"body": [
+			"<Op id=\"DVEKeyMaskEnable\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>"
+		],
+		"description": "Toggle the mask on/off for a DVE key."
+	},
+	"DVE Mask (All Settings)": {
+		"prefix": "DVE Mask",
+		"body": [
+			"<Op id=\"DVEKeyMaskEnable\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>",
+			"<Op id=\"DVEKeyMaskTop\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" top=\"${4:0}\"/>",
+			"<Op id=\"DVEKeyMaskBottom\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" bottom=\"${5:0}\"/>",
+			"<Op id=\"DVEKeyMaskLeft\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\"left=\"${6:0}\"/>",
+			"<Op id=\"DVEKeyMaskRight\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" right=\"${7:0}\"/>"
+		],
+		"description": "All mask settings for a DVE key."
+	},
+	"DVE Shadow": {
+		"prefix": "DVE Shadow",
+		"body": [
+			"<Op id=\"DVEKeyShadowEnable\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>",
+			"<Op id=\"DVEKeyShadowDirection\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" direction=\"${4:36}\"/>",
+			"<Op id=\"DVEKeyShadowAltitude\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" altitude=\"${5:25}\"/>"
+		],
+		"description": "Shadow settings for a DVE key."
+	},
+	"DVE Border Enable": {
+		"prefix": "DVE Border Enable",
+		"body": [
+			"<Op id=\"DVEKeyBorderEnable\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>"
+		],
+		"description": "Toggle the border on/off for a DVE key."
+	},
+	"DVE Border Color": {
+		"prefix": "DVE Border Color",
+		"body": [
+			"<Op id=\"DVEKeyBorderHue\" mixEffectBlockIndex=\"$1{1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" hue=\"${3:0}\"/>",
+			"<Op id=\"DVEKeyBorderSaturation\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" saturation=\"${4:0}\"/>",
+			"<Op id=\"DVEKeyBorderLuminescence\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" luminescence=\"${5:0}\"/>"
+		],
+		"description": "Border color settings for a DVE key."
+	},
+	"DVE Border Width": {
+		"prefix": "DVE Border Width",
+		"body": [
+			"<Op id=\"DVEKeyBorderOuterWidth\" mixEffectBlockIndex=\"$1{1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" outerWidth=\"${3:0}\"/>",
+			"<Op id=\"DVEKeyBorderInnerWidth\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" innerWidth=\"${4:0.199997}\"/>",
+			"<Op id=\"DVEKeyBorderOuterSoftness\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" outerSoftness=\"${5:0}\"/>",
+			"<Op id=\"DVEKeyBorderInnerSoftness\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" innerSoftness=\"${6:0}\"/>",
+			"<Op id=\"DVEKeyBorderOpacity\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" opacity=\"${7:100}\"/>"
+		],
+		"description": "Border width settings for a DVE key."
+	},
+	"DVE Border (All Settings)": {
+		"prefix": "DVE Border",
+		"body": [
+			"<Op id=\"DVEKeyBorderEnable\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" enable=\"${3|True,False|}\"/>",
+			"<Op id=\"DVEKeyBorderHue\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" hue=\"${4:0}\"/>",
+			"<Op id=\"DVEKeyBorderSaturation\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" saturation=\"${5:0}\"/>",
+			"<Op id=\"DVEKeyBorderLuminescence\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" luminescence=\"${6:0}\"/>",
+			"<Op id=\"DVEKeyBorderOuterWidth\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" outerWidth=\"${7:0}\"/>",
+			"<Op id=\"DVEKeyBorderInnerWidth\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" innerWidth=\"${8:0.199997}\"/>",
+			"<Op id=\"DVEKeyBorderOuterSoftness\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" outerSoftness=\"${9:0}\"/>",
+			"<Op id=\"DVEKeyBorderInnerSoftness\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" innerSoftness=\"${10:0}\"/>",
+			"<Op id=\"DVEKeyBorderOpacity\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" opacity=\"${11:100}\"/>"
+		],
+		"description": "All settings applicable to the border settings for a DVE key."
+	},
+	"Chroma Key Adjustments": {
+		"prefix": "Chroma Key Adjustments",
+		"body": [
+			"<Op id=\"AdvancedChromaKeyForegroundLevel\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" foregroundLevel=\"${3:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyBackgroundLevel\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" backgroundLevel=\"${4:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyKeyEdge\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" keyEdge=\"${5:0.5}\"/>"
+		],
+		"description": "Key Adjustments for a Chroma key."
+	},
+	"Chroma Key Chroma Correction": {
+		"prefix": "Chroma Key Chroma Adjustments",
+		"body": [
+			"<Op id=\"AdvancedChromaKeySpillSuppress\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" spillSuppress=\"${3:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyFlareSuppress\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" flareSuppress=\"${4:0}\"/>"
+		],
+		"description": "Chroma Corrections for a Chroma key."
+	},
+	"Chroma Foreground Adjustments (All Settings)": {
+		"prefix": "Chroma Foreground Adjustments (All Settings)",
+		"body": [
+			"<Op id=\"AdvancedChromaKeyForegroundBrightness\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" foregroundBrightness=\"${3:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundContrast\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundContrast=\"${4:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundColour\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundColour=\"${5:1}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundRed\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundRed=\"${6:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundGreen\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundGreen=\"${7:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundBlue\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundBlue=\"${8:0}\"/>"
+		],
+		"description": "All Foreground Adjustments for a Chroma key."
+	},
+	"Chroma Foreground Adjustments Image Controls": {
+		"prefix": "Chroma Foreground Adjustments Image Controls",
+		"body": [
+			"<Op id=\"AdvancedChromaKeyForegroundBrightness\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" foregroundBrightness=\"${3:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundContrast\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundContrast=\"${4:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundColour\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundColour=\"${5:1}\"/>"
+		],
+		"description": "Brightness, contrast, and saturation for the foreground of Chroma key."
+	},
+	"Chroma Foreground Adjustment RGB Color": {
+		"prefix": "Chroma Foreground Adjustment RGB Color",
+		"body": [
+			"<Op id=\"AdvancedChromaKeyForegroundRed\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" foregroundRed=\"${3:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundGreen\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundGreen=\"${4:0}\"/>",
+			"<Op id=\"AdvancedChromaKeyForegroundBlue\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" foregroundBlue=\"${5:0}\"/>"
+		],
+		"description": "Red, green, and blue value adjustments for the foreground of a Chroma key."
+	},
+	"Chroma Sample": {
+		"prefix": "Chroma Sample",
+		"body": [
+			"<Op id=\"AdvancedChromaKeyCursorSize\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2|0,1,2,3|}\" size=\"${3:0.238205}\"/>",
+			"<Op id=\"AdvancedChromaKeyCursorXPosition\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" xPosition=\"${4:-2.17601}\"/>",
+			"<Op id=\"AdvancedChromaKeyCursorYPosition\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" yPosition=\"${5:2.186}\"/>",
+			"<Op id=\"AdvancedChromaKeySamplingModeEnabled\" mixEffectBlockIndex=\"$1\" keyIndex=\"$2\" enabled=\"True\"/>"
+		],
+		"description": "Perform a color sample for a Chroma key."
+	},
+	"ChromaKeyHue": {
+			"prefix": ["ChromaKeyHue", "Chromakey", "Upstream Key", "Key", "USK"],
+			"body": "<Op id=\"ChromaKeyHue\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2:0,1,2,3}\" hue=\"${3:0}\"/>",
+			"description" : "Chroma Key Hue 0 to 360"
+	},
+	"ChromaKeyGain": {
+			"prefix": ["ChromaKeyGain", "Chromakey", "Upstream Key", "Key", "USK"],
+			"body": "<Op id=\"ChromaKeyGain\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2:0,1,2,3}\" gain=\"${3:0}\"/>",
+			"description" : "Chroma Key Gain 0 to 1"
+	},
+	"ChromaKeyClip": {
+			"prefix": ["ChromaKeyClip", "Chromakey", "Upstream Key", "Key", "USK"],
+			"body": "<Op id=\"ChromaKeyClip\" mixEffectBlockIndex=\"${1|0,1,2,3|}\" keyIndex=\"${2:0,1,2,3}\" clip=\"${3:0}\"/>",
+			"description" : "Chroma Key Clip 0 to 1"
+	}
+}

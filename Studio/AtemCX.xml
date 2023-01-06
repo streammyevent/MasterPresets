@@ -2,7 +2,7 @@
 <Profile majorVersion="1" minorVersion="5" product="ATEM Constellation 8K (4K Mode)">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
-            <Program input="25"/>
+            <Program input="1"/>
             <Preview input="1"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
@@ -176,7 +176,7 @@
     </MixEffectBlocks>
     <DownstreamKeys>
         <DownstreamKey index="0" fillSource="23" keySource="22" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
-        <DownstreamKey index="1" fillSource="24" keySource="25" rate="20" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
+        <DownstreamKey index="1" fillSource="24" keySource="25" rate="20" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="True" tie="False"/>
         <DownstreamKey index="2" fillSource="3030" keySource="3031" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
         <DownstreamKey index="3" fillSource="3040" keySource="3041" rate="25" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
     </DownstreamKeys>
@@ -345,20 +345,20 @@
             <Input id="19" shortName="RMT4" longName="Remote 4" externalPortType="SDI"/>
             <Input id="20" shortName="RMT5" longName="Remote 5" externalPortType="SDI"/>
             <Input id="21" shortName="RMT6" longName="Remote 6" externalPortType="SDI"/>
-            <Input id="22" shortName="HoKe" longName="HOLO KEY" externalPortType="SDI"/>
-            <Input id="23" shortName="HoFi" longName="HOLO FILL" externalPortType="SDI"/>
-            <Input id="24" shortName="PlFi" longName="PLAYOUT Fill" externalPortType="SDI"/>
-            <Input id="25" shortName="PlKe" longName="PLAYOUT KEY" externalPortType="SDI"/>
-            <Input id="26" shortName="PT1" longName="PPT" externalPortType="SDI"/>
+            <Input id="22" shortName="HoKe" longName="Holo Key" externalPortType="SDI"/>
+            <Input id="23" shortName="HoFi" longName="Holo Fill" externalPortType="SDI"/>
+            <Input id="24" shortName="PlFi" longName="Playout Fill" externalPortType="SDI"/>
+            <Input id="25" shortName="PlKe" longName="Playout Key" externalPortType="SDI"/>
+            <Input id="26" shortName="PPT1" longName="PPT" externalPortType="SDI"/>
             <Input id="27" shortName="PTN1" longName="PPT Notes" externalPortType="SDI"/>
-            <Input id="28" shortName="PT2" longName="PPT2" externalPortType="SDI"/>
+            <Input id="28" shortName="PPT2" longName="PPT2" externalPortType="SDI"/>
             <Input id="29" shortName="PTN2" longName="PPT2 Notes" externalPortType="SDI"/>
             <Input id="30" shortName="INTR" longName="Interactive" externalPortType="SDI"/>
             <Input id="31" shortName="FLX1" longName="Flex 1" externalPortType="SDI"/>
             <Input id="32" shortName="FLX2" longName="Flex2" externalPortType="SDI"/>
-            <Input id="33" shortName="FLX3" longName="Flex3-StageTimer" externalPortType="SDI"/>
+            <Input id="33" shortName="FLX3" longName="Flex3 - StageTimer" externalPortType="SDI"/>
             <Input id="34" shortName="FLX4" longName="Flex 4" externalPortType="SDI"/>
-            <Input id="35" shortName="FLX5" longName="Flex 5" externalPortType="SDI"/>
+            <Input id="35" shortName="FLX5" longName="Flex 5 (stagetimer)" externalPortType="SDI"/>
             <Input id="36" shortName="FLX6" longName="Flex 6" externalPortType="SDI"/>
             <Input id="37" shortName="REC" longName="Recorder" externalPortType="SDI"/>
             <Input id="38" shortName="MV2" longName="Multiview 2" externalPortType="SDI"/>
@@ -408,10 +408,10 @@
                     <Window index="3" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="4" input="16" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="5" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="6" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="6" input="35" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="7" input="15" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="8" input="23" vuMeterEnabled="False" safeAreaEnabled="True"/>
-                    <Window index="9" input="25" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="9" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="10" input="6000" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="11" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="8001" vuMeterEnabled="True" safeAreaEnabled="False"/>
@@ -1963,6 +1963,7 @@
         <Parameter device="5" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="5" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="5" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="5" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="5" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="5" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="5" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1975,6 +1976,7 @@
         <Parameter device="6" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="6" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="6" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="6" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="6" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="6" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="6" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1987,6 +1989,7 @@
         <Parameter device="7" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="7" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="7" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="7" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="7" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="7" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="7" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -1999,6 +2002,7 @@
         <Parameter device="8" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="8" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="8" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="8" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="8" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="8" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="8" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2011,6 +2015,7 @@
         <Parameter device="9" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="9" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="9" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="9" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="9" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="9" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="9" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
@@ -2023,6 +2028,7 @@
         <Parameter device="10" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="10" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="10" category="Video" parameter="SensorGainInDecibels" value="0"/>
+        <Parameter device="10" category="Video" parameter="SensorNDFilter" value="0"/>
         <Parameter device="10" category="ColorCorrection" parameter="LiftAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="10" category="ColorCorrection" parameter="GammaAdjust" red="0" green="0" blue="0" luma="0"/>
         <Parameter device="10" category="ColorCorrection" parameter="GainAdjust" red="1" green="1" blue="1" luma="1"/>
