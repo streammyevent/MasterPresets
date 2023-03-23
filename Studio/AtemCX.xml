@@ -193,12 +193,12 @@
         <Auxiliary id="8006" input="10010"/>
         <Auxiliary id="8007" input="10010"/>
         <Auxiliary id="8008" input="10010"/>
-        <Auxiliary id="8009" input="15"/>
-        <Auxiliary id="8010" input="16"/>
+        <Auxiliary id="8009" input="3010"/>
+        <Auxiliary id="8010" input="40"/>
         <Auxiliary id="8011" input="10010"/>
-        <Auxiliary id="8012" input="10010"/>
-        <Auxiliary id="8013" input="10010"/>
-        <Auxiliary id="8014" input="10010"/>
+        <Auxiliary id="8012" input="40"/>
+        <Auxiliary id="8013" input="31"/>
+        <Auxiliary id="8014" input="26"/>
         <Auxiliary id="8015" input="10010"/>
         <Auxiliary id="8016" input="10010"/>
         <Auxiliary id="8017" input="10010"/>
@@ -356,7 +356,7 @@
             <Input id="30" shortName="INTR" longName="Interactive" externalPortType="SDI"/>
             <Input id="31" shortName="FLX1" longName="Flex 1" externalPortType="SDI"/>
             <Input id="32" shortName="FLX2" longName="Flex2" externalPortType="SDI"/>
-            <Input id="33" shortName="FLX3" longName="Flex3 - StageTimer" externalPortType="SDI"/>
+            <Input id="33" shortName="STUK" longName="STUK" externalPortType="SDI"/>
             <Input id="34" shortName="FLX4" longName="Flex 4" externalPortType="SDI"/>
             <Input id="35" shortName="FLX5" longName="Flex 5 (stagetimer)" externalPortType="SDI"/>
             <Input id="36" shortName="FLX6" longName="Flex 6" externalPortType="SDI"/>
