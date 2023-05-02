@@ -357,7 +357,7 @@
 /ch/10/grp %00000010 %000000
 /ch/10/automix OFF  +0.0
 /ch/11/config "Playout L" 1 MG 11
-/ch/11/delay ON 130.0
+/ch/11/delay OFF 130.0
 /ch/11/preamp -2.0 OFF OFF 24 121
 /ch/11/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/11/gate/filter OFF 3.0 990.9
@@ -389,7 +389,7 @@
 /ch/11/grp %00000100 %000000
 /ch/11/automix OFF  +0.0
 /ch/12/config "Playout R" 1 MG 12
-/ch/12/delay ON 130.0
+/ch/12/delay OFF 130.0
 /ch/12/preamp -2.0 OFF OFF 24 121
 /ch/12/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/12/gate/filter OFF 3.0 990.9
