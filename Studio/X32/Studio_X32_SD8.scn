@@ -1946,7 +1946,7 @@
 /outputs/main/15/delay OFF   0.3
 /outputs/main/16 2 POST OFF
 /outputs/main/16/delay OFF   0.3
-/outputs/aux/01 50 POST OFF
+/outputs/aux/01 56 POST OFF
 /outputs/aux/02 0 POST OFF
 /outputs/aux/03 0 POST OFF
 /outputs/aux/04 0 POST OFF
