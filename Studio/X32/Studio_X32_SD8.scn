@@ -357,7 +357,7 @@
 /ch/10/grp %00000010 %000000
 /ch/10/automix OFF  +0.0
 /ch/11/config "Playout L" 1 MG 11
-/ch/11/delay ON 130.0
+/ch/11/delay OFF 130.0
 /ch/11/preamp -2.0 OFF OFF 24 121
 /ch/11/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/11/gate/filter OFF 3.0 990.9
@@ -389,7 +389,7 @@
 /ch/11/grp %00000100 %000000
 /ch/11/automix OFF  +0.0
 /ch/12/config "Playout R" 1 MG 12
-/ch/12/delay ON 130.0
+/ch/12/delay OFF 130.0
 /ch/12/preamp -2.0 OFF OFF 24 121
 /ch/12/gate OFF GATE -80.0 60.0 10 50.2  258 0
 /ch/12/gate/filter OFF 3.0 990.9
@@ -1488,7 +1488,7 @@
 /bus/02/mix/03 ON   -oo +0 POST 0
 /bus/02/mix/04 ON   -oo
 /bus/02/mix/05 ON   -oo +0 POST 0
-/bus/02/mix/06 ON   0.0
+/bus/02/mix/06 OFF   0.0
 /bus/02/grp %00000000 %000000
 /bus/03/config "Mic delay" 71 GN
 /bus/03/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 0 100 OFF
@@ -1857,7 +1857,7 @@
 /main/st/mix/03 ON   -oo +0 POST 0
 /main/st/mix/04 ON   -oo
 /main/st/mix/05 ON   -oo +0 POST 0
-/main/st/mix/06 OFF   0.0
+/main/st/mix/06 ON   0.0
 /main/st/grp %00000000 %000000
 /main/m/config "" 67 WH
 /main/m/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
@@ -1946,7 +1946,7 @@
 /outputs/main/15/delay OFF   0.3
 /outputs/main/16 2 POST OFF
 /outputs/main/16/delay OFF   0.3
-/outputs/aux/01 50 POST OFF
+/outputs/aux/01 56 POST OFF
 /outputs/aux/02 0 POST OFF
 /outputs/aux/03 0 POST OFF
 /outputs/aux/04 0 POST OFF

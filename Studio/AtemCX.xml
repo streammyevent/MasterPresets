@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile majorVersion="1" minorVersion="5" product="ATEM Constellation 8K (4K Mode)">
+<Profile majorVersion="2" minorVersion="0" product="ATEM Constellation 8K (4K Mode)">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
             <Program input="1"/>
@@ -193,12 +193,12 @@
         <Auxiliary id="8006" input="10010"/>
         <Auxiliary id="8007" input="10010"/>
         <Auxiliary id="8008" input="10010"/>
-        <Auxiliary id="8009" input="15"/>
-        <Auxiliary id="8010" input="16"/>
+        <Auxiliary id="8009" input="3010"/>
+        <Auxiliary id="8010" input="40"/>
         <Auxiliary id="8011" input="10010"/>
-        <Auxiliary id="8012" input="10010"/>
-        <Auxiliary id="8013" input="10010"/>
-        <Auxiliary id="8014" input="10010"/>
+        <Auxiliary id="8012" input="40"/>
+        <Auxiliary id="8013" input="31"/>
+        <Auxiliary id="8014" input="26"/>
         <Auxiliary id="8015" input="10010"/>
         <Auxiliary id="8016" input="10010"/>
         <Auxiliary id="8017" input="10010"/>
@@ -356,7 +356,7 @@
             <Input id="30" shortName="INTR" longName="Interactive" externalPortType="SDI"/>
             <Input id="31" shortName="FLX1" longName="Flex 1" externalPortType="SDI"/>
             <Input id="32" shortName="FLX2" longName="Flex2" externalPortType="SDI"/>
-            <Input id="33" shortName="FLX3" longName="Flex3 - StageTimer" externalPortType="SDI"/>
+            <Input id="33" shortName="STUK" longName="STUK" externalPortType="SDI"/>
             <Input id="34" shortName="FLX4" longName="Flex 4" externalPortType="SDI"/>
             <Input id="35" shortName="FLX5" longName="Flex 5 (stagetimer)" externalPortType="SDI"/>
             <Input id="36" shortName="FLX6" longName="Flex 6" externalPortType="SDI"/>
@@ -1907,7 +1907,7 @@
     </SuperSources>
     <CameraControl>
         <Parameter device="1" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="1" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="1" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="1" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="1" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="1" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -1920,7 +1920,7 @@
         <Parameter device="1" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="1" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="2" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="2" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="2" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="2" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="2" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="2" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -1933,7 +1933,7 @@
         <Parameter device="2" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="2" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="3" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="3" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="3" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="3" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="3" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="3" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -1946,7 +1946,7 @@
         <Parameter device="3" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="3" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="4" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="4" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="4" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="4" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="4" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="4" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -1959,7 +1959,7 @@
         <Parameter device="4" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="4" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="5" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="5" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="5" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="5" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="5" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="5" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -1972,7 +1972,7 @@
         <Parameter device="5" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="5" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="6" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="6" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="6" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="6" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="6" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="6" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -1985,7 +1985,7 @@
         <Parameter device="6" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="6" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="7" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="7" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="7" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="7" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="7" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="7" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -1998,7 +1998,7 @@
         <Parameter device="7" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="7" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="8" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="8" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="8" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="8" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="8" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="8" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2011,7 +2011,7 @@
         <Parameter device="8" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="8" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="9" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="9" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="9" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="9" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="9" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="9" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2024,7 +2024,7 @@
         <Parameter device="9" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="9" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="10" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="10" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="10" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="10" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="10" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="10" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2037,7 +2037,7 @@
         <Parameter device="10" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="10" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="11" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="11" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="11" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="11" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="11" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="11" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2050,7 +2050,7 @@
         <Parameter device="11" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="11" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="12" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="12" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="12" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="12" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="12" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="12" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2063,7 +2063,7 @@
         <Parameter device="12" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="12" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="13" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="13" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="13" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="13" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="13" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="13" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2076,7 +2076,7 @@
         <Parameter device="13" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="13" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="14" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="14" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="14" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="14" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="14" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="14" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2089,7 +2089,7 @@
         <Parameter device="14" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="14" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="15" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="15" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="15" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="15" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="15" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="15" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2102,7 +2102,7 @@
         <Parameter device="15" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="15" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="16" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="16" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="16" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="16" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="16" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="16" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2115,7 +2115,7 @@
         <Parameter device="16" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="16" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="17" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="17" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="17" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="17" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="17" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="17" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2128,7 +2128,7 @@
         <Parameter device="17" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="17" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="18" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="18" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="18" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="18" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="18" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="18" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2141,7 +2141,7 @@
         <Parameter device="18" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="18" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="19" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="19" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="19" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="19" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="19" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="19" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2154,7 +2154,7 @@
         <Parameter device="19" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="19" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="20" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="20" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="20" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="20" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="20" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="20" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2167,7 +2167,7 @@
         <Parameter device="20" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="20" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="21" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="21" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="21" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="21" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="21" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="21" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2180,7 +2180,7 @@
         <Parameter device="21" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="21" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="22" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="22" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="22" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="22" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="22" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="22" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2193,7 +2193,7 @@
         <Parameter device="22" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="22" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="23" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="23" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="23" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="23" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="23" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="23" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2206,7 +2206,7 @@
         <Parameter device="23" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="23" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="24" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="24" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="24" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="24" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="24" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="24" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2219,7 +2219,7 @@
         <Parameter device="24" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="24" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="25" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="25" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="25" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="25" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="25" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="25" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2232,7 +2232,7 @@
         <Parameter device="25" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="25" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="26" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="26" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="26" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="26" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="26" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="26" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2245,7 +2245,7 @@
         <Parameter device="26" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="26" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="27" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="27" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="27" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="27" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="27" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="27" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2258,7 +2258,7 @@
         <Parameter device="27" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="27" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="28" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="28" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="28" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="28" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="28" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="28" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2271,7 +2271,7 @@
         <Parameter device="28" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="28" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="29" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="29" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="29" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="29" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="29" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="29" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2284,7 +2284,7 @@
         <Parameter device="29" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="29" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="30" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="30" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="30" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="30" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="30" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="30" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2297,7 +2297,7 @@
         <Parameter device="30" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="30" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="31" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="31" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="31" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="31" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="31" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="31" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2310,7 +2310,7 @@
         <Parameter device="31" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="31" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="32" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="32" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="32" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="32" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="32" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="32" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2323,7 +2323,7 @@
         <Parameter device="32" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="32" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="33" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="33" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="33" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="33" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="33" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="33" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2336,7 +2336,7 @@
         <Parameter device="33" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="33" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="34" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="34" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="34" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="34" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="34" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="34" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2349,7 +2349,7 @@
         <Parameter device="34" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="34" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="35" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="35" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="35" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="35" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="35" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="35" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2362,7 +2362,7 @@
         <Parameter device="35" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="35" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="36" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="36" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="36" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="36" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="36" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="36" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2375,7 +2375,7 @@
         <Parameter device="36" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="36" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="37" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="37" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="37" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="37" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="37" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="37" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2388,7 +2388,7 @@
         <Parameter device="37" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="37" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="38" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="38" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="38" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="38" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="38" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="38" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2401,7 +2401,7 @@
         <Parameter device="38" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="38" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="39" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="39" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="39" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="39" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="39" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="39" category="Video" parameter="SensorGainInDecibels" value="0"/>
@@ -2414,7 +2414,7 @@
         <Parameter device="39" category="ColorCorrection" parameter="LumaMix" value="1"/>
         <Parameter device="39" category="ColorCorrection" parameter="ColorAdjust" hue="0" saturation="1"/>
         <Parameter device="40" category="Lens" parameter="ApertureFstop" value="5.25"/>
-        <Parameter device="40" category="Video" parameter="ManualWhiteBalance" value="5600"/>
+        <Parameter device="40" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
         <Parameter device="40" category="Video" parameter="Exposure" value="20000"/>
         <Parameter device="40" category="Video" parameter="DetailLevel" value="1"/>
         <Parameter device="40" category="Video" parameter="SensorGainInDecibels" value="0"/>
