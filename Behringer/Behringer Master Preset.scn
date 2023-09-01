@@ -7,7 +7,7 @@
 /config/mute OFF OFF OFF OFF OFF OFF
 /config/linkcfg ON ON ON ON
 /config/mono LR+M OFF
-/config/solo   0.0 LRAFL 0.0 PFL PFL PFL OFF OFF OFF -20 OFF OFF OFF   0.3 OFF OFF OFF
+/config/solo -15.0 LRAFL 0.0 PFL PFL PFL OFF OFF OFF -20 OFF OFF OFF   0.3 OFF OFF OFF
 /config/talk ON EXT
 /config/talk/A -12.0 OFF OFF %000000000000000000
 /config/talk/B -12.0 OFF ON %000000000000000000
@@ -34,7 +34,7 @@
 /config/amixenable ON ON
 /config/dp48 %0000 0 AESA
 /config/dp48/assign 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/dp48/link 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0
+/config/dp48/link 1 0 1 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "Mic 1" 1 GN 1
 /ch/01/delay OFF   0.3
@@ -561,7 +561,7 @@
 /ch/17/eq/2 PEQ 496.6 +0.00 2.0
 /ch/17/eq/3 PEQ 1k97 +0.00 2.0
 /ch/17/eq/4 HShv 10k02 +0.00 2.0
-/ch/17/mix ON   0.0 ON -100 OFF   -oo
+/ch/17/mix ON   -oo ON -100 OFF   -oo
 /ch/17/mix/01 ON   0.0 -100 POST 0
 /ch/17/mix/02 ON   0.0
 /ch/17/mix/03 ON   -oo -100 POST 0
@@ -593,7 +593,7 @@
 /ch/18/eq/2 PEQ 496.6 +0.00 2.0
 /ch/18/eq/3 PEQ 1k97 +0.00 2.0
 /ch/18/eq/4 HShv 10k02 +0.00 2.0
-/ch/18/mix ON   0.0 ON +100 OFF   -oo
+/ch/18/mix ON   -oo ON +100 OFF   -oo
 /ch/18/mix/01 ON   0.0 +100 POST 0
 /ch/18/mix/02 ON   0.0
 /ch/18/mix/03 ON   -oo +100 POST 0
@@ -1890,9 +1890,9 @@
 /dca/5/config "PPT" 70 BL
 /dca/6 ON   -oo
 /dca/6/config "Jingle" 70 RD
-/dca/7 ON -40.0
+/dca/7 ON   -oo
 /dca/7/config "Zaalversterk" 67 YEi
-/dca/8 ON -40.0
+/dca/8 ON   -oo
 /dca/8/config "IFB Stage" 67 GNi
 /fx/1 VRM
 /fx/1/source MIX13 MIX13
