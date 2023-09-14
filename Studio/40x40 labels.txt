@@ -68,8 +68,8 @@ Output, 27, x
 Output, 28, x
 Output, 29, Playout Fill
 Output, 30, Playout Key
-Output, 31, CX PPT
-Output, 32, CX PPT Notes
+Output, 31, CX PPT 2
+Output, 32, CX PPT Notes 2
 Output, 33, CX Flex 1
 Output, 34, CX Flex 2
 Output, 35, CX Flex 4
