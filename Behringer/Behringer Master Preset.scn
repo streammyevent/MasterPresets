@@ -34,7 +34,7 @@
 /config/amixenable ON ON
 /config/dp48 %0000 0 AESA
 /config/dp48/assign 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/dp48/link 1 0 1 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1
+/config/dp48/link 1 1 0 1 0 0 0 0 1 1 0 1 0 0 0 0 1 0 0 0 0 0 0 1
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "Mic 1" 1 GN 1
 /ch/01/delay OFF   0.3
@@ -1028,7 +1028,7 @@
 /ch/31/mix/16 ON   -oo
 /ch/31/grp %10000000 %000000
 /ch/31/automix OFF  +0.0
-/ch/32/config "Mic's delay" 1 GN 51
+/ch/32/config "Mic's delay" 1 GN 55
 /ch/32/delay ON 140.0
 /ch/32/preamp +0.0 OFF OFF 24  20
 /ch/32/gate OFF EXP4 -40.0 60.0 10  100  412 0
@@ -1851,7 +1851,7 @@
 /main/st/eq/4 PEQ 1k97 +0.00 2.0
 /main/st/eq/5 PEQ 5k02 +0.00 2.0
 /main/st/eq/6 HShv 10k02 +0.00 2.0
-/main/st/mix ON   0.0 +0
+/main/st/mix ON  +0.1 +0
 /main/st/mix/01 ON   -oo +0 POST 0
 /main/st/mix/02 ON   -oo
 /main/st/mix/03 ON   -oo +0 POST 0
