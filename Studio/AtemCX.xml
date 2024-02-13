@@ -486,20 +486,20 @@
             <Button index="1" externalInputIndex="1" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
             <Button index="2" externalInputIndex="2" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
             <Button index="3" externalInputIndex="3" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="4" externalInputIndex="30" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="5" externalInputIndex="31" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="6" externalInputIndex="32" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="7" externalInputIndex="33" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="8" externalInputIndex="15" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="9" externalInputIndex="16" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="10" externalInputIndex="17" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="11" externalInputIndex="18" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="12" externalInputIndex="21" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="13" externalInputIndex="22" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="14" externalInputIndex="25" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="15" externalInputIndex="26" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="16" externalInputIndex="29" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
-            <Button index="17" externalInputIndex="36" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="4" externalInputIndex="4" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="5" externalInputIndex="5" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="6" externalInputIndex="6" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="7" externalInputIndex="7" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="8" externalInputIndex="8" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="9" externalInputIndex="9" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="10" externalInputIndex="10" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="11" externalInputIndex="11" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="12" externalInputIndex="12" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="13" externalInputIndex="13" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="14" externalInputIndex="14" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="15" externalInputIndex="15" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="16" externalInputIndex="16" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
+            <Button index="17" externalInputIndex="17" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
             <Button index="18" externalInputIndex="18" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
             <Button index="19" externalInputIndex="19" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
             <Button index="20" externalInputIndex="20" mappedToCamera="True" mappedCameraModelName="Blackmagic Generic"/>
@@ -1298,7 +1298,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Stereo" id="1501">
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="On">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -1860,7 +1860,7 @@
             </AudioInput>
             <AudioInput configuration="Stereo" id="1401">
                 <Analog level="ProLine"/>
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off" delayFrames="0">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="On" delayFrames="0">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -1905,6 +1905,13 @@
             </Boxes>
         </SuperSource>
     </SuperSources>
+    <MediaPool>
+        <Stills>
+            <Still index="0" name="Alignment grid wit" path="ATEM Media Pool/Alignment grid wit.png"/>
+            <Still index="1" name="Alignment grid zwart" path="ATEM Media Pool/Alignment grid zwart.png"/>
+            <Still index="2" name="Stream My Event" path="ATEM Media Pool/Stream My Event.png"/>
+        </Stills>
+    </MediaPool>
     <CameraControl>
         <Parameter device="1" category="Lens" parameter="ApertureFstop" value="5.25"/>
         <Parameter device="1" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
