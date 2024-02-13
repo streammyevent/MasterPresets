@@ -1905,6 +1905,13 @@
             </Boxes>
         </SuperSource>
     </SuperSources>
+    <MediaPool>
+        <Stills>
+            <Still index="0" name="Alignment grid wit" path="ATEM Media Pool/Alignment grid wit.png"/>
+            <Still index="1" name="Alignment grid zwart" path="ATEM Media Pool/Alignment grid zwart.png"/>
+            <Still index="2" name="Stream My Event" path="ATEM Media Pool/Stream My Event.png"/>
+        </Stills>
+    </MediaPool>
     <CameraControl>
         <Parameter device="1" category="Lens" parameter="ApertureFstop" value="5.25"/>
         <Parameter device="1" category="Video" parameter="ManualWhiteBalance" temperature="5600" tint="0"/>
