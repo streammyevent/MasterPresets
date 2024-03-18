@@ -1597,7 +1597,7 @@
 /bus/08/eq/5 PEQ 5k02 +0.00 2.0
 /bus/08/eq/6 HShv 10k02 +0.00 2.0
 /bus/08/mix ON   0.0 OFF +0 OFF   -oo
-/bus/08/mix/01 ON   0.0 +0 POST 0
+/bus/08/mix/01 ON   -oo +0 POST 0
 /bus/08/mix/02 ON   -oo
 /bus/08/mix/03 ON   -oo +0 POST 0
 /bus/08/mix/04 ON   -oo
