@@ -1029,7 +1029,7 @@
 /ch/31/grp %01000000 %000000
 /ch/31/automix OFF  +0.0
 /ch/32/config "Mic's Delay" 1 GN 51
-/ch/32/delay OFF   0.3
+/ch/32/delay ON  60.0
 /ch/32/preamp +0.0 OFF OFF 24  20
 /ch/32/gate OFF EXP4 -40.0 60.0 10  100  412 0
 /ch/32/gate/filter OFF 3.0 990.9
