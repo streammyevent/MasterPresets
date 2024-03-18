@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile majorVersion="2" minorVersion="0" product="ATEM Constellation 8K (4K Mode)">
+<Profile majorVersion="2" minorVersion="1" product="ATEM Constellation 8K (4K Mode)">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
-            <Program input="1"/>
+            <Program input="15"/>
             <Preview input="1"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
@@ -193,16 +193,16 @@
         <Auxiliary id="8006" input="10010"/>
         <Auxiliary id="8007" input="10010"/>
         <Auxiliary id="8008" input="10010"/>
-        <Auxiliary id="8009" input="3010"/>
-        <Auxiliary id="8010" input="40"/>
-        <Auxiliary id="8011" input="10010"/>
-        <Auxiliary id="8012" input="40"/>
-        <Auxiliary id="8013" input="31"/>
-        <Auxiliary id="8014" input="26"/>
-        <Auxiliary id="8015" input="10010"/>
-        <Auxiliary id="8016" input="10010"/>
-        <Auxiliary id="8017" input="10010"/>
-        <Auxiliary id="8018" input="10010"/>
+        <Auxiliary id="8009" input="3030"/>
+        <Auxiliary id="8010" input="3030"/>
+        <Auxiliary id="8011" input="3030"/>
+        <Auxiliary id="8012" input="3030"/>
+        <Auxiliary id="8013" input="3030"/>
+        <Auxiliary id="8014" input="3030"/>
+        <Auxiliary id="8015" input="3030"/>
+        <Auxiliary id="8016" input="3030"/>
+        <Auxiliary id="8017" input="3030"/>
+        <Auxiliary id="8018" input="3030"/>
         <Auxiliary id="8019" input="10010"/>
         <Auxiliary id="8020" input="31"/>
         <Auxiliary id="8021" input="10010"/>
@@ -210,7 +210,7 @@
         <Auxiliary id="8023" input="10010"/>
         <Auxiliary id="8024" input="10010"/>
     </Auxiliaries>
-    <Settings abDirect="False" cameraAux="-1" SDI3GOutputLevel="LevelB">
+    <Settings abDirect="False" cameraAux="-1" SDI3GOutputLevel="LevelB" ftbEnabled="True">
         <MultiViewVideoModes>
             <MultiViewVideoMode coreVideoMode="720p50" multiViewVideoMode="720p50"/>
             <MultiViewVideoMode coreVideoMode="720p5994" multiViewVideoMode="720p5994"/>
@@ -324,11 +324,11 @@
             </TalkbackInputs>
         </EngineeringTalkback>
         <Inputs>
-            <Input id="1" shortName="CAM1" longName="Camera 1" externalPortType="SDI"/>
+            <Input id="1" shortName="STUK" longName="STUK" externalPortType="SDI"/>
             <Input id="2" shortName="CAM2" longName="Camera 2" externalPortType="SDI"/>
             <Input id="3" shortName="CAM3" longName="Camera 3" externalPortType="SDI"/>
             <Input id="4" shortName="CAM4" longName="Camera 4" externalPortType="SDI"/>
-            <Input id="5" shortName="CAM5" longName="Camera 5" externalPortType="SDI"/>
+            <Input id="5" shortName="CAM1" longName="Camera 1" externalPortType="SDI"/>
             <Input id="6" shortName="CAM6" longName="Camera 6" externalPortType="SDI"/>
             <Input id="7" shortName="CAM7" longName="Camera 7" externalPortType="SDI"/>
             <Input id="8" shortName="CAM8" longName="Camera 8" externalPortType="SDI"/>
@@ -400,29 +400,29 @@
             <MixMinusOutput index="23" audioMode="ProgramOut"/>
         </MixMinusOutputs>
         <MultiViews>
-            <MultiView index="0" LayoutID="15" vuMeterOpacity="1">
+            <MultiView index="0" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="1" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="0" input="10011" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="2" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="2" input="10010" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="4" input="21" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="5" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="6" input="35" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="7" input="15" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="8" input="23" vuMeterEnabled="False" safeAreaEnabled="True"/>
-                    <Window index="9" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="10" input="6000" vuMeterEnabled="False" safeAreaEnabled="True"/>
-                    <Window index="11" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="12" input="8001" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="13" input="8004" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="14" input="8024" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="8" input="5" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="12" input="21" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="14" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="15" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
             <MultiView index="1" LayoutID="0" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="0" input="5" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="2" input="2" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
@@ -442,42 +442,42 @@
             </MultiView>
             <MultiView index="2" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="15" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="0" input="10011" vuMeterEnabled="True" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="2" input="10010" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="2" input="10010" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="4" input="26" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="5" input="32" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="6" input="35" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="7" input="23" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="8" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="8" input="5" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="21" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="14" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="15" input="10011" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="15" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
             <MultiView index="3" LayoutID="12" vuMeterOpacity="1">
                 <Windows>
-                    <Window index="0" input="10011" vuMeterEnabled="True" safeAreaEnabled="False"/>
+                    <Window index="0" input="10011" vuMeterEnabled="True" safeAreaEnabled="True"/>
                     <Window index="1" input="2" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="2" input="10010" vuMeterEnabled="True" safeAreaEnabled="True"/>
+                    <Window index="2" input="10010" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="3" input="8012" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="4" input="3" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="5" input="4" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="6" input="8015" vuMeterEnabled="True" safeAreaEnabled="False"/>
                     <Window index="7" input="8016" vuMeterEnabled="True" safeAreaEnabled="False"/>
-                    <Window index="8" input="1" vuMeterEnabled="False" safeAreaEnabled="True"/>
+                    <Window index="8" input="5" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="True"/>
                     <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="12" input="21" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="13" input="26" vuMeterEnabled="False" safeAreaEnabled="False"/>
                     <Window index="14" input="24" vuMeterEnabled="False" safeAreaEnabled="False"/>
-                    <Window index="15" input="32" vuMeterEnabled="False" safeAreaEnabled="False"/>
+                    <Window index="15" input="10010" vuMeterEnabled="True" safeAreaEnabled="False"/>
                 </Windows>
             </MultiView>
         </MultiViews>
@@ -1883,9 +1883,9 @@
     </FairlightAudioMixer>
     <MediaPlayers>
         <MediaPlayer index="0" sourceType="Still" sourceIndex="0"/>
-        <MediaPlayer index="1" sourceType="Still" sourceIndex="4"/>
+        <MediaPlayer index="1" sourceType="Still" sourceIndex="1"/>
         <MediaPlayer index="2" sourceType="Still" sourceIndex="2"/>
-        <MediaPlayer index="3" sourceType="Clip" sourceIndex="1" playing="False" loop="False" atBeginning="True" clipFrame="0"/>
+        <MediaPlayer index="3" sourceType="Still" sourceIndex="3"/>
     </MediaPlayers>
     <SuperSources superSourceCascade="False">
         <SuperSource index="0" artFillInput="3010" artKeyInput="3011" artOption="Background" artPreMultiplied="True" artClip="50" artGain="70" artInvertKey="False" borderEnabled="False" borderBevel="None" borderHue="73.6" borderSaturation="0" borderLuma="0" borderWidthOut="0" borderWidthIn="0.12" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelPosition="0.5" borderBevelSoftness="0" borderLightSourceDirection="36" borderLightSourceAltitude="25">
@@ -1907,9 +1907,25 @@
     </SuperSources>
     <MediaPool>
         <Stills>
-            <Still index="0" name="Alignment grid wit" path="ATEM Media Pool/Alignment grid wit.png"/>
-            <Still index="1" name="Alignment grid zwart" path="ATEM Media Pool/Alignment grid zwart.png"/>
-            <Still index="2" name="Stream My Event" path="ATEM Media Pool/Stream My Event.png"/>
+            <Still index="0" name="Alignment grid wit 2" path="ATEM Media Pool/Alignment grid wit 2.png"/>
+            <Still index="1" name="Alignment grid zwart 2" path="ATEM Media Pool/Alignment grid zwart 2.png"/>
+            <Still index="2" name="Stream My Event 2" path="ATEM Media Pool/Stream My Event 2.png"/>
+            <Still index="3" name="Even_geduld_AUB 2" path="ATEM Media Pool/Even_geduld_AUB 2.png"/>
+            <Still index="4" name="Please_Stand_By 2" path="ATEM Media Pool/Please_Stand_By 2.png"/>
+            <Still index="10" name="SME_Output_A_1920x1080 2" path="ATEM Media Pool/SME_Output_A_1920x1080 2.png"/>
+            <Still index="11" name="SME_Output_B_1920x1080 2" path="ATEM Media Pool/SME_Output_B_1920x1080 2.png"/>
+            <Still index="12" name="SME_Output_C_1920x1080 2" path="ATEM Media Pool/SME_Output_C_1920x1080 2.png"/>
+            <Still index="13" name="SME_Output_D_1920x1080 2" path="ATEM Media Pool/SME_Output_D_1920x1080 2.png"/>
+            <Still index="14" name="SME_Output_E_1920x1080 2" path="ATEM Media Pool/SME_Output_E_1920x1080 2.png"/>
+            <Still index="15" name="SME_Output_F_1920x1080 2" path="ATEM Media Pool/SME_Output_F_1920x1080 2.png"/>
+            <Still index="16" name="SME_Output_G_1920x1080 2" path="ATEM Media Pool/SME_Output_G_1920x1080 2.png"/>
+            <Still index="18" name="SME_Output_A_3840x2160 2" path="ATEM Media Pool/SME_Output_A_3840x2160 2.png"/>
+            <Still index="19" name="SME_Output_B_3840x2160 2" path="ATEM Media Pool/SME_Output_B_3840x2160 2.png"/>
+            <Still index="20" name="SME_Output_C_3840x2160 2" path="ATEM Media Pool/SME_Output_C_3840x2160 2.png"/>
+            <Still index="21" name="SME_Output_D_3840x2160 2" path="ATEM Media Pool/SME_Output_D_3840x2160 2.png"/>
+            <Still index="22" name="SME_Output_E_3840x2160 2" path="ATEM Media Pool/SME_Output_E_3840x2160 2.png"/>
+            <Still index="23" name="SME_Output_F_3840x2160 2" path="ATEM Media Pool/SME_Output_F_3840x2160 2.png"/>
+            <Still index="24" name="SME_Output_G_3840x2160 2" path="ATEM Media Pool/SME_Output_G_3840x2160 2.png"/>
         </Stills>
     </MediaPool>
     <CameraControl>
@@ -2515,7 +2531,13 @@
         <Property device="40" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
-        
+        <Macro index="19" name="Stand By mp4" description="">
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="3" index="3"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="3"/>
+            <Op id="MacroUserWait"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="3" index="4"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="3"/>
+        </Macro>
     </MacroPool>
     <MacroControl loop="False"/>
 </Profile>
